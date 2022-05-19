@@ -9,8 +9,8 @@
       connection: {
         host: "127.0.0.1",
         user: "root",
-        password: "Password1!",
-        database: "migrations_cda",
+        password: "rootroot",
+        database: "vertigo_network",
         charset: "utf8",
       },
     },
