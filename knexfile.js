@@ -3,15 +3,15 @@
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
- module.exports = {
-    development: {
-      client: "mysql",
-      connection: {
-        host: "127.0.0.1",
-        user: "root",
-        password: "rootroot",
-        database: "vertigo_network",
-        charset: "utf8",
-      },
+module.exports = {
+  development: {
+    client: 'mysql',
+    connection: {
+      host: '127.0.0.1',
+      user: 'root',
+      password: 'rootroot',
+      database: 'vertigo_network',
+      charset: 'utf8'
     },
-  };
+  },
+};
