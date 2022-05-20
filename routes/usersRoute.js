@@ -4,30 +4,33 @@ const knex = require('knex')(require('../knexfile'));
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const authenticate = require('../middleware/authenticate');
+const userData = require('../seeds_data/users');
+
 
 // [ROUTE] - "/users/register"
 // [POST] - Creates new user through registration
 router.post('/register', (req, res) => {
-    const { firstName, lastName, email, type, city, state, password } = req.body;
+    const { firstName, lastName, email, type, city, state, password, profile } = req.body;
 
-    if (!firstName || !lastName || !email || !type || !city || !state || !password) {
-        return res.status(400).send("Please enter the required fields.");
-    }
+    // if (!firstName || !lastName || !email || !type || !city || !state || !password) {
+    //     return res.status(400).send("Please enter the required fields.");
+    // }
 
     const hashedPassword = bcrypt.hashSync(password, 12);
 
-    const newUser = {
+    const user = {
         type: type,
         firstName: firstName, 
         lastName: lastName, 
         email: email, 
         city: city, 
         state: state,
-        password: hashedPassword
+        password: hashedPassword,
+        profile: profile
     };
 
     knex('users')
-        .insert(newUser)
+        .insert(user)
         .then(() => {
             res.status(201).send("Registered successfully");
         })
@@ -35,6 +38,7 @@ router.post('/register', (req, res) => {
             res.status(400).send("Failed registration");
         });
 });
+
 
 // [ROUTE] - "/users/login"
 // [POST] - Creates & sends JWT for user authorization

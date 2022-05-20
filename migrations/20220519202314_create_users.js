@@ -13,7 +13,7 @@ exports.up = function(knex) {
       table.string('state').notNullable();
       table.string('email').notNullable().unique();
       table.string('password').notNullable();
-      table.string('profile').notNullable();
+      table.string('profile').nullable();
     })
 };
 
