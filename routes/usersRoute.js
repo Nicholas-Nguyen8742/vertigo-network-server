@@ -34,7 +34,8 @@ router.post('/register', (req, res) => {
         .then(() => {
             res.status(201).send("Registered successfully");
         })
-        .catch(() => {
+        .catch((err) => {
+            console.log(err);
             res.status(400).send("Failed registration");
         });
 });

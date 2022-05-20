@@ -121,5 +121,5 @@ module.exports = [
         state: "Illinois",
         password: "219f0536aa16ccb2161658f6655a77c4074d6579",
         profile: "https://randomuser.me/api/portraits/thumb/men/68.jpg"
-    }
+    },
 ];
