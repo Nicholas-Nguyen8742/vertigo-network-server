@@ -3,10 +3,10 @@ const userData = require('../seeds_data/users');
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-exports.seed = function (knex) {
+exports.seed = async function (knex) {
     return knex("users").del() 
-        .then(() => knex("user").insert(userData));
-}
+        .then(() => knex("users").insert(userData));
+};
 
 
 // const pilotData = require("../seed_data/pilot");
