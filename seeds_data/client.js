@@ -97,7 +97,7 @@ module.exports = [
         city: "Worcester",
         state: "Massachusetts",
         password: "c1f5a1d0fc616e21c28c32e98b439fbd67836ebe",
-        thumbnail: "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+        profile: "https://randomuser.me/api/portraits/thumb/men/58.jpg"
     },
     {
         clientID: 10,
