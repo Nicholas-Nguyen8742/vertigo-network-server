@@ -37,10 +37,32 @@ exports.up = function(knex) {
         .onDelete('CASCADE');
       table.timestamp('timestamp').defaultTo(knex.fn.now());
     })
+    .createTable('applications', (table) => {
+      table.increments('id').primary();
+      table.string('status').notNullable();
+      table
+        .foreign('missionID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('missions')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+        table
+        .foreign('pilotID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+      table.timestamp('timestamp').defaultTo(knex.fn.now());
+    })
     .createTable('missions', (table) => {
       table.increments('id').primary();
       table.string('city').notNullable();
       table.string('state').notNullable();
+      table.date('time').notNullable();
       table
         .foreign('clientID')
         .unsigned()
@@ -49,7 +71,25 @@ exports.up = function(knex) {
         .inTable('users')
         .onUpdate('CASCADE')
         .onDelete('CASCADE');
+      table.timestamp('timestamp').defaultTo(knex.fn.now());
     })
+    .createTable('portfolio', (table) => {
+      table.increments('id').primary();
+      table.string('client').notNullable();
+      table.date('dateCompleted').notNullable();
+      table.string('city').notNullable();
+      table.string('state').notNullable();
+      table.string('img').notNullable();
+      table
+        .foreign('pilotID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+      table.timestamp('timestamp').defaultTo(knex.fn.now());
+    });
 };
 
 /**
@@ -57,5 +97,10 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  return knex.schema.dropTable('reviews').dropTable('users');
+  return knex.schema
+    .dropTable('portfolio')
+    .dropTable('missions')
+    .dropTable('applications')
+    .dropTable('reviews')
+    .dropTable('users');
 };
