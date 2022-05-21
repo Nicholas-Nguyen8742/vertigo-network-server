@@ -1,5 +1,4 @@
 /* Unified Users w/ Type (Client or Pilot) */
-
 module.exports = [
     {
         "id": 1,
