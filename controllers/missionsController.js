@@ -44,3 +44,21 @@ exports.singleMission = (req, res) => {
       );
   };
 
+// [PUT] - Edits selected mission data
+exports.updateMission = (req, res) => {
+    // Validate the request body for required data
+    if (!req.body.city || !req.body.state || !req.body.date || !req.body.status ) {
+      return res.status(400).send('Please make sure to provide city, state, date, and status fields in a request');
+    }
+  
+    knex('missions')
+      .update(req.body)
+      .where({ id: req.params.id })
+      .then(() => {
+        res.status(200).send(`Mission with id: ${req.params.id} has been updated`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error updating Mission ${req.params.id} ${err}`)
+      );
+};
+
