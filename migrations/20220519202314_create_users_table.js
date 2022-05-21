@@ -38,7 +38,17 @@ exports.up = function(knex) {
       table.timestamp('timestamp').defaultTo(knex.fn.now());
     })
     .createTable('missions', (table) => {
-
+      table.increments('id').primary();
+      table.string('city').notNullable();
+      table.string('state').notNullable();
+      table
+        .foreign('clientID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
     })
 };
 
