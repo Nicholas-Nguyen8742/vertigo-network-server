@@ -62,3 +62,17 @@ exports.updateMission = (req, res) => {
       );
 };
 
+// [DELETE] - Deletes data of one mission 
+exports.deleteMission = (req, res) => {
+    knex('missions')
+      .del()
+      .where({ id: req.params.id })
+      .then(() => {
+        // For DELETE response we can use 204 status code
+        res.status(204).send(`Mission with id: ${req.params.id} has been deleted`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error deleting Mission ${req.params.id} ${err}`)
+      );
+};
+
