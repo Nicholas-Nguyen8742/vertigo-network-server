@@ -1,5 +1,4 @@
 /* PILOT APPLICATIONS FOR MISSIONS */
-
 module.exports = [
     {
         "id": 1,

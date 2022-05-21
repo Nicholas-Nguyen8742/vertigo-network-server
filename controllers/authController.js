@@ -1,14 +1,12 @@
-const express = require('express');
-const router = express.Router();
-const knex = require('knex')(require('../knexfile'));
+const knex = require('knex')(require('../knexfile').development);
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const authenticate = require('../middleware/authenticate');
 
 
-// [ROUTE] - "/users/register"
+// [ROUTE] - "/auth/register"
 // [POST] - Creates new user through registration
-router.post('/register', (req, res) => {
+exports.register = (req, res) => {
     const { firstName, lastName, email, type, city, state, password, profile } = req.body;
 
     // if (!firstName || !lastName || !email || !type || !city || !state || !password) {
@@ -37,12 +35,12 @@ router.post('/register', (req, res) => {
             console.log(err);
             res.status(400).send("Failed registration");
         });
-});
+};
 
 
-// [ROUTE] - "/users/login"
+// [ROUTE] - "/auth/login"
 // [POST] - Creates & sends JWT for user authorization
-router.post('/login', (req, res) => {
+exports.login = (req, res) => {
     const { email, password } = req.body;
     
     if (!email || !password) {
@@ -72,12 +70,12 @@ router.post('/login', (req, res) => {
         .catch(() => {
             res.status(400).send("Invalid credentials");
         });
-});
+};
 
 
-// [ROUTE] - "/users/current"
+// [ROUTE] - "/auth/current"
 // [GET] - Gets currently logged in user to validate JWT authentication
-router.get('/current', authenticate, (req, res) => {
+exports.current = (authenticate, (req, res) => {
     knex('users')
         .where({ email: req.user.email })
         .first()
@@ -88,6 +86,3 @@ router.get('/current', authenticate, (req, res) => {
         });
 });
 
-
-
-module.exports = router;
