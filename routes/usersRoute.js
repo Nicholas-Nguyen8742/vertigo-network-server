@@ -4,7 +4,6 @@ const knex = require('knex')(require('../knexfile'));
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const authenticate = require('../middleware/authenticate');
-const userData = require('../seeds_data/users');
 
 
 // [ROUTE] - "/users/register"
@@ -74,6 +73,7 @@ router.post('/login', (req, res) => {
             res.status(400).send("Invalid credentials");
         });
 });
+
 
 // [ROUTE] - "/users/current"
 // [GET] - Gets currently logged in user to validate JWT authentication
