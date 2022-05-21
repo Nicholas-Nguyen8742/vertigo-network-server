@@ -37,6 +37,22 @@ exports.up = function(knex) {
         .onDelete('CASCADE');
       table.timestamp('timestamp').defaultTo(knex.fn.now());
     })
+    .createTable('missions', (table) => {
+      table.increments('id').primary();
+      table.string('city').notNullable();
+      table.string('state').notNullable();
+      table.date('date').notNullable();
+      table.string('status').notNullable();
+      table
+        .foreign('clientID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+      table.timestamp('timestamp').defaultTo(knex.fn.now());
+    })
     .createTable('applications', (table) => {
       table.increments('id').primary();
       table.string('status').notNullable();
@@ -50,21 +66,6 @@ exports.up = function(knex) {
         .onDelete('CASCADE');
         table
         .foreign('pilotID')
-        .unsigned()
-        .notNullable()
-        .references('id')
-        .inTable('users')
-        .onUpdate('CASCADE')
-        .onDelete('CASCADE');
-      table.timestamp('timestamp').defaultTo(knex.fn.now());
-    })
-    .createTable('missions', (table) => {
-      table.increments('id').primary();
-      table.string('city').notNullable();
-      table.string('state').notNullable();
-      table.date('time').notNullable();
-      table
-        .foreign('clientID')
         .unsigned()
         .notNullable()
         .references('id')
@@ -99,8 +100,8 @@ exports.up = function(knex) {
 exports.down = function(knex) {
   return knex.schema
     .dropTable('portfolio')
-    .dropTable('missions')
     .dropTable('applications')
+    .dropTable('missions')
     .dropTable('reviews')
     .dropTable('users');
 };
