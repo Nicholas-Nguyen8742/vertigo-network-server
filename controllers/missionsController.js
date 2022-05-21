@@ -76,3 +76,15 @@ exports.deleteMission = (req, res) => {
       );
 };
 
+// [ROUTE] - "/missions/:id/applications"
+// [GET] - Gets all applications matching missionID
+exports.missionApplications = (req, res) => {
+    knex('applications')
+      .where({ missionsID: req.params.id })
+      .then((data) => {
+        res.status(200).json(data);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error retrieving applications for Mission ${req.params.id} ${err}`)
+      );
+};
