@@ -15,7 +15,31 @@ exports.up = function(knex) {
       table.string('password').notNullable();
       table.string('profile').nullable();
     })
-    
+    .createTable('reviews', (table) => {
+      table.increments('id').primary();
+      table.integer('rating').notNullable();
+      table.string('description').notNullable();
+      table
+        .foreign('recipientID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+      table
+        .foreign('authorID')
+        .unsigned()
+        .notNullable()
+        .references('id')
+        .inTable('users')
+        .onUpdate('CASCADE')
+        .onDelete('CASCADE');
+      table.timestamp('timestamp').defaultTo(knex.fn.now());
+    })
+    .createTable('missions', (table) => {
+
+    })
 };
 
 /**
@@ -23,5 +47,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  return knex.schema.dropTable('users');
+  return knex.schema.dropTable('reviews').dropTable('users');
 };
