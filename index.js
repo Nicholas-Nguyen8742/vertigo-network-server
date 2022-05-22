@@ -11,9 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 
-
+// Routes 
 app.use('/auth', authRoute);
 app.use('/missions', missionsRoute);
+app.use('/applications', applicationsRoute);
 
 app.listen(PORT, () => {
     console.log("Vertigooo!!!");
