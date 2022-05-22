@@ -8,7 +8,7 @@ exports.index = (_req, res) => {
       .then((data) => {
         res.status(200).json(data);
       })
-      .catch((err) => res.status(400).send(`Error retrieving Warehouses ${err}`));
+      .catch((err) => res.status(400).send(`Error retrieving Pilots ${err}`));
 };
 
 // [ROUTE] - '/pilots/:id'
@@ -31,7 +31,7 @@ exports.singlePilot = (req, res) => {
 };
 
 // [PUT] - Edits single pilot data
-exports.updateWarehouse = (req, res) => {
+exports.updatePilot = (req, res) => {
     // Validate the request body for required data
   
     knex('users')
@@ -46,7 +46,7 @@ exports.updateWarehouse = (req, res) => {
 };
 
 // [DELETE] - Deletes single pilot data
-exports.deleteWarehouse = (req, res) => {
+exports.deletePilot = (req, res) => {
     knex('users')
       .del()
       .where({ id: req.params.id })
