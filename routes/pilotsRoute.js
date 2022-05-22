@@ -34,12 +34,12 @@ router
 
 router
     .route('/:id/applications')
-    .get(pilotsController.allApplications);
+    .get(pilotsController.indexApplications);
 
 router
     .route('/:id/applications/:appID')
-    .get(pilotsController.singlePilotApplication)
-    .put(pilotsController.updatePilotApplication)
-    .delete(pilotsController.deletePilotApplication);
+    .get(pilotsController.singleApplication)
+    .put(pilotsController.updateApplication)
+    .delete(pilotsController.deleteApplication);
 
 module.exports = router;

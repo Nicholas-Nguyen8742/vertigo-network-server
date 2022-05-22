@@ -98,14 +98,14 @@ exports.singlePortfolio = (req, res) => {
       .then((data) => {
         // If record is not found, respond with 404
         if (!data.length) {
-          return res.status(404).send(`Record with id: ${req.params.id} is not found`);
+          return res.status(404).send(`Record with id: ${req.params.portfolioID} is not found`);
         }
   
         // Knex returns an array of records, so we need to send response with a single object only
         res.status(200).json(data[0]);
       })
       .catch((err) =>
-        res.status(400).send(`Error retrieving Portfolio ${req.params.id} ${err}`)
+        res.status(400).send(`Error retrieving Portfolio ${req.params.portfolioID} ${err}`)
       );
 };
 
@@ -117,10 +117,10 @@ exports.editPortfolio = (req, res) => {
       .update(req.body)
       .where({ id: req.params.portfolioID })
       .then(() => {
-        res.status(200).send(`Portfolio with id: ${req.params.id} has been updated`);
+        res.status(200).send(`Portfolio with id: ${req.params.portfolioID} has been updated`);
       })
       .catch((err) =>
-        res.status(400).send(`Error updating Portfolio ${req.params.id} ${err}`)
+        res.status(400).send(`Error updating Portfolio ${req.params.portfolioID} ${err}`)
       );
   };
   
@@ -132,40 +132,130 @@ exports.deletePortfolio = (req, res) => {
       .where({ id: req.params.portfolioID })
       .then(() => {
         // For DELETE response we can use 204 status code
-        res.status(204).send(`Portfolio with id: ${req.params.id} has been deleted`);
+        res.status(204).send(`Portfolio with id: ${req.params.portfolioID} has been deleted`);
       })
       .catch((err) =>
-        res.status(400).send(`Error deleting Portfolio ${req.params.id} ${err}`)
+        res.status(400).send(`Error deleting Portfolio ${req.params.portfolioID} ${err}`)
       );
   };
 
 
 // [ROUTE] - '/pilots/:id/reviews'
 // [GET] - Retrieves all reviews of pilot
+exports.warehouseInventories = (req, res) => {
+    knex('reviews')
+      .where({ authorID: req.params.id })
+      .then((data) => {
+        res.status(200).json(data);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error retrieving reviews written by Pilot ${req.params.id} ${err}`)
+      );
+};
 
-
-// [ROUTE] - '/pilots/:id/reviews/:id'
+// [ROUTE] - '/pilots/:id/reviews/:reviewID'
 // [GET] - Gets single review of pilot (author)
-
+exports.singleReview = (req, res) => {
+    knex('reviews')
+      .where({ id: req.params.reviewID })
+      .then((data) => {
+        res.status(200).json(data);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error retrieving review written by Pilot ${req.params.reviewID} ${err}`)
+      );
+};
 
 // [PUT] - Updates single review pilot (author)
-
+exports.editReview = (req, res) => {
+    // Validate the request body for required data
+    
+  
+    knex('reviews')
+      .update(req.body)
+      .where({ id: req.params.reviewID })
+      .then(() => {
+        res.status(200).send(`Review with id: ${req.params.reviewID} has been updated`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error updating Review ${req.params.reviewID} ${err}`)
+      );
+};
 
 // [DELETE] - Deletes single review pilot (author)
-
+exports.deleteReview = (req, res) => {
+    knex('reviews')
+      .del()
+      .where({ id: req.params.reviewID })
+      .then(() => {
+        // For DELETE response we can use 204 status code
+        res.status(204).send(`Review with id: ${req.params.reviewID} has been deleted`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error deleting Review ${req.params.reviewID} ${err}`)
+      );
+};
 
 
 // [ROUTE] - '/pilots/:id/applications'
 // [GET] - Retrieves all applications made by Pilot
-
+exports.indexApplications = (req, res) => {
+    knex('applications')
+        .where({ pilotID: req.params.id })
+        .then((data) => {
+            res.status(200).json(data);
+        })
+        .catch((err) =>
+            res.status(400).send(`Error retrieving applications for Pilot ${req.params.id} ${err}`)
+        );
+};
 
 
 // [ROUTE] - '/pilots/:id/applications/:appID'
 // [GET] - Retrieve pilot's single application
-
+exports.singleApplication = (req, res) => {
+    knex('applications')
+      .where({ id: req.params.appID })
+      .then((data) => {
+        // If record is not found, respond with 404
+        if (!data.length) {
+          return res.status(404).send(`Application with id: ${req.params.appID} is not found`);
+        }
+  
+        // Knex returns an array of records, so we need to send response with a single object only
+        res.status(200).json(data[0]);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error retrieving Application ${req.params.appID} ${err}`)
+      );
+};
 
 // [PUT] - Edits single application
+exports.updateApplication = (req, res) => {
+    // Validate the request body for required data
 
+  
+    knex('applications')
+      .update(req.body)
+      .where({ id: req.params.appID })
+      .then(() => {
+        res.status(200).send(`Application with id: ${req.params.appID} has been updated`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error updating Application ${req.params.appID} ${err}`)
+      );
+};
 
 // [DELETE] - Deletes single application
-
+exports.deleteApplication = (req, res) => {
+    knex('applications')
+      .del()
+      .where({ id: req.params.appID })
+      .then(() => {
+        // For DELETE response we can use 204 status code
+        res.status(204).send(`Application with id: ${req.params.appID} has been deleted`);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error deleting Application ${req.params.appID} ${err}`)
+      );
+};
