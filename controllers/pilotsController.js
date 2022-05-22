@@ -122,7 +122,7 @@ exports.editPortfolio = (req, res) => {
       .catch((err) =>
         res.status(400).send(`Error updating Portfolio ${req.params.portfolioID} ${err}`)
       );
-  };
+};
   
 
 // [DELETE] - Deletes single portfolio piece of pilot
@@ -137,12 +137,12 @@ exports.deletePortfolio = (req, res) => {
       .catch((err) =>
         res.status(400).send(`Error deleting Portfolio ${req.params.portfolioID} ${err}`)
       );
-  };
+};
 
 
 // [ROUTE] - '/pilots/:id/reviews'
 // [GET] - Retrieves all reviews of pilot
-exports.warehouseInventories = (req, res) => {
+exports.indexReviews = (req, res) => {
     knex('reviews')
       .where({ authorID: req.params.id })
       .then((data) => {
@@ -152,6 +152,21 @@ exports.warehouseInventories = (req, res) => {
         res.status(400).send(`Error retrieving reviews written by Pilot ${req.params.id} ${err}`)
       );
 };
+
+// [POST] - Add Review as Author
+exports.addReview = (req, res) => {
+    // Validate the request body for required data
+
+  
+    knex('reviews')
+      .insert(req.body)
+      .then((data) => {
+        // For POST requests we need to respond with 201 and the location of the newly created record
+        res.status(201).send(`Success: Review added ${data}`);
+      })
+      .catch((err) => res.status(400).send(`Error creating Review: ${err}`));
+};
+
 
 // [ROUTE] - '/pilots/:id/reviews/:reviewID'
 // [GET] - Gets single review of pilot (author)
