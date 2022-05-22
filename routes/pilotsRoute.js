@@ -13,7 +13,7 @@ router
 
 router 
     .route('/:id/portfolio')
-    .get(pilotsController.allPortfolio)
+    .get(pilotsController.indexPortfolio)
     .post(pilotsController.addPortfolio);
 
 router
