@@ -131,30 +131,37 @@ exports.deleteReview = (req, res) => {
 };
 
 
-// [ROUTE] - '/clients/:id/missions'
-// [GET] - Retireve all missions posted by Client
-
-// [POST] - Add new mission listing by Client
-
-
-
-// [ROUTE] - '/clients/:id/missions/:missionID'
-// [GET] - Retrieve single mission
-
-
-// [PUT] - Edit single mission
-
-
-// [DELETE] - Delete single mission
-
-
-
-// [ROUTE] - '/clients/:id/missions/:missionID/applications'
-// [GET] - Retrieves all applications of single mission
-
-
 // [ROUTE] - '/clients/:id/missions/:missionID/applications/:appID'
 // [GET] - Retrieves one application of single mission
-
+exports.singleApplication = (req, res) => {
+    knex('applications')
+      .where({ id: req.params.appID })
+      .then((data) => {
+        // If record is not found, respond with 404
+        if (!data.length) {
+          return res.status(404).send(`Application with id: ${req.params.appID} is not found`);
+        }
+  
+        // Knex returns an array of records, so we need to send response with a single object only
+        res.status(200).json(data[0]);
+      })
+      .catch((err) =>
+        res.status(400).send(`Error retrieving Application ${req.params.appID} ${err}`)
+      );
+};
 
 // [PUT] - Edits status of one application of single mission by Client
+exports.editApplicationStatus = (req, res) => {
+    // Validate the request body for required data
+      
+    knex('applications')
+        .update(req.body)
+        .where({ id: req.params.appID })
+        .then(() => {
+            res.status(200).send(`Application with id: ${req.params.appID} has been updated`);
+        })
+        .catch((err) =>
+            res.status(400).send(`Error updating Application ${req.params.appID} ${err}`)
+        );
+
+};

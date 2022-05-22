@@ -23,7 +23,7 @@ exports.addMission = (req, res) => {
         res.status(201).send(`Success: New Mission - ${data}`)
       })
       .catch((err) => res.status(400).send(`Error creating Mission: ${err}`));
-  };
+};
 
 // [ROUTE] - "/missions/:id"
 // [GET] - Retrieves data of just one mission
@@ -42,7 +42,7 @@ exports.singleMission = (req, res) => {
       .catch((err) =>
         res.status(400).send(`Error retrieving mission ${req.params.id} ${err}`)
       );
-  };
+};
 
 // [PUT] - Edits selected mission data
 exports.updateMission = (req, res) => {
@@ -89,6 +89,7 @@ exports.indexApplications = (req, res) => {
       );
 };
 
+// [POST] - Add Pilot application to specific mission
 exports.addApplication = (req, res) => {
     // Validate the request body for required data
     // if (!req.body.name || !req.body.manager || !req.body.address || !req.body.phone || !req.body.email) {
@@ -103,4 +104,4 @@ exports.addApplication = (req, res) => {
         res.status(201).send(`Success: Application Submitted`)
         })
       .catch((err) => res.status(400).send(`Error creating Warehouse: ${err}`));
-  };
+};

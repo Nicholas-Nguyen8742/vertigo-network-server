@@ -33,10 +33,6 @@ router
     .put(clientsController.editMission)
     .delete(clientsController.deleteMission);
 
-router 
-    .route('/:id/missions/:missionID/applications')
-    .get(clientsController.indexApplications);
-
 router
     .route('/:id/missions/:missionID/applications/:appID')
     .get(clientsController.singleApplication)
