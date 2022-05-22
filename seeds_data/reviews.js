@@ -3199,5 +3199,5 @@ module.exports = [
         "rating": 2.5,
         "description": "Streamlined executive interface",
         "timestamp": "1636803557"
-    }
+    },
 ]

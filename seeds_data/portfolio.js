@@ -1999,5 +1999,5 @@ module.exports = [
         "img": "https://picsum.photos/200",
         "pilotID": 134,
         "timestamp": "1637912071"
-    }
+    },
 ]

@@ -2699,5 +2699,5 @@ module.exports = [
         "status": "open",
         "clientID": 51,
         "timestamp": "1641545900"
-    }
+    },
 ]
