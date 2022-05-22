@@ -14,6 +14,7 @@ router
 
 router
     .route('/:id/applications')
-    .get(missionsController.missionApplications);
+    .get(missionsController.indexApplications)
+    .post(missionsController.addApplication);
 
 module.exports = router;

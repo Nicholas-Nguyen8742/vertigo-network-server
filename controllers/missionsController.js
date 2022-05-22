@@ -23,7 +23,7 @@ exports.addMission = (req, res) => {
         res.status(201).send(`Success: New Mission - ${data}`)
       })
       .catch((err) => res.status(400).send(`Error creating Mission: ${err}`));
-  };
+};
 
 // [ROUTE] - "/missions/:id"
 // [GET] - Retrieves data of just one mission
@@ -42,7 +42,7 @@ exports.singleMission = (req, res) => {
       .catch((err) =>
         res.status(400).send(`Error retrieving mission ${req.params.id} ${err}`)
       );
-  };
+};
 
 // [PUT] - Edits selected mission data
 exports.updateMission = (req, res) => {
@@ -78,13 +78,30 @@ exports.deleteMission = (req, res) => {
 
 // [ROUTE] - "/missions/:id/applications"
 // [GET] - Gets all applications matching missionID
-exports.missionApplications = (req, res) => {
+exports.indexApplications = (req, res) => {
     knex('applications')
-      .where({ missionsID: req.params.id })
+      .where({ missionID: req.params.id })
       .then((data) => {
         res.status(200).json(data);
       })
       .catch((err) =>
         res.status(400).send(`Error retrieving applications for Mission ${req.params.id} ${err}`)
       );
+};
+
+// [POST] - Add Pilot application to specific mission
+exports.addApplication = (req, res) => {
+    // Validate the request body for required data
+    // if (!req.body.name || !req.body.manager || !req.body.address || !req.body.phone || !req.body.email) {
+    //   return res.status(400).send('Please make sure to provide name, manager, address, phone and email fields in a request');
+    // }
+  
+    knex('applications')
+      .insert(req.body)
+      .then((data) => {
+        // For POST requests we need to respond with 201 and the location of the newly created record
+        // res.status(201).location(newWarehouseURL).send(newWarehouseURL);
+        res.status(201).send(`Success: Application Submitted`)
+        })
+      .catch((err) => res.status(400).send(`Error creating Warehouse: ${err}`));
 };
