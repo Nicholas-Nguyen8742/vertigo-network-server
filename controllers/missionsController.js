@@ -1,10 +1,11 @@
 const knex = require('knex')(require('../knexfile'));
 
 // [ROUTE] - "/missions"
-// [GET] - Retrieves all missions 
+// [GET] - Retrieves all active missions 
 exports.index = (_req, res) => {
     knex('missions')
-      .select('id', 'city', 'state', 'date', 'status','clientID')
+      .where({ status: 'open' })
+      .join('users', 'missions.clientID', '=', 'users.id')
       .then((data) => {
         res.status(200).json(data);
       })
