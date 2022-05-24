@@ -1,4 +1,4 @@
-const knex = require('knex')(require('../knexfile').development);
+const knex = require('knex')(require('../knexfile'));
 
 // [ROUTE] - "/applications"
 // [GET] - Retrieves all applications

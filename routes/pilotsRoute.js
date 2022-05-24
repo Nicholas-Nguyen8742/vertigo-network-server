@@ -25,7 +25,7 @@ router
 router 
     .route('/:id/reviews')
     .get(pilotsController.indexReviews)
-    .post(clientsController.addReview);
+    .post(pilotsController.addReview);
 
 router 
     .route('/:id/reviews/:reviewID')

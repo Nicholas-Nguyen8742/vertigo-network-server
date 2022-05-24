@@ -1,4 +1,4 @@
-const knex = require('knex')(require('../knexfile').development);
+const knex = require('knex')(require('../knexfile'));
 
 // [ROUTE] - '/clients'
 // [GET] - Retrieve all clients
@@ -60,6 +60,88 @@ exports.deleteClient = (req, res) => {
 };
 
 
+// [ROUTE] - '/clients/:id/missions'
+// [GET] - Retrieves all missions by client
+exports.indexMissions = (req, res) => {
+  knex('missions')
+    .where({ clientID: req.params.id })
+    .then((data) => {
+      res.status(200).json(data);
+    })
+    .catch((err) =>
+      res
+        .status(400)
+        .send(
+          `Error retrieving Missions for Client ${req.params.id} ${err}`
+        )
+    );
+};
+
+// [POST] - Adds Mission listing by client
+exports.addMission = (req, res) => {
+  // Validate the request body for required data
+
+
+  knex('missions')
+    .insert(req.body)
+    .then((data) => {
+      // For POST requests we need to respond with 201 and the location of the newly created record
+      res.status(201).send(`Success: Mission added ${data}`);
+    })
+    .catch((err) => res.status(400).send(`Error creating Warehouse: ${err}`));
+};
+
+
+// [ROUTE] - '/clients/:id/missions/:missionID'
+// [GET] - Gets single mission of client
+exports.singleMission = (req, res) => {
+  knex('missions')
+    .where({ missionID: req.params.missionID })
+    .then((data) => {
+      // If record is not found, respond with 404
+      if (!data.length) {
+        return res.status(404).send(`Mission with id: ${req.params.missionID} is not found`);
+      }
+
+      // Knex returns an array of records, so we need to send response with a single object only
+      res.status(200).json(data[0]);
+    })
+    .catch((err) =>
+      res.status(400).send(`Error retrieving Mission ${req.params.missionID} ${err}`)
+    );
+};
+
+
+// [PUT] - Edits single mission
+exports.editMission = (req, res) => {
+  // Validate the request body for required data
+
+  knex('missions')
+    .update(req.body)
+    .where({ missionID: req.params.id })
+    .then(() => {
+      res.status(200).send(`Mission with id: ${req.params.missionID} has been updated`);
+    })
+    .catch((err) =>
+      res.status(400).send(`Error updating Mission ${req.params.missionID} ${err}`)
+    );
+};
+
+// [DELETE] - Deletes mission listing
+exports.deleteMission = (req, res) => {
+  knex('missions')
+    .del()
+    .where({ missionID: req.params.missionID })
+    .then(() => {
+      // For DELETE response we can use 204 status code
+      res.status(204).send(`Mission with id: ${req.params.missionID} has been deleted`);
+    })
+    .catch((err) =>
+      res.status(400).send(`Error deleting Mission ${req.params.missionID} ${err}`)
+    );
+};
+
+
 // [ROUTE] - '/clients/:id/reviews'
 // [GET] - Retrieves all reviews of client
 exports.indexReviews = (req, res) => {
@@ -86,6 +168,7 @@ exports.addReview = (req, res) => {
       })
       .catch((err) => res.status(400).send(`Error creating Review: ${err}`));
 };
+
 
 // [ROUTE] - '/clients/:id/reviews/:reviewID'
 // [GET] - Gets single review of Client (author)

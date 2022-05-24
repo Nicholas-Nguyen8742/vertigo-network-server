@@ -13,8 +13,8 @@ router
     .route('/current')
     .get(authController.current);
 
-router 
-    .route('/logout')
-    .get(authController.logout);
+// router 
+//     .route('/logout')
+//     .get(authController.logout);
 
 module.exports = router;
