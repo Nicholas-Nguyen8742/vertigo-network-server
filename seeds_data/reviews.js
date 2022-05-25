@@ -2853,7 +2853,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 10,
         "rating": 4.5,
-        "description": "My experience with them was great. Sent it in and got quick response on a price for damages. The repair was very much less than I was expecting.",
+        "description": "My experience with them was great. Sent it in and got quick response on a price for damages.",
         "timestamp": "1636951303"
     },
     {
@@ -2861,7 +2861,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 78,
         "rating": 3.5,
-        "description": "The drone software technology enables the execution of recreational facilities, photography, navigations, flight movement, etc.",
+        "description": "Nick is the coolest pilot I ever got to work with in my life.",
         "timestamp": "1639434858"
     },
     {
@@ -2869,7 +2869,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 133,
         "rating": 3.9,
-        "description": "Had a great experience with Nick! He made it a seamless process to chat through what I needed in drone aerial photos and site images as well!",
+        "description": "Had a great experience with Nick! He made it a seamless process for the drone aerial photos as well!",
         "timestamp": "1638067617"
     },
     {
@@ -2877,7 +2877,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 149,
         "rating": 5,
-        "description": "You are awesome. “Thank you so much...Nick is the best Aerial Photography Company I have worked with in a long time.",
+        "description": "You are awesome. Thank you so much...Nick is the best I have worked with ever.",
         "timestamp": "1647473941"
     },
     {
@@ -2885,7 +2885,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 112,
         "rating": 3.6,
-        "description": "His quality is top of the line, pricing is as fair as you will find and he is extremely responsive whenever you reach out.",
+        "description": "His quality is top notch, pricing is as fair is extremely responsive whenever you reach out.",
         "timestamp": "1652351416"
     },
     {
@@ -2893,7 +2893,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 14,
         "rating": 4.4,
-        "description": "The professional attitude was well represented from the initial communication to scheduling the project, to meeting on-site.",
+        "description": "The professional attitude was well represented from the initial communication.",
         "timestamp": "1647564697"
     },
     {
@@ -2933,7 +2933,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 163,
         "rating": 3.2,
-        "description": "Nick is well educated with the video production process and his final edit was amazing.",
+        "description": "Nick is well educated with the video production process.",
         "timestamp": "1633482677"
     },
     {
@@ -2949,7 +2949,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 159,
         "rating": 4.2,
-        "description": "I’ve worked with Jon a handful of times and he’s always responsive, on time, and professional. ",
+        "description": "Nick’s always responsive, on time, and professional. ",
         "timestamp": "1637123115"
     },
     {
@@ -2965,7 +2965,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 42,
         "rating": 3.3,
-        "description": "These affordable options serve as a great introduction to the world of drone flying.",
+        "description": "These affordable options serve as a great introduction of drone flying.",
         "timestamp": "1639707122"
     },
     {
