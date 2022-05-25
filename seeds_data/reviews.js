@@ -2837,7 +2837,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 158,
         "rating": 4.3,
-        "description": "Cloned next generation moderator",
+        "description": "The best drone photographer ever! My listings increased in views because of him",
         "timestamp": "1637388449"
     },
     {
@@ -2853,7 +2853,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 10,
         "rating": 4.5,
-        "description": "Self-enabling object-oriented support",
+        "description": "My experience with them was great. Sent it in and got quick response on a price for damages. The repair was very much less than I was expecting.",
         "timestamp": "1636951303"
     },
     {
@@ -2861,7 +2861,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 78,
         "rating": 3.5,
-        "description": "Balanced regional encryption",
+        "description": "The drone software technology enables the execution of recreational facilities, photography, navigations, flight movement, etc.",
         "timestamp": "1639434858"
     },
     {
@@ -2869,15 +2869,15 @@ module.exports = [
         "recipientID": 201,
         "authorID": 133,
         "rating": 3.9,
-        "description": "Face to face exuding focus group",
+        "description": "Had a great experience with Nick! He made it a seamless process to chat through what I needed in drone aerial photos and site images as well!",
         "timestamp": "1638067617"
     },
     {
         "id": 360,
         "recipientID": 201,
         "authorID": 149,
-        "rating": 3.9,
-        "description": "Multi-channelled 24 hour knowledge base",
+        "rating": 5,
+        "description": "You are awesome. “Thank you so much...Nick is the best Aerial Photography Company I have worked with in a long time.",
         "timestamp": "1647473941"
     },
     {
@@ -2885,7 +2885,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 112,
         "rating": 3.6,
-        "description": "Cross-group exuding analyzer",
+        "description": "His quality is top of the line, pricing is as fair as you will find and he is extremely responsive whenever you reach out.",
         "timestamp": "1652351416"
     },
     {
@@ -2893,7 +2893,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 14,
         "rating": 4.4,
-        "description": "Implemented foreground array",
+        "description": "The professional attitude was well represented from the initial communication to scheduling the project, to meeting on-site.",
         "timestamp": "1647564697"
     },
     {
@@ -2901,7 +2901,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 22,
         "rating": 3.8,
-        "description": "Digitized user-facing leverage",
+        "description": "Nick was extremely professional and his responses were very timely.",
         "timestamp": "1635302636"
     },
     {
@@ -2917,7 +2917,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 125,
         "rating": 4.8,
-        "description": "Universal bi-directional project",
+        "description": "He provides a vast range of services to tailor to the customer's needs.",
         "timestamp": "1635186946"
     },
     {
@@ -2925,7 +2925,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 145,
         "rating": 4.6,
-        "description": "Persistent discrete matrix",
+        "description": "I highly recommend Nick can provide the level of detail and accuracy he does",
         "timestamp": "1643513694"
     },
     {
@@ -2933,7 +2933,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 163,
         "rating": 3.2,
-        "description": "Visionary optimal frame",
+        "description": "Nick is well educated with the video production process and his final edit was amazing.",
         "timestamp": "1633482677"
     },
     {
@@ -2948,8 +2948,8 @@ module.exports = [
         "id": 369,
         "recipientID": 201,
         "authorID": 159,
-        "rating": 2.2,
-        "description": "Reverse-engineered composite Graphic Interface",
+        "rating": 4.2,
+        "description": "I’ve worked with Jon a handful of times and he’s always responsive, on time, and professional. ",
         "timestamp": "1637123115"
     },
     {
@@ -2957,7 +2957,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 59,
         "rating": 4.3,
-        "description": "Optimized encompassing neural-net",
+        "description": "I was lucky to find Big Boi Nick",
         "timestamp": "1642168453"
     },
     {
@@ -2965,7 +2965,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 42,
         "rating": 3.3,
-        "description": "Grass-roots full-range frame",
+        "description": "These affordable options serve as a great introduction to the world of drone flying.",
         "timestamp": "1639707122"
     },
     {
@@ -3036,8 +3036,8 @@ module.exports = [
         "id": 380,
         "recipientID": 19,
         "authorID": 201,
-        "rating": 2.7,
-        "description": "Integrated regional encoding",
+        "rating": 5,
+        "description": "My education team is the best!",
         "timestamp": "1627776920"
     },
     {
@@ -3045,7 +3045,7 @@ module.exports = [
         "recipientID": 197,
         "authorID": 201,
         "rating": 4.7,
-        "description": "Customizable human-resource hardware",
+        "description": "Canadians at Brainstation is so cool!",
         "timestamp": "1641919850"
     },
     {
@@ -3061,7 +3061,7 @@ module.exports = [
         "recipientID": 8,
         "authorID": 201,
         "rating": 4.5,
-        "description": "Cloned asynchronous middleware",
+        "description": "Best drone footage ever.. love his work!!",
         "timestamp": "1629911669"
     },
     {
@@ -3101,7 +3101,7 @@ module.exports = [
         "recipientID": 105,
         "authorID": 201,
         "rating": 3.8,
-        "description": "Digitized explicit policy",
+        "description": "Digitized explicit policy of professionalism",
         "timestamp": "1635824758"
     },
     {
@@ -3109,7 +3109,7 @@ module.exports = [
         "recipientID": 137,
         "authorID": 201,
         "rating": 3.7,
-        "description": "Ergonomic foreground adapter",
+        "description": "Had a blast working with brainstation!",
         "timestamp": "1641948158"
     },
     {
@@ -3117,7 +3117,7 @@ module.exports = [
         "recipientID": 30,
         "authorID": 201,
         "rating": 5.0,
-        "description": "Stand-alone regional algorithm",
+        "description": "Stand-alone unit of a programmer that flies the skies high",
         "timestamp": "1646025378"
     },
     {

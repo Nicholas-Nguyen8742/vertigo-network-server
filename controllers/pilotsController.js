@@ -145,6 +145,8 @@ exports.deletePortfolio = (req, res) => {
 exports.indexReviews = (req, res) => {
     knex('reviews')
       .where({ recipientID: req.params.id })
+      .join('users', 'reviews.authorID', '=', 'users.id')
+      .select('users.firstName', 'users.lastName', 'users.city', 'users.state', 'users.profile', 'reviews.rating', 'reviews.description', 'reviews.timestamp')
       .then((data) => {
         res.status(200).json(data);
       })
