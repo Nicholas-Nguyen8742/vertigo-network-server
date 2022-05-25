@@ -11,7 +11,7 @@ const portfolioData = require('../seeds_data/portfolio');
  */
 exports.seed = function (knex) {
     return knex("users")
-      .del() 
+      // .del() 
       .then(() => knex("users").insert(userData))
       .then(() => {
         return knex('reviews').del();
