@@ -6,6 +6,7 @@ exports.index = (_req, res) => {
     knex('missions')
       .where({ status: 'open' })
       .join('users', 'missions.clientID', '=', 'users.id')
+      .select('users.firstName', 'users.lastName', 'users.profile', 'users.email', 'missions.latitude', 'missions.longitude', 'missions.specialty', 'missions.city', 'missions.state', 'missions.date', 'missions.timestamp')
       .then((data) => {
         res.status(200).json(data);
       })
