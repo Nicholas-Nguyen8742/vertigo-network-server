@@ -65,7 +65,7 @@ exports.login = (req, res) => {
                 { expiresIn: "24h" }
             );
 
-            res.json({ token });
+            res.json({ token, user });
         })
         .catch(() => {
             res.status(400).send("Invalid credentials");

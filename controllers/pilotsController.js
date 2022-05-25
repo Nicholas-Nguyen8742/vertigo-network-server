@@ -144,7 +144,7 @@ exports.deletePortfolio = (req, res) => {
 // [GET] - Retrieves all reviews of pilot
 exports.indexReviews = (req, res) => {
     knex('reviews')
-      .where({ authorID: req.params.id })
+      .where({ recipientID: req.params.id })
       .then((data) => {
         res.status(200).json(data);
       })
