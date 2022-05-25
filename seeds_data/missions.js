@@ -2,14 +2,14 @@
 module.exports = [
     {
       "id": 1,
-      "city": "Lakeland",
+      "city": "Orlando",
       "state": "Florida",
       "date": "01/01/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 18,
       "timestamp": "1643196874",
-      "latitude": 27.45580145015792,
-      "longitude": -82.00328469131635
+      "latitude": 28.54683312949944,
+      "longitude": -81.20393190532923
     },
     {
       "id": 2,
@@ -19,89 +19,89 @@ module.exports = [
       "status": "open",
       "clientID": 125,
       "timestamp": "1621160789",
-      "latitude": 27.5213102235872,
-      "longitude": -80.41081778456405
+      "latitude": 28.493695908677616,
+      "longitude": -81.4908367395401
     },
     {
       "id": 3,
-      "city": "Fort Myers",
+      "city": "Orlando",
       "state": "Florida",
       "date": "03/04/2022",
       "status": "open",
       "clientID": 135,
       "timestamp": "1622105308",
-      "latitude": 28.578571772537963,
-      "longitude": -82.38417859816386
+      "latitude": 28.46057991261252,
+      "longitude": -81.56167387962341
     },
     {
       "id": 4,
-      "city": "Pinellas Park",
+      "city": "Orlando",
       "state": "Florida",
       "date": "11/12/2021",
       "status": "open",
       "clientID": 199,
       "timestamp": "1644101841",
-      "latitude": 28.6596687017404,
-      "longitude": -81.18117464773451
+      "latitude": 28.396964149570845,
+      "longitude": -81.42509043216705
     },
     {
       "id": 5,
-      "city": "Miami",
+      "city": "Orlando",
       "state": "Florida",
       "date": "05/31/2021",
       "status": "open",
       "clientID": 85,
       "timestamp": "1635548290",
-      "latitude": 27.982890385734507,
-      "longitude": -81.21230080530334
+      "latitude": 28.539380150266677,
+      "longitude": -81.24422371387482
     },
     {
       "id": 6,
-      "city": "Tallahassee",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/25/2021",
       "status": "open",
       "clientID": 104,
       "timestamp": "1650841198",
-      "latitude": 29.35224462976383,
-      "longitude": -81.46377755240196
+      "latitude": 28.6037390526665,
+      "longitude": -81.40709280967712
     },
     {
       "id": 7,
-      "city": "Naples",
+      "city": "Orlando",
       "state": "Florida",
       "date": "07/20/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 118,
       "timestamp": "1628892026",
-      "latitude": 27.361586614576378,
-      "longitude": -81.9537143703032
+      "latitude": 28.60706404833486,
+      "longitude": -81.39342963695526
     },
     {
       "id": 8,
-      "city": "West Palm Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "02/17/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 135,
       "timestamp": "1643653737",
-      "latitude": 28.797224878482968,
-      "longitude": -80.00340933689782
+      "latitude": 28.613798490489884,
+      "longitude": -81.47621870040894
     },
     {
       "id": 9,
-      "city": "Miami",
+      "city": "Orlando",
       "state": "Florida",
       "date": "08/18/2021",
       "status": "open",
       "clientID": 10,
       "timestamp": "1634631338",
-      "latitude": 28.417748247980118,
-      "longitude": -82.39078404400041
+      "latitude": 28.577587544621167,
+      "longitude": -81.47607922554016
     },
     {
       "id": 10,
-      "city": "Fort Lauderdale",
+      "city": "Orlando",
       "state": "Florida",
       "date": "07/08/2022",
       "status": "open",
@@ -112,36 +112,36 @@ module.exports = [
     },
     {
       "id": 11,
-      "city": "West Palm Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "08/21/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 116,
       "timestamp": "1634399604",
-      "latitude": 29.082955892631293,
-      "longitude": -81.86549020151463
+      "latitude": 28.55236251346906,
+      "longitude": -81.45655274391174
     },
     {
       "id": 12,
       "city": "Orlando",
       "state": "Florida",
       "date": "05/31/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 129,
       "timestamp": "1652941315",
-      "latitude": 27.58920395864994,
-      "longitude": -81.19821586543344
+      "latitude": 28.55770578714198,
+      "longitude": -81.20703220367432
     },
     {
       "id": 13,
-      "city": "Daytona Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "03/16/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 2,
       "timestamp": "1633465467",
-      "latitude": 29.161601149575457,
-      "longitude": -81.19430006076009
+      "latitude": 28.59749851471108,
+      "longitude": -81.24466359615326
     },
     {
       "id": 14,
@@ -151,301 +151,301 @@ module.exports = [
       "status": "open",
       "clientID": 32,
       "timestamp": "1639232835",
-      "latitude": 28.399407838353028,
-      "longitude": -81.49865016403817
+      "latitude": 28.568287872588126,
+      "longitude": -81.28609299659729
     },
     {
       "id": 15,
       "city": "Orlando",
       "state": "Florida",
       "date": "05/21/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 115,
       "timestamp": "1623050435",
-      "latitude": 27.739275025208055,
-      "longitude": -79.95712354125352
+      "latitude": 28.552112777114097,
+      "longitude": -81.47589683532715
     },
     {
       "id": 16,
-      "city": "Miami Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "05/16/2022",
       "status": "open",
       "clientID": 38,
       "timestamp": "1628757771",
-      "latitude": 29.796450763801694,
-      "longitude": -81.49564188373463
+      "latitude": 28.611321396231705,
+      "longitude": -81.45175695419312
     },
     {
       "id": 17,
-      "city": "Boca Raton",
+      "city": "Orlando",
       "state": "Florida",
       "date": "07/10/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 90,
       "timestamp": "1649263964",
-      "latitude": 29.482517833531244,
-      "longitude": -82.16708601659553
+      "latitude": 28.552536857365773,
+      "longitude": -81.4475029706955
     },
     {
       "id": 18,
-      "city": "Fort Lauderdale",
+      "city": "Orlando",
       "state": "Florida",
       "date": "08/29/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 70,
       "timestamp": "1635940329",
-      "latitude": 28.272892933318982,
-      "longitude": -81.9102542145775
+      "latitude": 28.539158658682222,
+      "longitude": -81.47578954696655
     },
     {
       "id": 19,
-      "city": "Pompano Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/09/2021",
       "status": "open",
       "clientID": 115,
       "timestamp": "1646136514",
-      "latitude": 27.781384197859843,
-      "longitude": -80.24364329520125
+      "latitude": 28.385859907191193,
+      "longitude": -81.50618433952332
     },
     {
       "id": 20,
-      "city": "Fort Myers",
+      "city": "Orlando",
       "state": "Florida",
       "date": "12/01/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 80,
       "timestamp": "1651074654",
-      "latitude": 28.727202695284387,
-      "longitude": -80.12650975476534
+      "latitude": 28.577710027217513,
+      "longitude": -81.46774291992186
     },
     {
       "id": 21,
       "city": "Orlando",
       "state": "Florida",
       "date": "07/12/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 114,
       "timestamp": "1634280987",
-      "latitude": 28.083025843832306,
-      "longitude": -82.2578736081261
+      "latitude": 28.597635104036822,
+      "longitude": -81.22452020645142
     },
     {
       "id": 22,
-      "city": "Miami Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "03/13/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 94,
       "timestamp": "1634940329",
-      "latitude": 27.528927051606086,
-      "longitude": -82.2257641172317
+      "latitude": 28.539186934229562,
+      "longitude": -81.27646923065186
     },
     {
       "id": 23,
-      "city": "Fort Lauderdale",
+      "city": "Orlando",
       "state": "Florida",
       "date": "10/15/2021",
       "status": "open",
       "clientID": 163,
       "timestamp": "1625577147",
-      "latitude": 29.02054039250014,
-      "longitude": -81.2972611348106
+      "latitude": 28.48051535462079,
+      "longitude": -81.33078128099442
     },
     {
       "id": 24,
-      "city": "Pensacola",
+      "city": "Orlando",
       "state": "Florida",
       "date": "09/08/2021",
       "status": "open",
       "clientID": 184,
       "timestamp": "1639173286",
-      "latitude": 28.66771839252635,
-      "longitude": -80.77962192269628
+      "latitude": 28.410336775552757,
+      "longitude": -81.42428576946259
     },
     {
       "id": 25,
-      "city": "West Palm Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/21/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 139,
       "timestamp": "1631790098",
-      "latitude": 28.47885781281174,
-      "longitude": -80.5187005760571
+      "latitude": 28.364337112727654,
+      "longitude": -81.42398536205292
     },
     {
       "id": 26,
-      "city": "Homestead",
+      "city": "Orlando",
       "state": "Florida",
       "date": "01/21/2022",
       "status": "open",
       "clientID": 38,
       "timestamp": "1624846524",
-      "latitude": 27.701320897171165,
-      "longitude": -81.66941541020516
+      "latitude": 28.428213065491484,
+      "longitude": -81.40473246574402
     },
     {
       "id": 27,
-      "city": "Miami",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/30/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 41,
       "timestamp": "1630228562",
-      "latitude": 28.8684190715157,
-      "longitude": -82.72362289614222
+      "latitude": 28.45027118932513,
+      "longitude": -81.40085533261299
     },
     {
       "id": 28,
-      "city": "Tampa",
+      "city": "Orlando",
       "state": "Florida",
       "date": "05/06/2022",
       "status": "open",
       "clientID": 139,
       "timestamp": "1646098510",
-      "latitude": 27.884721990852285,
-      "longitude": -81.39014805332151
+      "latitude": 28.484195513903575,
+      "longitude": -81.39667510986328
     },
     {
       "id": 29,
-      "city": "Clearwater",
+      "city": "Orlando",
       "state": "Florida",
       "date": "08/13/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 112,
       "timestamp": "1638334439",
-      "latitude": 29.722259494057717,
-      "longitude": -80.98700962676087
+      "latitude": 28.49453039382158,
+      "longitude": -81.39686822891235
     },
     {
       "id": 30,
-      "city": "West Palm Beach",
+      "city": "Orlando",
       "state": "Florida",
       "date": "10/21/2021",
       "status": "open",
       "clientID": 57,
       "timestamp": "1634242273",
-      "latitude": 28.335448282908956,
-      "longitude": -79.73735818093968
+      "latitude": 28.421362967444892,
+      "longitude": -81.40468955039978
     },
     {
       "id": 31,
-      "city": "Hialeah",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/23/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 43,
       "timestamp": "1623089082",
-      "latitude": 29.859395128779266,
-      "longitude": -81.40930429953066
+      "latitude": 28.43599201250448,
+      "longitude": -81.40452325344086
     },
     {
       "id": 32,
-      "city": "North Port",
+      "city": "Orlando",
       "state": "Florida",
       "date": "12/06/2021",
       "status": "open",
       "clientID": 44,
       "timestamp": "1653306066",
-      "latitude": 28.116226019384392,
-      "longitude": -81.22609204545242
+      "latitude": 28.560685934408305,
+      "longitude": -81.12963169813156
     },
     {
       "id": 33,
-      "city": "Miami",
+      "city": "Orlando",
       "state": "Florida",
       "date": "08/19/2021",
       "status": "open",
       "clientID": 135,
       "timestamp": "1644828731",
-      "latitude": 29.909263577309588,
-      "longitude": -80.98056672695623
+      "latitude": 28.374365107115125,
+      "longitude": -81.5037488937378
     },
     {
       "id": 34,
-      "city": "Fort Lauderdale",
+      "city": "Orlando",
       "state": "Florida",
       "date": "03/21/2022",
       "status": "open",
       "clientID": 41,
       "timestamp": "1631277549",
-      "latitude": 28.387825784931962,
-      "longitude": -82.65305519912164
+      "latitude": 28.357464002550618,
+      "longitude": -81.4971587061882
     },
     {
       "id": 35,
-      "city": "Jacksonville",
+      "city": "Orlando",
       "state": "Florida",
       "date": "09/11/2021",
       "status": "open",
       "clientID": 64,
       "timestamp": "1621945650",
-      "latitude": 28.197941891394013,
-      "longitude": -82.26385605054716
+      "latitude": 28.44996814976867,
+      "longitude": -81.47087037563324
     },
     {
       "id": 36,
-      "city": "Miami",
+      "city": "Orlando",
       "state": "Florida",
       "date": "07/18/2022",
       "status": "open",
       "clientID": 158,
       "timestamp": "1641613866",
-      "latitude": 28.29719197112655,
-      "longitude": -81.86636311152199
+      "latitude": 28.472350648506463,
+      "longitude": -81.41747295856476
     },
     {
       "id": 37,
-      "city": "Jacksonville",
+      "city": "Orlando",
       "state": "Florida",
       "date": "12/19/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 102,
       "timestamp": "1652076458",
-      "latitude": 28.865581675351716,
-      "longitude": -81.43753354895031
+      "latitude": 28.472435528859194,
+      "longitude": -81.40910983085632
     },
     {
       "id": 38,
-      "city": "Seminole",
+      "city": "Orlando",
       "state": "Florida",
       "date": "02/06/2022",
       "status": "open",
       "clientID": 182,
       "timestamp": "1626782450",
-      "latitude": 27.86666167224032,
-      "longitude": -81.09835152592528
+      "latitude": 28.552527433378714,
+      "longitude": -81.44751369953156
     },
     {
       "id": 39,
-      "city": "Tampa",
+      "city": "Orlando",
       "state": "Florida",
       "date": "05/25/2022",
       "status": "open",
       "clientID": 22,
       "timestamp": "1642029702",
-      "latitude": 28.951696202260663,
-      "longitude": -82.12739881135163
+      "latitude": 28.597616264140374,
+      "longitude": -81.22456312179565
     },
     {
       "id": 40,
-      "city": "Seminole",
+      "city": "Orlando",
       "state": "Florida",
       "date": "06/06/2022",
-      "status": "closed",
+      "status": "open",
       "clientID": 101,
       "timestamp": "1644722004",
-      "latitude": 28.20439832218184,
-      "longitude": -82.1694318164302
+      "latitude": 28.45003418180826,
+      "longitude": -81.47784948348999
     },
     {
       "id": 41,
       "city": "Lehigh Acres",
       "state": "Florida",
       "date": "08/02/2021",
-      "status": "closed",
+      "status": "open",
       "clientID": 69,
       "timestamp": "1634937936",
       "latitude": 29.265120157005782,
