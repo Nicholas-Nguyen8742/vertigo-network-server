@@ -17,7 +17,7 @@ router
     .post(pilotsController.addPortfolio);
 
 router
-    .route('/:id/portfolio/:portfolioID')
+    .route('/portfolio/:portfolioID')
     .get(pilotsController.singlePortfolio)
     .put(pilotsController.editPortfolio)
     .delete(pilotsController.deletePortfolio);
