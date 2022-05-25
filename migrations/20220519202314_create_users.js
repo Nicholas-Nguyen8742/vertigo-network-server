@@ -45,6 +45,7 @@ exports.up = function(knex) {
       table.string('status').notNullable();
       table.decimal('latitude').notNullable();
       table.decimal('longitude').notNullable();
+      table.string('specialty').notNullable();
       table
         .integer('clientID')
         .unsigned()

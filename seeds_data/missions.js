@@ -1,17 +1,18 @@
 /* MISSION DATA */
 module.exports = [
-    {
+  {
       "id": 1,
       "city": "Orlando",
       "state": "Florida",
       "date": "01/01/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 18,
       "timestamp": "1643196874",
       "latitude": 28.54683312949944,
-      "longitude": -81.20393190532923
-    },
-    {
+      "longitude": -81.20393190532923,
+      "specialty": "Insurance"
+  },
+  {
       "id": 2,
       "city": "Orlando",
       "state": "Florida",
@@ -20,9 +21,10 @@ module.exports = [
       "clientID": 125,
       "timestamp": "1621160789",
       "latitude": 28.493695908677616,
-      "longitude": -81.4908367395401
-    },
-    {
+      "longitude": -81.4908367395401,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 3,
       "city": "Orlando",
       "state": "Florida",
@@ -31,9 +33,10 @@ module.exports = [
       "clientID": 135,
       "timestamp": "1622105308",
       "latitude": 28.46057991261252,
-      "longitude": -81.56167387962341
-    },
-    {
+      "longitude": -81.56167387962341,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 4,
       "city": "Orlando",
       "state": "Florida",
@@ -42,9 +45,10 @@ module.exports = [
       "clientID": 199,
       "timestamp": "1644101841",
       "latitude": 28.396964149570845,
-      "longitude": -81.42509043216705
-    },
-    {
+      "longitude": -81.42509043216705,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 5,
       "city": "Orlando",
       "state": "Florida",
@@ -53,9 +57,10 @@ module.exports = [
       "clientID": 85,
       "timestamp": "1635548290",
       "latitude": 28.539380150266677,
-      "longitude": -81.24422371387482
-    },
-    {
+      "longitude": -81.24422371387482,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 6,
       "city": "Orlando",
       "state": "Florida",
@@ -64,31 +69,34 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1650841198",
       "latitude": 28.6037390526665,
-      "longitude": -81.40709280967712
-    },
-    {
+      "longitude": -81.40709280967712,
+      "specialty": "Surveying"
+  },
+  {
       "id": 7,
       "city": "Orlando",
       "state": "Florida",
       "date": "07/20/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 118,
       "timestamp": "1628892026",
       "latitude": 28.60706404833486,
-      "longitude": -81.39342963695526
-    },
-    {
+      "longitude": -81.39342963695526,
+      "specialty": "Surveying"
+  },
+  {
       "id": 8,
-      "city": "Orlando",
+      "city": "West Palm Beach",
       "state": "Florida",
       "date": "02/17/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 135,
       "timestamp": "1643653737",
       "latitude": 28.613798490489884,
-      "longitude": -81.47621870040894
-    },
-    {
+      "longitude": -81.47621870040894,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 9,
       "city": "Orlando",
       "state": "Florida",
@@ -97,9 +105,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1634631338",
       "latitude": 28.577587544621167,
-      "longitude": -81.47607922554016
-    },
-    {
+      "longitude": -81.47607922554016,
+      "specialty": "Special Events"
+  },
+  {
       "id": 10,
       "city": "Orlando",
       "state": "Florida",
@@ -108,20 +117,22 @@ module.exports = [
       "clientID": 71,
       "timestamp": "1631371586",
       "latitude": 28.678870258800945,
-      "longitude": -82.33189337302481
-    },
-    {
+      "longitude": -82.33189337302481,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 11,
       "city": "Orlando",
       "state": "Florida",
       "date": "08/21/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 116,
       "timestamp": "1634399604",
       "latitude": 28.55236251346906,
-      "longitude": -81.45655274391174
-    },
-    {
+      "longitude": -81.45655274391174,
+      "specialty": "Wedding"
+  },
+  {
       "id": 12,
       "city": "Orlando",
       "state": "Florida",
@@ -130,20 +141,22 @@ module.exports = [
       "clientID": 129,
       "timestamp": "1652941315",
       "latitude": 28.55770578714198,
-      "longitude": -81.20703220367432
-    },
-    {
+      "longitude": -81.20703220367432,
+      "specialty": "Contract"
+  },
+  {
       "id": 13,
       "city": "Orlando",
       "state": "Florida",
       "date": "03/16/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 2,
       "timestamp": "1633465467",
       "latitude": 28.59749851471108,
-      "longitude": -81.24466359615326
-    },
-    {
+      "longitude": -81.24466359615326,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 14,
       "city": "Orlando",
       "state": "Florida",
@@ -152,20 +165,22 @@ module.exports = [
       "clientID": 32,
       "timestamp": "1639232835",
       "latitude": 28.568287872588126,
-      "longitude": -81.28609299659729
-    },
-    {
+      "longitude": -81.28609299659729,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 15,
       "city": "Orlando",
       "state": "Florida",
       "date": "05/21/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 115,
       "timestamp": "1623050435",
       "latitude": 28.552112777114097,
-      "longitude": -81.47589683532715
-    },
-    {
+      "longitude": -81.47589683532715,
+      "specialty": "Special Events"
+  },
+  {
       "id": 16,
       "city": "Orlando",
       "state": "Florida",
@@ -174,31 +189,34 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1628757771",
       "latitude": 28.611321396231705,
-      "longitude": -81.45175695419312
-    },
-    {
+      "longitude": -81.45175695419312,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 17,
       "city": "Orlando",
       "state": "Florida",
       "date": "07/10/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 90,
       "timestamp": "1649263964",
       "latitude": 28.552536857365773,
-      "longitude": -81.4475029706955
-    },
-    {
+      "longitude": -81.4475029706955,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 18,
       "city": "Orlando",
       "state": "Florida",
       "date": "08/29/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 70,
       "timestamp": "1635940329",
       "latitude": 28.539158658682222,
-      "longitude": -81.47578954696655
-    },
-    {
+      "longitude": -81.47578954696655,
+      "specialty": "Wedding"
+  },
+  {
       "id": 19,
       "city": "Orlando",
       "state": "Florida",
@@ -207,42 +225,46 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1646136514",
       "latitude": 28.385859907191193,
-      "longitude": -81.50618433952332
-    },
-    {
+      "longitude": -81.50618433952332,
+      "specialty": "Insurance"
+  },
+  {
       "id": 20,
       "city": "Orlando",
       "state": "Florida",
       "date": "12/01/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 80,
       "timestamp": "1651074654",
       "latitude": 28.577710027217513,
-      "longitude": -81.46774291992186
-    },
-    {
+      "longitude": -81.46774291992186,
+      "specialty": "Surveying"
+  },
+  {
       "id": 21,
       "city": "Orlando",
       "state": "Florida",
       "date": "07/12/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 114,
       "timestamp": "1634280987",
       "latitude": 28.597635104036822,
-      "longitude": -81.22452020645142
-    },
-    {
+      "longitude": -81.22452020645142,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 22,
       "city": "Orlando",
       "state": "Florida",
       "date": "03/13/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 94,
       "timestamp": "1634940329",
       "latitude": 28.539186934229562,
-      "longitude": -81.27646923065186
-    },
-    {
+      "longitude": -81.27646923065186,
+      "specialty": "Special Events"
+  },
+  {
       "id": 23,
       "city": "Orlando",
       "state": "Florida",
@@ -251,9 +273,10 @@ module.exports = [
       "clientID": 163,
       "timestamp": "1625577147",
       "latitude": 28.48051535462079,
-      "longitude": -81.33078128099442
-    },
-    {
+      "longitude": -81.33078128099442,
+      "specialty": "Surveying"
+  },
+  {
       "id": 24,
       "city": "Orlando",
       "state": "Florida",
@@ -262,20 +285,22 @@ module.exports = [
       "clientID": 184,
       "timestamp": "1639173286",
       "latitude": 28.410336775552757,
-      "longitude": -81.42428576946259
-    },
-    {
+      "longitude": -81.42428576946259,
+      "specialty": "Special Events"
+  },
+  {
       "id": 25,
       "city": "Orlando",
       "state": "Florida",
       "date": "06/21/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 139,
       "timestamp": "1631790098",
       "latitude": 28.364337112727654,
-      "longitude": -81.42398536205292
-    },
-    {
+      "longitude": -81.42398536205292,
+      "specialty": "Insurance"
+  },
+  {
       "id": 26,
       "city": "Orlando",
       "state": "Florida",
@@ -284,20 +309,22 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1624846524",
       "latitude": 28.428213065491484,
-      "longitude": -81.40473246574402
-    },
-    {
+      "longitude": -81.40473246574402,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 27,
       "city": "Orlando",
       "state": "Florida",
       "date": "06/30/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 41,
       "timestamp": "1630228562",
       "latitude": 28.45027118932513,
-      "longitude": -81.40085533261299
-    },
-    {
+      "longitude": -81.40085533261299,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 28,
       "city": "Orlando",
       "state": "Florida",
@@ -306,20 +333,22 @@ module.exports = [
       "clientID": 139,
       "timestamp": "1646098510",
       "latitude": 28.484195513903575,
-      "longitude": -81.39667510986328
-    },
-    {
+      "longitude": -81.39667510986328,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 29,
       "city": "Orlando",
       "state": "Florida",
       "date": "08/13/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 112,
       "timestamp": "1638334439",
       "latitude": 28.49453039382158,
-      "longitude": -81.39686822891235
-    },
-    {
+      "longitude": -81.39686822891235,
+      "specialty": "Special Events"
+  },
+  {
       "id": 30,
       "city": "Orlando",
       "state": "Florida",
@@ -328,20 +357,22 @@ module.exports = [
       "clientID": 57,
       "timestamp": "1634242273",
       "latitude": 28.421362967444892,
-      "longitude": -81.40468955039978
-    },
-    {
+      "longitude": -81.40468955039978,
+      "specialty": "Surveying"
+  },
+  {
       "id": 31,
       "city": "Orlando",
       "state": "Florida",
       "date": "06/23/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 43,
       "timestamp": "1623089082",
       "latitude": 28.43599201250448,
-      "longitude": -81.40452325344086
-    },
-    {
+      "longitude": -81.40452325344086,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 32,
       "city": "Orlando",
       "state": "Florida",
@@ -350,108 +381,118 @@ module.exports = [
       "clientID": 44,
       "timestamp": "1653306066",
       "latitude": 28.560685934408305,
-      "longitude": -81.12963169813156
-    },
-    {
+      "longitude": -81.12963169813156,
+      "specialty": "Insurance"
+  },
+  {
       "id": 33,
-      "city": "Orlando",
+      "city": "Miami",
       "state": "Florida",
       "date": "08/19/2021",
       "status": "open",
       "clientID": 135,
       "timestamp": "1644828731",
       "latitude": 28.374365107115125,
-      "longitude": -81.5037488937378
-    },
-    {
+      "longitude": -81.5037488937378,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 34,
-      "city": "Orlando",
+      "city": "Fort Lauderdale",
       "state": "Florida",
       "date": "03/21/2022",
       "status": "open",
       "clientID": 41,
       "timestamp": "1631277549",
       "latitude": 28.357464002550618,
-      "longitude": -81.4971587061882
-    },
-    {
+      "longitude": -81.4971587061882,
+      "specialty": "Contract"
+  },
+  {
       "id": 35,
-      "city": "Orlando",
+      "city": "Jacksonville",
       "state": "Florida",
       "date": "09/11/2021",
       "status": "open",
       "clientID": 64,
       "timestamp": "1621945650",
       "latitude": 28.44996814976867,
-      "longitude": -81.47087037563324
-    },
-    {
+      "longitude": -81.47087037563324,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 36,
-      "city": "Orlando",
+      "city": "Miami",
       "state": "Florida",
       "date": "07/18/2022",
       "status": "open",
       "clientID": 158,
       "timestamp": "1641613866",
       "latitude": 28.472350648506463,
-      "longitude": -81.41747295856476
-    },
-    {
+      "longitude": -81.41747295856476,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 37,
-      "city": "Orlando",
+      "city": "Jacksonville",
       "state": "Florida",
       "date": "12/19/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 102,
       "timestamp": "1652076458",
       "latitude": 28.472435528859194,
-      "longitude": -81.40910983085632
-    },
-    {
+      "longitude": -81.40910983085632,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 38,
-      "city": "Orlando",
+      "city": "Seminole",
       "state": "Florida",
       "date": "02/06/2022",
       "status": "open",
       "clientID": 182,
       "timestamp": "1626782450",
       "latitude": 28.552527433378714,
-      "longitude": -81.44751369953156
-    },
-    {
+      "longitude": -81.44751369953156,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 39,
-      "city": "Orlando",
+      "city": "Tampa",
       "state": "Florida",
       "date": "05/25/2022",
       "status": "open",
       "clientID": 22,
       "timestamp": "1642029702",
       "latitude": 28.597616264140374,
-      "longitude": -81.22456312179565
-    },
-    {
+      "longitude": -81.22456312179565,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 40,
-      "city": "Orlando",
+      "city": "Seminole",
       "state": "Florida",
       "date": "06/06/2022",
-      "status": "open",
+      "status": "closed",
       "clientID": 101,
       "timestamp": "1644722004",
       "latitude": 28.45003418180826,
-      "longitude": -81.47784948348999
-    },
-    {
+      "longitude": -81.47784948348999,
+      "specialty": "Wedding"
+  },
+  {
       "id": 41,
       "city": "Lehigh Acres",
       "state": "Florida",
       "date": "08/02/2021",
-      "status": "open",
+      "status": "closed",
       "clientID": 69,
       "timestamp": "1634937936",
       "latitude": 29.265120157005782,
-      "longitude": -80.1059834042385
-    },
-    {
+      "longitude": -80.1059834042385,
+      "specialty": "Insurance"
+  },
+  {
       "id": 42,
       "city": "Jacksonville",
       "state": "Florida",
@@ -460,9 +501,10 @@ module.exports = [
       "clientID": 42,
       "timestamp": "1625080351",
       "latitude": 29.40140185819155,
-      "longitude": -80.27241689839956
-    },
-    {
+      "longitude": -80.27241689839956,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 43,
       "city": "Orlando",
       "state": "Florida",
@@ -471,9 +513,10 @@ module.exports = [
       "clientID": 169,
       "timestamp": "1647437261",
       "latitude": 29.0728490329939,
-      "longitude": -80.83619643868478
-    },
-    {
+      "longitude": -80.83619643868478,
+      "specialty": "Contract"
+  },
+  {
       "id": 44,
       "city": "Bradenton",
       "state": "Florida",
@@ -482,9 +525,10 @@ module.exports = [
       "clientID": 184,
       "timestamp": "1646685419",
       "latitude": 27.756225115865252,
-      "longitude": -80.87749674322563
-    },
-    {
+      "longitude": -80.87749674322563,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 45,
       "city": "Jacksonville",
       "state": "Florida",
@@ -493,9 +537,10 @@ module.exports = [
       "clientID": 68,
       "timestamp": "1644942570",
       "latitude": 27.789903098589903,
-      "longitude": -81.75086585760903
-    },
-    {
+      "longitude": -81.75086585760903,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 46,
       "city": "Panama City",
       "state": "Florida",
@@ -504,9 +549,10 @@ module.exports = [
       "clientID": 71,
       "timestamp": "1624829893",
       "latitude": 29.24609050687477,
-      "longitude": -80.43396405455219
-    },
-    {
+      "longitude": -80.43396405455219,
+      "specialty": "Surveying"
+  },
+  {
       "id": 47,
       "city": "Orlando",
       "state": "Florida",
@@ -515,9 +561,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1635794802",
       "latitude": 27.73637607993832,
-      "longitude": -80.76378816988384
-    },
-    {
+      "longitude": -80.76378816988384,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 48,
       "city": "Boca Raton",
       "state": "Florida",
@@ -526,9 +573,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1652201801",
       "latitude": 28.084574961446588,
-      "longitude": -80.47939078505601
-    },
-    {
+      "longitude": -80.47939078505601,
+      "specialty": "Special Events"
+  },
+  {
       "id": 49,
       "city": "Daytona Beach",
       "state": "Florida",
@@ -537,9 +585,10 @@ module.exports = [
       "clientID": 74,
       "timestamp": "1628468078",
       "latitude": 28.168254624694857,
-      "longitude": -81.76671320042732
-    },
-    {
+      "longitude": -81.76671320042732,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 50,
       "city": "Homestead",
       "state": "Florida",
@@ -548,9 +597,10 @@ module.exports = [
       "clientID": 158,
       "timestamp": "1653403879",
       "latitude": 29.91990774033876,
-      "longitude": -81.51691763281264
-    },
-    {
+      "longitude": -81.51691763281264,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 51,
       "city": "Fort Pierce",
       "state": "Florida",
@@ -559,9 +609,10 @@ module.exports = [
       "clientID": 108,
       "timestamp": "1650941807",
       "latitude": 27.32714109090696,
-      "longitude": -80.90208210548622
-    },
-    {
+      "longitude": -80.90208210548622,
+      "specialty": "Wedding"
+  },
+  {
       "id": 52,
       "city": "Lake Worth",
       "state": "Florida",
@@ -570,9 +621,10 @@ module.exports = [
       "clientID": 152,
       "timestamp": "1641701099",
       "latitude": 28.472142994089317,
-      "longitude": -80.78033010539329
-    },
-    {
+      "longitude": -80.78033010539329,
+      "specialty": "Contract"
+  },
+  {
       "id": 53,
       "city": "Miami",
       "state": "Florida",
@@ -581,9 +633,10 @@ module.exports = [
       "clientID": 22,
       "timestamp": "1624722199",
       "latitude": 28.60788665194595,
-      "longitude": -81.57364701267403
-    },
-    {
+      "longitude": -81.57364701267403,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 54,
       "city": "Orlando",
       "state": "Florida",
@@ -592,9 +645,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1646823934",
       "latitude": 27.88680665237009,
-      "longitude": -80.03247417778915
-    },
-    {
+      "longitude": -80.03247417778915,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 55,
       "city": "Orlando",
       "state": "Florida",
@@ -603,9 +657,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1632222733",
       "latitude": 28.235525185823846,
-      "longitude": -81.49929768696487
-    },
-    {
+      "longitude": -81.49929768696487,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 56,
       "city": "Largo",
       "state": "Florida",
@@ -614,9 +669,10 @@ module.exports = [
       "clientID": 177,
       "timestamp": "1621580791",
       "latitude": 29.262899096181034,
-      "longitude": -79.9400878373757
-    },
-    {
+      "longitude": -79.9400878373757,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 57,
       "city": "Tampa",
       "state": "Florida",
@@ -625,9 +681,10 @@ module.exports = [
       "clientID": 42,
       "timestamp": "1638984854",
       "latitude": 28.229219019174415,
-      "longitude": -80.20812813413623
-    },
-    {
+      "longitude": -80.20812813413623,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 58,
       "city": "Seminole",
       "state": "Florida",
@@ -636,9 +693,10 @@ module.exports = [
       "clientID": 49,
       "timestamp": "1641157929",
       "latitude": 28.09090510165321,
-      "longitude": -80.14411639056081
-    },
-    {
+      "longitude": -80.14411639056081,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 59,
       "city": "Sarasota",
       "state": "Florida",
@@ -647,9 +705,10 @@ module.exports = [
       "clientID": 139,
       "timestamp": "1648912066",
       "latitude": 28.220179482731265,
-      "longitude": -80.23490742455584
-    },
-    {
+      "longitude": -80.23490742455584,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 60,
       "city": "Orlando",
       "state": "Florida",
@@ -658,9 +717,10 @@ module.exports = [
       "clientID": 184,
       "timestamp": "1651261473",
       "latitude": 29.37459304199185,
-      "longitude": -79.99038539412206
-    },
-    {
+      "longitude": -79.99038539412206,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 61,
       "city": "Orlando",
       "state": "Florida",
@@ -669,9 +729,10 @@ module.exports = [
       "clientID": 114,
       "timestamp": "1620848586",
       "latitude": 29.08074141153939,
-      "longitude": -80.17624959645954
-    },
-    {
+      "longitude": -80.17624959645954,
+      "specialty": "Wedding"
+  },
+  {
       "id": 62,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -680,9 +741,10 @@ module.exports = [
       "clientID": 140,
       "timestamp": "1642998038",
       "latitude": 28.834740777675336,
-      "longitude": -82.11332852228571
-    },
-    {
+      "longitude": -82.11332852228571,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 63,
       "city": "Gainesville",
       "state": "Florida",
@@ -691,9 +753,10 @@ module.exports = [
       "clientID": 32,
       "timestamp": "1641570579",
       "latitude": 28.967643911348834,
-      "longitude": -81.21037587819843
-    },
-    {
+      "longitude": -81.21037587819843,
+      "specialty": "Special Events"
+  },
+  {
       "id": 64,
       "city": "Naples",
       "state": "Florida",
@@ -702,9 +765,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1628480048",
       "latitude": 28.097710977904786,
-      "longitude": -81.75850429732577
-    },
-    {
+      "longitude": -81.75850429732577,
+      "specialty": "Surveying"
+  },
+  {
       "id": 65,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -713,9 +777,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1635888845",
       "latitude": 28.82870246164476,
-      "longitude": -82.13239843255472
-    },
-    {
+      "longitude": -82.13239843255472,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 66,
       "city": "Miami",
       "state": "Florida",
@@ -724,9 +789,10 @@ module.exports = [
       "clientID": 163,
       "timestamp": "1646433284",
       "latitude": 28.833777614521576,
-      "longitude": -82.2896153026428
-    },
-    {
+      "longitude": -82.2896153026428,
+      "specialty": "Wedding"
+  },
+  {
       "id": 67,
       "city": "Miami",
       "state": "Florida",
@@ -735,9 +801,10 @@ module.exports = [
       "clientID": 176,
       "timestamp": "1647159170",
       "latitude": 27.897230961126027,
-      "longitude": -81.32404226105838
-    },
-    {
+      "longitude": -81.32404226105838,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 68,
       "city": "Miami",
       "state": "Florida",
@@ -746,9 +813,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1645534341",
       "latitude": 29.56555862668922,
-      "longitude": -82.02162545853281
-    },
-    {
+      "longitude": -82.02162545853281,
+      "specialty": "Special Events"
+  },
+  {
       "id": 69,
       "city": "Hollywood",
       "state": "Florida",
@@ -757,9 +825,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1637028318",
       "latitude": 27.488277679551434,
-      "longitude": -80.68403882655461
-    },
-    {
+      "longitude": -80.68403882655461,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 70,
       "city": "Boynton Beach",
       "state": "Florida",
@@ -768,9 +837,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1622358506",
       "latitude": 27.794579923031453,
-      "longitude": -81.61210774016695
-    },
-    {
+      "longitude": -81.61210774016695,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 71,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -779,9 +849,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1632218660",
       "latitude": 28.37443754587361,
-      "longitude": -79.61368114201962
-    },
-    {
+      "longitude": -79.61368114201962,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 72,
       "city": "Miami",
       "state": "Florida",
@@ -790,9 +861,10 @@ module.exports = [
       "clientID": 92,
       "timestamp": "1637745431",
       "latitude": 27.610685028392567,
-      "longitude": -80.00972906493449
-    },
-    {
+      "longitude": -80.00972906493449,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 73,
       "city": "Vero Beach",
       "state": "Florida",
@@ -801,9 +873,10 @@ module.exports = [
       "clientID": 4,
       "timestamp": "1626728477",
       "latitude": 29.176598783996525,
-      "longitude": -81.49295574000259
-    },
-    {
+      "longitude": -81.49295574000259,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 74,
       "city": "Homestead",
       "state": "Florida",
@@ -812,9 +885,10 @@ module.exports = [
       "clientID": 125,
       "timestamp": "1642550980",
       "latitude": 27.82821136972271,
-      "longitude": -80.73430874161512
-    },
-    {
+      "longitude": -80.73430874161512,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 75,
       "city": "Miami",
       "state": "Florida",
@@ -823,9 +897,10 @@ module.exports = [
       "clientID": 4,
       "timestamp": "1650418212",
       "latitude": 28.985643932315046,
-      "longitude": -82.76591063314753
-    },
-    {
+      "longitude": -82.76591063314753,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 76,
       "city": "Boca Raton",
       "state": "Florida",
@@ -834,9 +909,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1625069410",
       "latitude": 28.91920036603767,
-      "longitude": -79.75354400804272
-    },
-    {
+      "longitude": -79.75354400804272,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 77,
       "city": "Miami",
       "state": "Florida",
@@ -845,9 +921,10 @@ module.exports = [
       "clientID": 132,
       "timestamp": "1625076074",
       "latitude": 27.55248385824032,
-      "longitude": -80.88413882888764
-    },
-    {
+      "longitude": -80.88413882888764,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 78,
       "city": "Sarasota",
       "state": "Florida",
@@ -856,9 +933,10 @@ module.exports = [
       "clientID": 11,
       "timestamp": "1646072518",
       "latitude": 28.919518318872594,
-      "longitude": -80.60342722705386
-    },
-    {
+      "longitude": -80.60342722705386,
+      "specialty": "Contract"
+  },
+  {
       "id": 79,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -867,9 +945,10 @@ module.exports = [
       "clientID": 131,
       "timestamp": "1633222416",
       "latitude": 28.859055974354607,
-      "longitude": -82.07814610114788
-    },
-    {
+      "longitude": -82.07814610114788,
+      "specialty": "Surveying"
+  },
+  {
       "id": 80,
       "city": "Sarasota",
       "state": "Florida",
@@ -878,9 +957,10 @@ module.exports = [
       "clientID": 131,
       "timestamp": "1624824920",
       "latitude": 29.165718535947242,
-      "longitude": -82.3178847550588
-    },
-    {
+      "longitude": -82.3178847550588,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 81,
       "city": "Daytona Beach",
       "state": "Florida",
@@ -889,9 +969,10 @@ module.exports = [
       "clientID": 133,
       "timestamp": "1628148231",
       "latitude": 27.24130354207316,
-      "longitude": -80.95259192077077
-    },
-    {
+      "longitude": -80.95259192077077,
+      "specialty": "Surveying"
+  },
+  {
       "id": 82,
       "city": "Port Charlotte",
       "state": "Florida",
@@ -900,9 +981,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1626494550",
       "latitude": 28.47518327646378,
-      "longitude": -82.11676437944934
-    },
-    {
+      "longitude": -82.11676437944934,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 83,
       "city": "Miami",
       "state": "Florida",
@@ -911,9 +993,10 @@ module.exports = [
       "clientID": 46,
       "timestamp": "1647343146",
       "latitude": 28.68273556223446,
-      "longitude": -80.28324238558575
-    },
-    {
+      "longitude": -80.28324238558575,
+      "specialty": "Special Events"
+  },
+  {
       "id": 84,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -922,9 +1005,10 @@ module.exports = [
       "clientID": 82,
       "timestamp": "1622925087",
       "latitude": 27.859296155622154,
-      "longitude": -80.32342331059466
-    },
-    {
+      "longitude": -80.32342331059466,
+      "specialty": "Insurance"
+  },
+  {
       "id": 85,
       "city": "Pensacola",
       "state": "Florida",
@@ -933,9 +1017,10 @@ module.exports = [
       "clientID": 46,
       "timestamp": "1635131615",
       "latitude": 28.99515169893111,
-      "longitude": -79.9590096312575
-    },
-    {
+      "longitude": -79.9590096312575,
+      "specialty": "Wedding"
+  },
+  {
       "id": 86,
       "city": "Fort Myers",
       "state": "Florida",
@@ -944,9 +1029,10 @@ module.exports = [
       "clientID": 153,
       "timestamp": "1627787067",
       "latitude": 28.711098052160356,
-      "longitude": -81.29749231630254
-    },
-    {
+      "longitude": -81.29749231630254,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 87,
       "city": "Pensacola",
       "state": "Florida",
@@ -955,9 +1041,10 @@ module.exports = [
       "clientID": 116,
       "timestamp": "1636770591",
       "latitude": 28.335657971437673,
-      "longitude": -81.03528066031919
-    },
-    {
+      "longitude": -81.03528066031919,
+      "specialty": "Special Events"
+  },
+  {
       "id": 88,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -966,9 +1053,10 @@ module.exports = [
       "clientID": 28,
       "timestamp": "1647996760",
       "latitude": 28.2739969101045,
-      "longitude": -81.20408457257842
-    },
-    {
+      "longitude": -81.20408457257842,
+      "specialty": "Special Events"
+  },
+  {
       "id": 89,
       "city": "Pensacola",
       "state": "Florida",
@@ -977,9 +1065,10 @@ module.exports = [
       "clientID": 35,
       "timestamp": "1630956011",
       "latitude": 29.933995177434035,
-      "longitude": -80.83982160414371
-    },
-    {
+      "longitude": -80.83982160414371,
+      "specialty": "Contract"
+  },
+  {
       "id": 90,
       "city": "Naples",
       "state": "Florida",
@@ -988,9 +1077,10 @@ module.exports = [
       "clientID": 94,
       "timestamp": "1646013887",
       "latitude": 27.558433640227026,
-      "longitude": -80.21514316237983
-    },
-    {
+      "longitude": -80.21514316237983,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 91,
       "city": "Pensacola",
       "state": "Florida",
@@ -999,9 +1089,10 @@ module.exports = [
       "clientID": 182,
       "timestamp": "1635735232",
       "latitude": 29.294065415631305,
-      "longitude": -82.02197031556837
-    },
-    {
+      "longitude": -82.02197031556837,
+      "specialty": "Wedding"
+  },
+  {
       "id": 92,
       "city": "Bradenton",
       "state": "Florida",
@@ -1010,9 +1101,10 @@ module.exports = [
       "clientID": 152,
       "timestamp": "1638796065",
       "latitude": 28.29943246147198,
-      "longitude": -81.94468536129118
-    },
-    {
+      "longitude": -81.94468536129118,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 93,
       "city": "Hialeah",
       "state": "Florida",
@@ -1021,9 +1113,10 @@ module.exports = [
       "clientID": 15,
       "timestamp": "1626151079",
       "latitude": 29.028980776594146,
-      "longitude": -80.78939967368555
-    },
-    {
+      "longitude": -80.78939967368555,
+      "specialty": "Wedding"
+  },
+  {
       "id": 94,
       "city": "Tampa",
       "state": "Florida",
@@ -1032,9 +1125,10 @@ module.exports = [
       "clientID": 15,
       "timestamp": "1650918536",
       "latitude": 27.564773701000714,
-      "longitude": -80.23508802752113
-    },
-    {
+      "longitude": -80.23508802752113,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 95,
       "city": "Panama City",
       "state": "Florida",
@@ -1043,9 +1137,10 @@ module.exports = [
       "clientID": 4,
       "timestamp": "1650332497",
       "latitude": 29.60001778579277,
-      "longitude": -81.96809901981845
-    },
-    {
+      "longitude": -81.96809901981845,
+      "specialty": "Special Events"
+  },
+  {
       "id": 96,
       "city": "Bradenton",
       "state": "Florida",
@@ -1054,9 +1149,10 @@ module.exports = [
       "clientID": 133,
       "timestamp": "1629112386",
       "latitude": 28.54766299050395,
-      "longitude": -81.120138524279
-    },
-    {
+      "longitude": -81.120138524279,
+      "specialty": "Insurance"
+  },
+  {
       "id": 97,
       "city": "Miami",
       "state": "Florida",
@@ -1065,9 +1161,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1635125852",
       "latitude": 27.827685384208372,
-      "longitude": -80.75230526919313
-    },
-    {
+      "longitude": -80.75230526919313,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 98,
       "city": "Fort Myers",
       "state": "Florida",
@@ -1076,9 +1173,10 @@ module.exports = [
       "clientID": 2,
       "timestamp": "1639826191",
       "latitude": 29.35427053882796,
-      "longitude": -82.22510152333535
-    },
-    {
+      "longitude": -82.22510152333535,
+      "specialty": "Contract"
+  },
+  {
       "id": 99,
       "city": "Bradenton",
       "state": "Florida",
@@ -1087,9 +1185,10 @@ module.exports = [
       "clientID": 4,
       "timestamp": "1640730230",
       "latitude": 28.06870382066372,
-      "longitude": -81.49660827849033
-    },
-    {
+      "longitude": -81.49660827849033,
+      "specialty": "Wedding"
+  },
+  {
       "id": 100,
       "city": "Panama City",
       "state": "Florida",
@@ -1098,9 +1197,10 @@ module.exports = [
       "clientID": 82,
       "timestamp": "1630473206",
       "latitude": 29.435337180191453,
-      "longitude": -80.90443693686153
-    },
-    {
+      "longitude": -80.90443693686153,
+      "specialty": "Insurance"
+  },
+  {
       "id": 101,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1109,9 +1209,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1627994758",
       "latitude": 28.816116030616133,
-      "longitude": -82.18196600563428
-    },
-    {
+      "longitude": -82.18196600563428,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 102,
       "city": "Miami Beach",
       "state": "Florida",
@@ -1120,9 +1221,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1649627842",
       "latitude": 27.586672595904016,
-      "longitude": -81.9126405078874
-    },
-    {
+      "longitude": -81.9126405078874,
+      "specialty": "Wedding"
+  },
+  {
       "id": 103,
       "city": "Miami",
       "state": "Florida",
@@ -1131,9 +1233,10 @@ module.exports = [
       "clientID": 95,
       "timestamp": "1648575659",
       "latitude": 28.49550598756017,
-      "longitude": -82.48243711636601
-    },
-    {
+      "longitude": -82.48243711636601,
+      "specialty": "Special Events"
+  },
+  {
       "id": 104,
       "city": "Miami",
       "state": "Florida",
@@ -1142,9 +1245,10 @@ module.exports = [
       "clientID": 59,
       "timestamp": "1635377554",
       "latitude": 28.770400678818664,
-      "longitude": -81.27632265315493
-    },
-    {
+      "longitude": -81.27632265315493,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 105,
       "city": "Miami",
       "state": "Florida",
@@ -1153,9 +1257,10 @@ module.exports = [
       "clientID": 133,
       "timestamp": "1631691967",
       "latitude": 29.424666488803542,
-      "longitude": -80.91631142948077
-    },
-    {
+      "longitude": -80.91631142948077,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 106,
       "city": "Tampa",
       "state": "Florida",
@@ -1164,9 +1269,10 @@ module.exports = [
       "clientID": 20,
       "timestamp": "1628639366",
       "latitude": 27.84606149306304,
-      "longitude": -82.37052486991708
-    },
-    {
+      "longitude": -82.37052486991708,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 107,
       "city": "Palm Bay",
       "state": "Florida",
@@ -1175,9 +1281,10 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1622055121",
       "latitude": 28.158369643781842,
-      "longitude": -80.46595755803396
-    },
-    {
+      "longitude": -80.46595755803396,
+      "specialty": "Insurance"
+  },
+  {
       "id": 108,
       "city": "Vero Beach",
       "state": "Florida",
@@ -1186,9 +1293,10 @@ module.exports = [
       "clientID": 151,
       "timestamp": "1644129610",
       "latitude": 28.337273241231536,
-      "longitude": -80.16386925986343
-    },
-    {
+      "longitude": -80.16386925986343,
+      "specialty": "Contract"
+  },
+  {
       "id": 109,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -1197,9 +1305,10 @@ module.exports = [
       "clientID": 131,
       "timestamp": "1636848965",
       "latitude": 27.408083188325033,
-      "longitude": -81.91195989130371
-    },
-    {
+      "longitude": -81.91195989130371,
+      "specialty": "Special Events"
+  },
+  {
       "id": 110,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -1208,9 +1317,10 @@ module.exports = [
       "clientID": 114,
       "timestamp": "1623478581",
       "latitude": 28.84411710434236,
-      "longitude": -81.51722985264293
-    },
-    {
+      "longitude": -81.51722985264293,
+      "specialty": "Surveying"
+  },
+  {
       "id": 111,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1219,9 +1329,10 @@ module.exports = [
       "clientID": 146,
       "timestamp": "1645546810",
       "latitude": 28.148122475435766,
-      "longitude": -81.16764851142032
-    },
-    {
+      "longitude": -81.16764851142032,
+      "specialty": "Special Events"
+  },
+  {
       "id": 112,
       "city": "Pensacola",
       "state": "Florida",
@@ -1230,9 +1341,10 @@ module.exports = [
       "clientID": 68,
       "timestamp": "1645697889",
       "latitude": 29.768184776417353,
-      "longitude": -81.43028579614082
-    },
-    {
+      "longitude": -81.43028579614082,
+      "specialty": "Contract"
+  },
+  {
       "id": 113,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -1241,9 +1353,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1624665863",
       "latitude": 27.523796535971947,
-      "longitude": -81.73231927602471
-    },
-    {
+      "longitude": -81.73231927602471,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 114,
       "city": "Hialeah",
       "state": "Florida",
@@ -1252,9 +1365,10 @@ module.exports = [
       "clientID": 79,
       "timestamp": "1648029061",
       "latitude": 28.848277187079244,
-      "longitude": -81.64080737527489
-    },
-    {
+      "longitude": -81.64080737527489,
+      "specialty": "Contract"
+  },
+  {
       "id": 115,
       "city": "Bradenton",
       "state": "Florida",
@@ -1263,9 +1377,10 @@ module.exports = [
       "clientID": 135,
       "timestamp": "1652731324",
       "latitude": 27.97878830541942,
-      "longitude": -80.3174409011836
-    },
-    {
+      "longitude": -80.3174409011836,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 116,
       "city": "Orlando",
       "state": "Florida",
@@ -1274,9 +1389,10 @@ module.exports = [
       "clientID": 80,
       "timestamp": "1653140387",
       "latitude": 28.989731303082696,
-      "longitude": -82.67767413088875
-    },
-    {
+      "longitude": -82.67767413088875,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 117,
       "city": "Delray Beach",
       "state": "Florida",
@@ -1285,9 +1401,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1624006599",
       "latitude": 28.58397792121743,
-      "longitude": -82.21824307702786
-    },
-    {
+      "longitude": -82.21824307702786,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 118,
       "city": "Naples",
       "state": "Florida",
@@ -1296,9 +1413,10 @@ module.exports = [
       "clientID": 178,
       "timestamp": "1646621524",
       "latitude": 29.39066771837224,
-      "longitude": -81.91889638656946
-    },
-    {
+      "longitude": -81.91889638656946,
+      "specialty": "Wedding"
+  },
+  {
       "id": 119,
       "city": "Tampa",
       "state": "Florida",
@@ -1307,9 +1425,10 @@ module.exports = [
       "clientID": 70,
       "timestamp": "1641341100",
       "latitude": 28.597511756134068,
-      "longitude": -81.11453608327304
-    },
-    {
+      "longitude": -81.11453608327304,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 120,
       "city": "Orlando",
       "state": "Florida",
@@ -1318,9 +1437,10 @@ module.exports = [
       "clientID": 71,
       "timestamp": "1651440057",
       "latitude": 29.191298631759864,
-      "longitude": -82.47763121905405
-    },
-    {
+      "longitude": -82.47763121905405,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 121,
       "city": "Naples",
       "state": "Florida",
@@ -1329,9 +1449,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1629496186",
       "latitude": 27.965594837819033,
-      "longitude": -80.9894952758424
-    },
-    {
+      "longitude": -80.9894952758424,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 122,
       "city": "Naples",
       "state": "Florida",
@@ -1340,9 +1461,10 @@ module.exports = [
       "clientID": 28,
       "timestamp": "1653321760",
       "latitude": 27.569972392203375,
-      "longitude": -80.90203796727889
-    },
-    {
+      "longitude": -80.90203796727889,
+      "specialty": "Surveying"
+  },
+  {
       "id": 123,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1351,9 +1473,10 @@ module.exports = [
       "clientID": 49,
       "timestamp": "1632301115",
       "latitude": 28.163124599182964,
-      "longitude": -81.04375879340172
-    },
-    {
+      "longitude": -81.04375879340172,
+      "specialty": "Surveying"
+  },
+  {
       "id": 124,
       "city": "Orlando",
       "state": "Florida",
@@ -1362,9 +1485,10 @@ module.exports = [
       "clientID": 158,
       "timestamp": "1641841597",
       "latitude": 28.679605759550693,
-      "longitude": -82.17172223786409
-    },
-    {
+      "longitude": -82.17172223786409,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 125,
       "city": "Sarasota",
       "state": "Florida",
@@ -1373,9 +1497,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1622663127",
       "latitude": 29.33985580286554,
-      "longitude": -81.62697064345099
-    },
-    {
+      "longitude": -81.62697064345099,
+      "specialty": "Special Events"
+  },
+  {
       "id": 126,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1384,9 +1509,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1630759417",
       "latitude": 28.017015925088838,
-      "longitude": -82.71324565260436
-    },
-    {
+      "longitude": -82.71324565260436,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 127,
       "city": "Clearwater",
       "state": "Florida",
@@ -1395,9 +1521,10 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1634974689",
       "latitude": 27.68280755715796,
-      "longitude": -80.23137129926994
-    },
-    {
+      "longitude": -80.23137129926994,
+      "specialty": "Contract"
+  },
+  {
       "id": 128,
       "city": "Tampa",
       "state": "Florida",
@@ -1406,9 +1533,10 @@ module.exports = [
       "clientID": 61,
       "timestamp": "1646267681",
       "latitude": 29.334501413950534,
-      "longitude": -81.53034609685992
-    },
-    {
+      "longitude": -81.53034609685992,
+      "specialty": "Wedding"
+  },
+  {
       "id": 129,
       "city": "Fort Myers",
       "state": "Florida",
@@ -1417,9 +1545,10 @@ module.exports = [
       "clientID": 125,
       "timestamp": "1647966547",
       "latitude": 28.48462791749372,
-      "longitude": -82.63037572068914
-    },
-    {
+      "longitude": -82.63037572068914,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 130,
       "city": "Boca Raton",
       "state": "Florida",
@@ -1428,9 +1557,10 @@ module.exports = [
       "clientID": 152,
       "timestamp": "1652441287",
       "latitude": 28.433035683112312,
-      "longitude": -81.89700983287577
-    },
-    {
+      "longitude": -81.89700983287577,
+      "specialty": "Special Events"
+  },
+  {
       "id": 131,
       "city": "Tampa",
       "state": "Florida",
@@ -1439,9 +1569,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1650928680",
       "latitude": 27.822280612197034,
-      "longitude": -82.19658820686819
-    },
-    {
+      "longitude": -82.19658820686819,
+      "specialty": "Contract"
+  },
+  {
       "id": 132,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1450,9 +1581,10 @@ module.exports = [
       "clientID": 133,
       "timestamp": "1640176908",
       "latitude": 27.9208606200422,
-      "longitude": -79.94223184760632
-    },
-    {
+      "longitude": -79.94223184760632,
+      "specialty": "Wedding"
+  },
+  {
       "id": 133,
       "city": "Pinellas Park",
       "state": "Florida",
@@ -1461,9 +1593,10 @@ module.exports = [
       "clientID": 200,
       "timestamp": "1625567325",
       "latitude": 28.74911777761534,
-      "longitude": -81.42301864417203
-    },
-    {
+      "longitude": -81.42301864417203,
+      "specialty": "Insurance"
+  },
+  {
       "id": 134,
       "city": "Vero Beach",
       "state": "Florida",
@@ -1472,9 +1605,10 @@ module.exports = [
       "clientID": 33,
       "timestamp": "1636262379",
       "latitude": 27.803840107919882,
-      "longitude": -82.24610024668644
-    },
-    {
+      "longitude": -82.24610024668644,
+      "specialty": "Insurance"
+  },
+  {
       "id": 135,
       "city": "Boca Raton",
       "state": "Florida",
@@ -1483,9 +1617,10 @@ module.exports = [
       "clientID": 4,
       "timestamp": "1633883301",
       "latitude": 28.23009576695534,
-      "longitude": -82.45351707651615
-    },
-    {
+      "longitude": -82.45351707651615,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 136,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1494,9 +1629,10 @@ module.exports = [
       "clientID": 193,
       "timestamp": "1621757675",
       "latitude": 28.5514373080228,
-      "longitude": -82.38798981742553
-    },
-    {
+      "longitude": -82.38798981742553,
+      "specialty": "Wedding"
+  },
+  {
       "id": 137,
       "city": "North Port",
       "state": "Florida",
@@ -1505,9 +1641,10 @@ module.exports = [
       "clientID": 49,
       "timestamp": "1623048163",
       "latitude": 28.25127258860497,
-      "longitude": -79.63723339989838
-    },
-    {
+      "longitude": -79.63723339989838,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 138,
       "city": "Seminole",
       "state": "Florida",
@@ -1516,9 +1653,10 @@ module.exports = [
       "clientID": 178,
       "timestamp": "1645161876",
       "latitude": 27.888084722515284,
-      "longitude": -81.25591516833042
-    },
-    {
+      "longitude": -81.25591516833042,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 139,
       "city": "Naples",
       "state": "Florida",
@@ -1527,9 +1665,10 @@ module.exports = [
       "clientID": 152,
       "timestamp": "1629562905",
       "latitude": 27.857532991410608,
-      "longitude": -81.39773923144135
-    },
-    {
+      "longitude": -81.39773923144135,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 140,
       "city": "Zephyrhills",
       "state": "Florida",
@@ -1538,9 +1677,10 @@ module.exports = [
       "clientID": 2,
       "timestamp": "1647032315",
       "latitude": 29.307583008194623,
-      "longitude": -80.7724243690775
-    },
-    {
+      "longitude": -80.7724243690775,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 141,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -1549,9 +1689,10 @@ module.exports = [
       "clientID": 193,
       "timestamp": "1649006715",
       "latitude": 29.43632591054712,
-      "longitude": -82.36276105155879
-    },
-    {
+      "longitude": -82.36276105155879,
+      "specialty": "Insurance"
+  },
+  {
       "id": 142,
       "city": "Delray Beach",
       "state": "Florida",
@@ -1560,9 +1701,10 @@ module.exports = [
       "clientID": 68,
       "timestamp": "1646101267",
       "latitude": 28.244815802656383,
-      "longitude": -81.20193936917822
-    },
-    {
+      "longitude": -81.20193936917822,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 143,
       "city": "Spring Hill",
       "state": "Florida",
@@ -1571,9 +1713,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1629277305",
       "latitude": 27.923721328317896,
-      "longitude": -82.11802862872794
-    },
-    {
+      "longitude": -82.11802862872794,
+      "specialty": "Special Events"
+  },
+  {
       "id": 144,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1582,9 +1725,10 @@ module.exports = [
       "clientID": 149,
       "timestamp": "1641250566",
       "latitude": 27.497751372133102,
-      "longitude": -80.3946922740448
-    },
-    {
+      "longitude": -80.3946922740448,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 145,
       "city": "Miami",
       "state": "Florida",
@@ -1593,9 +1737,10 @@ module.exports = [
       "clientID": 42,
       "timestamp": "1630063255",
       "latitude": 29.869803923764138,
-      "longitude": -80.63225579335247
-    },
-    {
+      "longitude": -80.63225579335247,
+      "specialty": "Contract"
+  },
+  {
       "id": 146,
       "city": "Winter Haven",
       "state": "Florida",
@@ -1604,9 +1749,10 @@ module.exports = [
       "clientID": 171,
       "timestamp": "1649669318",
       "latitude": 28.836043548026062,
-      "longitude": -82.63166509242147
-    },
-    {
+      "longitude": -82.63166509242147,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 147,
       "city": "Clearwater",
       "state": "Florida",
@@ -1615,9 +1761,10 @@ module.exports = [
       "clientID": 170,
       "timestamp": "1631546901",
       "latitude": 27.36364974050125,
-      "longitude": -80.37841666936573
-    },
-    {
+      "longitude": -80.37841666936573,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 148,
       "city": "Spring Hill",
       "state": "Florida",
@@ -1626,9 +1773,10 @@ module.exports = [
       "clientID": 103,
       "timestamp": "1624937246",
       "latitude": 29.10347544757788,
-      "longitude": -79.97171820467402
-    },
-    {
+      "longitude": -79.97171820467402,
+      "specialty": "Wedding"
+  },
+  {
       "id": 149,
       "city": "Fort Myers",
       "state": "Florida",
@@ -1637,9 +1785,10 @@ module.exports = [
       "clientID": 41,
       "timestamp": "1637613168",
       "latitude": 28.701723252211778,
-      "longitude": -80.69464790136868
-    },
-    {
+      "longitude": -80.69464790136868,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 150,
       "city": "Palm Bay",
       "state": "Florida",
@@ -1648,9 +1797,10 @@ module.exports = [
       "clientID": 176,
       "timestamp": "1624241762",
       "latitude": 28.406341943687035,
-      "longitude": -82.04838341873888
-    },
-    {
+      "longitude": -82.04838341873888,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 151,
       "city": "Bradenton",
       "state": "Florida",
@@ -1659,9 +1809,10 @@ module.exports = [
       "clientID": 81,
       "timestamp": "1623929038",
       "latitude": 29.73018541766257,
-      "longitude": -81.5115287799629
-    },
-    {
+      "longitude": -81.5115287799629,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 152,
       "city": "Tampa",
       "state": "Florida",
@@ -1670,9 +1821,10 @@ module.exports = [
       "clientID": 64,
       "timestamp": "1640130675",
       "latitude": 28.62017653176974,
-      "longitude": -79.73392043358055
-    },
-    {
+      "longitude": -79.73392043358055,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 153,
       "city": "Port Saint Lucie",
       "state": "Florida",
@@ -1681,9 +1833,10 @@ module.exports = [
       "clientID": 178,
       "timestamp": "1632875483",
       "latitude": 28.594346758855387,
-      "longitude": -80.59398236144713
-    },
-    {
+      "longitude": -80.59398236144713,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 154,
       "city": "Fort Myers",
       "state": "Florida",
@@ -1692,9 +1845,10 @@ module.exports = [
       "clientID": 193,
       "timestamp": "1641257289",
       "latitude": 29.73807901767812,
-      "longitude": -80.36097917088883
-    },
-    {
+      "longitude": -80.36097917088883,
+      "specialty": "Special Events"
+  },
+  {
       "id": 155,
       "city": "Orlando",
       "state": "Florida",
@@ -1703,9 +1857,10 @@ module.exports = [
       "clientID": 140,
       "timestamp": "1651304747",
       "latitude": 28.316931414699074,
-      "longitude": -82.09224261732881
-    },
-    {
+      "longitude": -82.09224261732881,
+      "specialty": "Wedding"
+  },
+  {
       "id": 156,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1714,9 +1869,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1626586975",
       "latitude": 27.714536321210687,
-      "longitude": -80.17800589595434
-    },
-    {
+      "longitude": -80.17800589595434,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 157,
       "city": "Ocala",
       "state": "Florida",
@@ -1725,9 +1881,10 @@ module.exports = [
       "clientID": 108,
       "timestamp": "1646400001",
       "latitude": 28.052427779127793,
-      "longitude": -81.4805370717877
-    },
-    {
+      "longitude": -81.4805370717877,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 158,
       "city": "Lakeland",
       "state": "Florida",
@@ -1736,9 +1893,10 @@ module.exports = [
       "clientID": 79,
       "timestamp": "1651273056",
       "latitude": 27.640385925877215,
-      "longitude": -81.47408808267433
-    },
-    {
+      "longitude": -81.47408808267433,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 159,
       "city": "Pensacola",
       "state": "Florida",
@@ -1747,9 +1905,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1648669405",
       "latitude": 29.259317403296258,
-      "longitude": -80.11348201250922
-    },
-    {
+      "longitude": -80.11348201250922,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 160,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1758,9 +1917,10 @@ module.exports = [
       "clientID": 135,
       "timestamp": "1629431644",
       "latitude": 27.494828552580888,
-      "longitude": -82.31651233593885
-    },
-    {
+      "longitude": -82.31651233593885,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 161,
       "city": "Miami",
       "state": "Florida",
@@ -1769,9 +1929,10 @@ module.exports = [
       "clientID": 146,
       "timestamp": "1652860748",
       "latitude": 28.348050812916995,
-      "longitude": -81.74261236381017
-    },
-    {
+      "longitude": -81.74261236381017,
+      "specialty": "Wedding"
+  },
+  {
       "id": 162,
       "city": "Orlando",
       "state": "Florida",
@@ -1780,9 +1941,10 @@ module.exports = [
       "clientID": 111,
       "timestamp": "1650315941",
       "latitude": 29.157935994217464,
-      "longitude": -80.43101163705877
-    },
-    {
+      "longitude": -80.43101163705877,
+      "specialty": "Surveying"
+  },
+  {
       "id": 163,
       "city": "Clearwater",
       "state": "Florida",
@@ -1791,9 +1953,10 @@ module.exports = [
       "clientID": 150,
       "timestamp": "1653307580",
       "latitude": 27.545205919494226,
-      "longitude": -82.30279360934908
-    },
-    {
+      "longitude": -82.30279360934908,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 164,
       "city": "Pensacola",
       "state": "Florida",
@@ -1802,9 +1965,10 @@ module.exports = [
       "clientID": 182,
       "timestamp": "1649861372",
       "latitude": 28.950047739528454,
-      "longitude": -80.23416610526444
-    },
-    {
+      "longitude": -80.23416610526444,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 165,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -1813,9 +1977,10 @@ module.exports = [
       "clientID": 114,
       "timestamp": "1641879683",
       "latitude": 28.15441044143186,
-      "longitude": -80.75148420117195
-    },
-    {
+      "longitude": -80.75148420117195,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 166,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -1824,9 +1989,10 @@ module.exports = [
       "clientID": 122,
       "timestamp": "1622265054",
       "latitude": 27.55988287800203,
-      "longitude": -80.0135682018821
-    },
-    {
+      "longitude": -80.0135682018821,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 167,
       "city": "Tampa",
       "state": "Florida",
@@ -1835,9 +2001,10 @@ module.exports = [
       "clientID": 72,
       "timestamp": "1643727119",
       "latitude": 27.482940690077534,
-      "longitude": -82.24864009109672
-    },
-    {
+      "longitude": -82.24864009109672,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 168,
       "city": "Miami",
       "state": "Florida",
@@ -1846,9 +2013,10 @@ module.exports = [
       "clientID": 10,
       "timestamp": "1645660915",
       "latitude": 27.540653015030028,
-      "longitude": -80.76746773821692
-    },
-    {
+      "longitude": -80.76746773821692,
+      "specialty": "Surveying"
+  },
+  {
       "id": 169,
       "city": "Clearwater",
       "state": "Florida",
@@ -1857,9 +2025,10 @@ module.exports = [
       "clientID": 64,
       "timestamp": "1630068320",
       "latitude": 28.814381310429194,
-      "longitude": -80.87443143000178
-    },
-    {
+      "longitude": -80.87443143000178,
+      "specialty": "Special Events"
+  },
+  {
       "id": 170,
       "city": "Miami",
       "state": "Florida",
@@ -1868,9 +2037,10 @@ module.exports = [
       "clientID": 11,
       "timestamp": "1642581536",
       "latitude": 28.027884936938328,
-      "longitude": -82.36220771179914
-    },
-    {
+      "longitude": -82.36220771179914,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 171,
       "city": "Naples",
       "state": "Florida",
@@ -1879,9 +2049,10 @@ module.exports = [
       "clientID": 64,
       "timestamp": "1637363588",
       "latitude": 28.148772114994074,
-      "longitude": -80.65271546983723
-    },
-    {
+      "longitude": -80.65271546983723,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 172,
       "city": "Lake Worth",
       "state": "Florida",
@@ -1890,9 +2061,10 @@ module.exports = [
       "clientID": 181,
       "timestamp": "1650648394",
       "latitude": 29.461754428909835,
-      "longitude": -80.90740441380474
-    },
-    {
+      "longitude": -80.90740441380474,
+      "specialty": "Insurance"
+  },
+  {
       "id": 173,
       "city": "Tampa",
       "state": "Florida",
@@ -1901,9 +2073,10 @@ module.exports = [
       "clientID": 164,
       "timestamp": "1620617953",
       "latitude": 27.60367732895811,
-      "longitude": -80.04092675823706
-    },
-    {
+      "longitude": -80.04092675823706,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 174,
       "city": "Tampa",
       "state": "Florida",
@@ -1912,9 +2085,10 @@ module.exports = [
       "clientID": 7,
       "timestamp": "1646810145",
       "latitude": 28.571947642182256,
-      "longitude": -82.29402307014077
-    },
-    {
+      "longitude": -82.29402307014077,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 175,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1923,9 +2097,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1649330940",
       "latitude": 27.649543461418652,
-      "longitude": -80.69026679171222
-    },
-    {
+      "longitude": -80.69026679171222,
+      "specialty": "Contract"
+  },
+  {
       "id": 176,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1934,9 +2109,10 @@ module.exports = [
       "clientID": 7,
       "timestamp": "1652908076",
       "latitude": 28.809467827880965,
-      "longitude": -79.88148072359824
-    },
-    {
+      "longitude": -79.88148072359824,
+      "specialty": "Insurance"
+  },
+  {
       "id": 177,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1945,9 +2121,10 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1647197733",
       "latitude": 28.182620266058727,
-      "longitude": -81.83690560216179
-    },
-    {
+      "longitude": -81.83690560216179,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 178,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -1956,9 +2133,10 @@ module.exports = [
       "clientID": 115,
       "timestamp": "1646627094",
       "latitude": 27.90371150123912,
-      "longitude": -80.73210340416577
-    },
-    {
+      "longitude": -80.73210340416577,
+      "specialty": "Insurance"
+  },
+  {
       "id": 179,
       "city": "Jacksonville",
       "state": "Florida",
@@ -1967,9 +2145,10 @@ module.exports = [
       "clientID": 184,
       "timestamp": "1653448363",
       "latitude": 28.54594594551539,
-      "longitude": -81.58979352397093
-    },
-    {
+      "longitude": -81.58979352397093,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 180,
       "city": "Tampa",
       "state": "Florida",
@@ -1978,9 +2157,10 @@ module.exports = [
       "clientID": 102,
       "timestamp": "1641549395",
       "latitude": 29.76301877487428,
-      "longitude": -80.76128728081538
-    },
-    {
+      "longitude": -80.76128728081538,
+      "specialty": "Contract"
+  },
+  {
       "id": 181,
       "city": "Tallahassee",
       "state": "Florida",
@@ -1989,9 +2169,10 @@ module.exports = [
       "clientID": 95,
       "timestamp": "1632855370",
       "latitude": 29.128707720213107,
-      "longitude": -81.15342672997755
-    },
-    {
+      "longitude": -81.15342672997755,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 182,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -2000,9 +2181,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1629748149",
       "latitude": 29.859164869732748,
-      "longitude": -81.70573051572849
-    },
-    {
+      "longitude": -81.70573051572849,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 183,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2011,9 +2193,10 @@ module.exports = [
       "clientID": 35,
       "timestamp": "1624095647",
       "latitude": 29.292673496200276,
-      "longitude": -82.2823624396554
-    },
-    {
+      "longitude": -82.2823624396554,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 184,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2022,9 +2205,10 @@ module.exports = [
       "clientID": 40,
       "timestamp": "1627411491",
       "latitude": 27.903535144114763,
-      "longitude": -80.95475794966107
-    },
-    {
+      "longitude": -80.95475794966107,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 185,
       "city": "Tampa",
       "state": "Florida",
@@ -2033,9 +2217,10 @@ module.exports = [
       "clientID": 99,
       "timestamp": "1629307596",
       "latitude": 27.277618069515988,
-      "longitude": -80.43155009516566
-    },
-    {
+      "longitude": -80.43155009516566,
+      "specialty": "Special Events"
+  },
+  {
       "id": 186,
       "city": "Orlando",
       "state": "Florida",
@@ -2044,9 +2229,10 @@ module.exports = [
       "clientID": 122,
       "timestamp": "1644223647",
       "latitude": 28.852026524367535,
-      "longitude": -79.66815413153356
-    },
-    {
+      "longitude": -79.66815413153356,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 187,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2055,9 +2241,10 @@ module.exports = [
       "clientID": 40,
       "timestamp": "1649068856",
       "latitude": 29.269673825215385,
-      "longitude": -80.78220554197975
-    },
-    {
+      "longitude": -80.78220554197975,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 188,
       "city": "Tampa",
       "state": "Florida",
@@ -2066,9 +2253,10 @@ module.exports = [
       "clientID": 81,
       "timestamp": "1645602424",
       "latitude": 28.92213438025253,
-      "longitude": -81.31891926775889
-    },
-    {
+      "longitude": -81.31891926775889,
+      "specialty": "Special Events"
+  },
+  {
       "id": 189,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2077,9 +2265,10 @@ module.exports = [
       "clientID": 129,
       "timestamp": "1650746529",
       "latitude": 28.032991067763238,
-      "longitude": -82.28708972550746
-    },
-    {
+      "longitude": -82.28708972550746,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 190,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2088,9 +2277,10 @@ module.exports = [
       "clientID": 101,
       "timestamp": "1646145068",
       "latitude": 27.370051127823746,
-      "longitude": -81.14247535655053
-    },
-    {
+      "longitude": -81.14247535655053,
+      "specialty": "Surveying"
+  },
+  {
       "id": 191,
       "city": "Pinellas Park",
       "state": "Florida",
@@ -2099,9 +2289,10 @@ module.exports = [
       "clientID": 164,
       "timestamp": "1622468833",
       "latitude": 27.44213716401044,
-      "longitude": -81.21925050770514
-    },
-    {
+      "longitude": -81.21925050770514,
+      "specialty": "Insurance"
+  },
+  {
       "id": 192,
       "city": "Tampa",
       "state": "Florida",
@@ -2110,9 +2301,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1636121880",
       "latitude": 27.741023304088195,
-      "longitude": -80.12705142747706
-    },
-    {
+      "longitude": -80.12705142747706,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 193,
       "city": "Cape Coral",
       "state": "Florida",
@@ -2121,9 +2313,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1652777350",
       "latitude": 29.631438644312087,
-      "longitude": -81.95188394051748
-    },
-    {
+      "longitude": -81.95188394051748,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 194,
       "city": "Miami",
       "state": "Florida",
@@ -2132,9 +2325,10 @@ module.exports = [
       "clientID": 129,
       "timestamp": "1625905305",
       "latitude": 29.551639965534214,
-      "longitude": -80.92588430565335
-    },
-    {
+      "longitude": -80.92588430565335,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 195,
       "city": "Tampa",
       "state": "Florida",
@@ -2143,9 +2337,10 @@ module.exports = [
       "clientID": 112,
       "timestamp": "1630299831",
       "latitude": 27.432082001729977,
-      "longitude": -81.41325575560325
-    },
-    {
+      "longitude": -81.41325575560325,
+      "specialty": "Wedding"
+  },
+  {
       "id": 196,
       "city": "Saint Augustine",
       "state": "Florida",
@@ -2154,9 +2349,10 @@ module.exports = [
       "clientID": 125,
       "timestamp": "1640494676",
       "latitude": 29.057559057050113,
-      "longitude": -82.08415947738575
-    },
-    {
+      "longitude": -82.08415947738575,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 197,
       "city": "Pinellas Park",
       "state": "Florida",
@@ -2165,9 +2361,10 @@ module.exports = [
       "clientID": 127,
       "timestamp": "1647655408",
       "latitude": 29.07259183675478,
-      "longitude": -81.48512872735586
-    },
-    {
+      "longitude": -81.48512872735586,
+      "specialty": "Special Events"
+  },
+  {
       "id": 198,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2176,9 +2373,10 @@ module.exports = [
       "clientID": 25,
       "timestamp": "1632741695",
       "latitude": 28.81182077860077,
-      "longitude": -79.80800621122565
-    },
-    {
+      "longitude": -79.80800621122565,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 199,
       "city": "Port Charlotte",
       "state": "Florida",
@@ -2187,9 +2385,10 @@ module.exports = [
       "clientID": 43,
       "timestamp": "1637558155",
       "latitude": 27.328491027942075,
-      "longitude": -80.39725748042365
-    },
-    {
+      "longitude": -80.39725748042365,
+      "specialty": "Insurance"
+  },
+  {
       "id": 200,
       "city": "Orlando",
       "state": "Florida",
@@ -2198,9 +2397,10 @@ module.exports = [
       "clientID": 124,
       "timestamp": "1637815244",
       "latitude": 27.63616680534539,
-      "longitude": -82.08605007480037
-    },
-    {
+      "longitude": -82.08605007480037,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 201,
       "city": "Fort Pierce",
       "state": "Florida",
@@ -2209,9 +2409,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1640506236",
       "latitude": 27.402362071405364,
-      "longitude": -81.02264477877354
-    },
-    {
+      "longitude": -81.02264477877354,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 202,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2220,9 +2421,10 @@ module.exports = [
       "clientID": 116,
       "timestamp": "1635727510",
       "latitude": 29.18973888289098,
-      "longitude": -82.67911129396653
-    },
-    {
+      "longitude": -82.67911129396653,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 203,
       "city": "Ocala",
       "state": "Florida",
@@ -2231,9 +2433,10 @@ module.exports = [
       "clientID": 122,
       "timestamp": "1629110800",
       "latitude": 29.770723503183305,
-      "longitude": -80.76995913687975
-    },
-    {
+      "longitude": -80.76995913687975,
+      "specialty": "Surveying"
+  },
+  {
       "id": 204,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2242,9 +2445,10 @@ module.exports = [
       "clientID": 22,
       "timestamp": "1651365640",
       "latitude": 28.617374929281663,
-      "longitude": -82.49637617954295
-    },
-    {
+      "longitude": -82.49637617954295,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 205,
       "city": "Tampa",
       "state": "Florida",
@@ -2253,9 +2457,10 @@ module.exports = [
       "clientID": 59,
       "timestamp": "1626276900",
       "latitude": 29.857548507531217,
-      "longitude": -81.66060787152658
-    },
-    {
+      "longitude": -81.66060787152658,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 206,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -2264,9 +2469,10 @@ module.exports = [
       "clientID": 41,
       "timestamp": "1641877105",
       "latitude": 27.7501038729866,
-      "longitude": -80.79596573730495
-    },
-    {
+      "longitude": -80.79596573730495,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 207,
       "city": "Bradenton",
       "state": "Florida",
@@ -2275,9 +2481,10 @@ module.exports = [
       "clientID": 20,
       "timestamp": "1632306646",
       "latitude": 29.42042308559472,
-      "longitude": -81.18590826098165
-    },
-    {
+      "longitude": -81.18590826098165,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 208,
       "city": "Pensacola",
       "state": "Florida",
@@ -2286,9 +2493,10 @@ module.exports = [
       "clientID": 181,
       "timestamp": "1649217249",
       "latitude": 29.93540228222395,
-      "longitude": -81.35530456243156
-    },
-    {
+      "longitude": -81.35530456243156,
+      "specialty": "Insurance"
+  },
+  {
       "id": 209,
       "city": "Miami",
       "state": "Florida",
@@ -2297,9 +2505,10 @@ module.exports = [
       "clientID": 59,
       "timestamp": "1652370731",
       "latitude": 29.378083180511776,
-      "longitude": -81.97817600725513
-    },
-    {
+      "longitude": -81.97817600725513,
+      "specialty": "Special Events"
+  },
+  {
       "id": 210,
       "city": "Tampa",
       "state": "Florida",
@@ -2308,9 +2517,10 @@ module.exports = [
       "clientID": 14,
       "timestamp": "1650595953",
       "latitude": 28.27542261036157,
-      "longitude": -81.87627081386171
-    },
-    {
+      "longitude": -81.87627081386171,
+      "specialty": "Wedding"
+  },
+  {
       "id": 211,
       "city": "Fort Pierce",
       "state": "Florida",
@@ -2319,9 +2529,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1624202954",
       "latitude": 28.168619945189317,
-      "longitude": -81.90812885220828
-    },
-    {
+      "longitude": -81.90812885220828,
+      "specialty": "Wedding"
+  },
+  {
       "id": 212,
       "city": "Lake Worth",
       "state": "Florida",
@@ -2330,9 +2541,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1651764311",
       "latitude": 28.478817537888137,
-      "longitude": -79.88861551966062
-    },
-    {
+      "longitude": -79.88861551966062,
+      "specialty": "Wedding"
+  },
+  {
       "id": 213,
       "city": "Tallahassee",
       "state": "Florida",
@@ -2341,9 +2553,10 @@ module.exports = [
       "clientID": 170,
       "timestamp": "1646903070",
       "latitude": 28.939767547570586,
-      "longitude": -81.0624430363104
-    },
-    {
+      "longitude": -81.0624430363104,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 214,
       "city": "Gainesville",
       "state": "Florida",
@@ -2352,9 +2565,10 @@ module.exports = [
       "clientID": 74,
       "timestamp": "1650054538",
       "latitude": 29.16131977309613,
-      "longitude": -82.45229054514321
-    },
-    {
+      "longitude": -82.45229054514321,
+      "specialty": "Contract"
+  },
+  {
       "id": 215,
       "city": "Pensacola",
       "state": "Florida",
@@ -2363,9 +2577,10 @@ module.exports = [
       "clientID": 140,
       "timestamp": "1638792024",
       "latitude": 29.0921759313146,
-      "longitude": -82.51077720502201
-    },
-    {
+      "longitude": -82.51077720502201,
+      "specialty": "Special Events"
+  },
+  {
       "id": 216,
       "city": "Tampa",
       "state": "Florida",
@@ -2374,9 +2589,10 @@ module.exports = [
       "clientID": 164,
       "timestamp": "1630659844",
       "latitude": 28.864266476600942,
-      "longitude": -81.13853892418341
-    },
-    {
+      "longitude": -81.13853892418341,
+      "specialty": "Insurance"
+  },
+  {
       "id": 217,
       "city": "Homestead",
       "state": "Florida",
@@ -2385,9 +2601,10 @@ module.exports = [
       "clientID": 49,
       "timestamp": "1626077105",
       "latitude": 28.306480209039247,
-      "longitude": -80.28090194351095
-    },
-    {
+      "longitude": -80.28090194351095,
+      "specialty": "Insurance"
+  },
+  {
       "id": 218,
       "city": "Miami",
       "state": "Florida",
@@ -2396,9 +2613,10 @@ module.exports = [
       "clientID": 63,
       "timestamp": "1631707687",
       "latitude": 29.50457153825837,
-      "longitude": -81.99839575184942
-    },
-    {
+      "longitude": -81.99839575184942,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 219,
       "city": "Miami",
       "state": "Florida",
@@ -2407,9 +2625,10 @@ module.exports = [
       "clientID": 129,
       "timestamp": "1624436951",
       "latitude": 28.590275497775735,
-      "longitude": -80.67929244945952
-    },
-    {
+      "longitude": -80.67929244945952,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 220,
       "city": "Tampa",
       "state": "Florida",
@@ -2418,9 +2637,10 @@ module.exports = [
       "clientID": 149,
       "timestamp": "1640353080",
       "latitude": 29.69084872972739,
-      "longitude": -82.03031474638347
-    },
-    {
+      "longitude": -82.03031474638347,
+      "specialty": "Wedding"
+  },
+  {
       "id": 221,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2429,9 +2649,10 @@ module.exports = [
       "clientID": 133,
       "timestamp": "1626580474",
       "latitude": 28.48760790214445,
-      "longitude": -82.06897379411414
-    },
-    {
+      "longitude": -82.06897379411414,
+      "specialty": "Insurance"
+  },
+  {
       "id": 222,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2440,9 +2661,10 @@ module.exports = [
       "clientID": 153,
       "timestamp": "1646013820",
       "latitude": 27.317854868733153,
-      "longitude": -81.75616690090108
-    },
-    {
+      "longitude": -81.75616690090108,
+      "specialty": "Insurance"
+  },
+  {
       "id": 223,
       "city": "Fort Pierce",
       "state": "Florida",
@@ -2451,9 +2673,10 @@ module.exports = [
       "clientID": 40,
       "timestamp": "1651734399",
       "latitude": 27.721566808675053,
-      "longitude": -82.0229935667811
-    },
-    {
+      "longitude": -82.0229935667811,
+      "specialty": "Insurance"
+  },
+  {
       "id": 224,
       "city": "Tallahassee",
       "state": "Florida",
@@ -2462,9 +2685,10 @@ module.exports = [
       "clientID": 74,
       "timestamp": "1653251896",
       "latitude": 28.437264010014967,
-      "longitude": -79.95527375966854
-    },
-    {
+      "longitude": -79.95527375966854,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 225,
       "city": "Miami",
       "state": "Florida",
@@ -2473,9 +2697,10 @@ module.exports = [
       "clientID": 51,
       "timestamp": "1646762039",
       "latitude": 29.23515351417976,
-      "longitude": -82.14820212165006
-    },
-    {
+      "longitude": -82.14820212165006,
+      "specialty": "Insurance"
+  },
+  {
       "id": 226,
       "city": "Tampa",
       "state": "Florida",
@@ -2484,9 +2709,10 @@ module.exports = [
       "clientID": 57,
       "timestamp": "1641196855",
       "latitude": 28.240156742098648,
-      "longitude": -80.58667323752105
-    },
-    {
+      "longitude": -80.58667323752105,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 227,
       "city": "Tallahassee",
       "state": "Florida",
@@ -2495,9 +2721,10 @@ module.exports = [
       "clientID": 92,
       "timestamp": "1649936512",
       "latitude": 28.63797229631913,
-      "longitude": -80.46362654840469
-    },
-    {
+      "longitude": -80.46362654840469,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 228,
       "city": "Miami",
       "state": "Florida",
@@ -2506,9 +2733,10 @@ module.exports = [
       "clientID": 7,
       "timestamp": "1631830316",
       "latitude": 28.151590231560213,
-      "longitude": -82.0173910343409
-    },
-    {
+      "longitude": -82.0173910343409,
+      "specialty": "Special Events"
+  },
+  {
       "id": 229,
       "city": "Gainesville",
       "state": "Florida",
@@ -2517,9 +2745,10 @@ module.exports = [
       "clientID": 199,
       "timestamp": "1638825221",
       "latitude": 27.13625988050171,
-      "longitude": -81.2985768358866
-    },
-    {
+      "longitude": -81.2985768358866,
+      "specialty": "Special Events"
+  },
+  {
       "id": 230,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2528,9 +2757,10 @@ module.exports = [
       "clientID": 46,
       "timestamp": "1640027575",
       "latitude": 27.870772971038626,
-      "longitude": -82.44530666690916
-    },
-    {
+      "longitude": -82.44530666690916,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 231,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2539,9 +2769,10 @@ module.exports = [
       "clientID": 11,
       "timestamp": "1641593982",
       "latitude": 29.1145648809755,
-      "longitude": -81.47465650072033
-    },
-    {
+      "longitude": -81.47465650072033,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 232,
       "city": "Orlando",
       "state": "Florida",
@@ -2550,9 +2781,10 @@ module.exports = [
       "clientID": 25,
       "timestamp": "1651451045",
       "latitude": 27.64353866044383,
-      "longitude": -80.51337762018406
-    },
-    {
+      "longitude": -80.51337762018406,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 233,
       "city": "Delray Beach",
       "state": "Florida",
@@ -2561,9 +2793,10 @@ module.exports = [
       "clientID": 159,
       "timestamp": "1627755623",
       "latitude": 29.101066286068864,
-      "longitude": -81.61700740048313
-    },
-    {
+      "longitude": -81.61700740048313,
+      "specialty": "Wedding"
+  },
+  {
       "id": 234,
       "city": "Largo",
       "state": "Florida",
@@ -2572,9 +2805,10 @@ module.exports = [
       "clientID": 135,
       "timestamp": "1624696650",
       "latitude": 29.745878411447475,
-      "longitude": -81.87358423286787
-    },
-    {
+      "longitude": -81.87358423286787,
+      "specialty": "Insurance"
+  },
+  {
       "id": 235,
       "city": "Ocala",
       "state": "Florida",
@@ -2583,9 +2817,10 @@ module.exports = [
       "clientID": 124,
       "timestamp": "1631595610",
       "latitude": 27.279043880761805,
-      "longitude": -81.13703132425803
-    },
-    {
+      "longitude": -81.13703132425803,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 236,
       "city": "Melbourne",
       "state": "Florida",
@@ -2594,9 +2829,10 @@ module.exports = [
       "clientID": 49,
       "timestamp": "1624518853",
       "latitude": 28.73800711736783,
-      "longitude": -79.92860874935553
-    },
-    {
+      "longitude": -79.92860874935553,
+      "specialty": "Contract"
+  },
+  {
       "id": 237,
       "city": "Naples",
       "state": "Florida",
@@ -2605,9 +2841,10 @@ module.exports = [
       "clientID": 150,
       "timestamp": "1652243340",
       "latitude": 27.22155290858725,
-      "longitude": -81.58190708961403
-    },
-    {
+      "longitude": -81.58190708961403,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 238,
       "city": "Sarasota",
       "state": "Florida",
@@ -2616,9 +2853,10 @@ module.exports = [
       "clientID": 135,
       "timestamp": "1636309781",
       "latitude": 28.48662582723618,
-      "longitude": -81.83433200566034
-    },
-    {
+      "longitude": -81.83433200566034,
+      "specialty": "Insurance"
+  },
+  {
       "id": 239,
       "city": "Tampa",
       "state": "Florida",
@@ -2627,9 +2865,10 @@ module.exports = [
       "clientID": 182,
       "timestamp": "1649941536",
       "latitude": 27.864564963059912,
-      "longitude": -81.8692798746032
-    },
-    {
+      "longitude": -81.8692798746032,
+      "specialty": "Wedding"
+  },
+  {
       "id": 240,
       "city": "Tallahassee",
       "state": "Florida",
@@ -2638,9 +2877,10 @@ module.exports = [
       "clientID": 35,
       "timestamp": "1652911943",
       "latitude": 28.648729954128733,
-      "longitude": -80.89360288289394
-    },
-    {
+      "longitude": -80.89360288289394,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 241,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2649,9 +2889,10 @@ module.exports = [
       "clientID": 177,
       "timestamp": "1625887688",
       "latitude": 27.142588620924585,
-      "longitude": -81.52036102495234
-    },
-    {
+      "longitude": -81.52036102495234,
+      "specialty": "Insurance"
+  },
+  {
       "id": 242,
       "city": "Hialeah",
       "state": "Florida",
@@ -2660,9 +2901,10 @@ module.exports = [
       "clientID": 99,
       "timestamp": "1621441154",
       "latitude": 28.542750295965472,
-      "longitude": -81.22734296697006
-    },
-    {
+      "longitude": -81.22734296697006,
+      "specialty": "Insurance"
+  },
+  {
       "id": 243,
       "city": "Clearwater",
       "state": "Florida",
@@ -2671,9 +2913,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1620650923",
       "latitude": 27.27730912873716,
-      "longitude": -81.98558728229537
-    },
-    {
+      "longitude": -81.98558728229537,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 244,
       "city": "Pompano Beach",
       "state": "Florida",
@@ -2682,9 +2925,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1634630777",
       "latitude": 27.300702685639664,
-      "longitude": -81.39964771084479
-    },
-    {
+      "longitude": -81.39964771084479,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 245,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2693,9 +2937,10 @@ module.exports = [
       "clientID": 46,
       "timestamp": "1643287636",
       "latitude": 28.67977401450174,
-      "longitude": -79.64270004404719
-    },
-    {
+      "longitude": -79.64270004404719,
+      "specialty": "Surveying"
+  },
+  {
       "id": 246,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2704,9 +2949,10 @@ module.exports = [
       "clientID": 142,
       "timestamp": "1622012872",
       "latitude": 29.546216965455383,
-      "longitude": -80.5542005147348
-    },
-    {
+      "longitude": -80.5542005147348,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 247,
       "city": "Miami",
       "state": "Florida",
@@ -2715,9 +2961,10 @@ module.exports = [
       "clientID": 71,
       "timestamp": "1624271953",
       "latitude": 28.71620802387905,
-      "longitude": -80.67455117456586
-    },
-    {
+      "longitude": -80.67455117456586,
+      "specialty": "Wedding"
+  },
+  {
       "id": 248,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2726,9 +2973,10 @@ module.exports = [
       "clientID": 40,
       "timestamp": "1646814264",
       "latitude": 27.358338486527263,
-      "longitude": -81.87959290682016
-    },
-    {
+      "longitude": -81.87959290682016,
+      "specialty": "Surveying"
+  },
+  {
       "id": 249,
       "city": "Brooksville",
       "state": "Florida",
@@ -2737,9 +2985,10 @@ module.exports = [
       "clientID": 159,
       "timestamp": "1637590791",
       "latitude": 28.969661800299374,
-      "longitude": -80.57669813384578
-    },
-    {
+      "longitude": -80.57669813384578,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 250,
       "city": "Lake Worth",
       "state": "Florida",
@@ -2748,9 +2997,10 @@ module.exports = [
       "clientID": 14,
       "timestamp": "1632680425",
       "latitude": 28.744044633420184,
-      "longitude": -79.85841323763103
-    },
-    {
+      "longitude": -79.85841323763103,
+      "specialty": "Special Events"
+  },
+  {
       "id": 251,
       "city": "Sarasota",
       "state": "Florida",
@@ -2759,9 +3009,10 @@ module.exports = [
       "clientID": 72,
       "timestamp": "1647518500",
       "latitude": 28.922109893242478,
-      "longitude": -80.09787487222778
-    },
-    {
+      "longitude": -80.09787487222778,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 252,
       "city": "Kissimmee",
       "state": "Florida",
@@ -2770,9 +3021,10 @@ module.exports = [
       "clientID": 80,
       "timestamp": "1632580384",
       "latitude": 28.248567607555245,
-      "longitude": -81.91464998068585
-    },
-    {
+      "longitude": -81.91464998068585,
+      "specialty": "Surveying"
+  },
+  {
       "id": 253,
       "city": "Hollywood",
       "state": "Florida",
@@ -2781,9 +3033,10 @@ module.exports = [
       "clientID": 145,
       "timestamp": "1626756566",
       "latitude": 27.44568622519343,
-      "longitude": -82.24906608353169
-    },
-    {
+      "longitude": -82.24906608353169,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 254,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -2792,9 +3045,10 @@ module.exports = [
       "clientID": 95,
       "timestamp": "1639854117",
       "latitude": 29.023867154156353,
-      "longitude": -81.25706223484357
-    },
-    {
+      "longitude": -81.25706223484357,
+      "specialty": "Special Events"
+  },
+  {
       "id": 255,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2803,9 +3057,10 @@ module.exports = [
       "clientID": 163,
       "timestamp": "1632584648",
       "latitude": 28.560480823945596,
-      "longitude": -82.6910102949067
-    },
-    {
+      "longitude": -82.6910102949067,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 256,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2814,9 +3069,10 @@ module.exports = [
       "clientID": 28,
       "timestamp": "1627294236",
       "latitude": 28.116263294086423,
-      "longitude": -82.46731244050831
-    },
-    {
+      "longitude": -82.46731244050831,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 257,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2825,9 +3081,10 @@ module.exports = [
       "clientID": 20,
       "timestamp": "1638461338",
       "latitude": 27.67799604930545,
-      "longitude": -79.91285389026639
-    },
-    {
+      "longitude": -79.91285389026639,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 258,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2836,9 +3093,10 @@ module.exports = [
       "clientID": 25,
       "timestamp": "1652747215",
       "latitude": 27.527525727918533,
-      "longitude": -81.48066694603747
-    },
-    {
+      "longitude": -81.48066694603747,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 259,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2847,9 +3105,10 @@ module.exports = [
       "clientID": 61,
       "timestamp": "1634127667",
       "latitude": 29.46665622660777,
-      "longitude": -80.0921940995404
-    },
-    {
+      "longitude": -80.0921940995404,
+      "specialty": "Insurance"
+  },
+  {
       "id": 260,
       "city": "Miami",
       "state": "Florida",
@@ -2858,9 +3117,10 @@ module.exports = [
       "clientID": 193,
       "timestamp": "1649518547",
       "latitude": 29.59952952498591,
-      "longitude": -80.706649902316
-    },
-    {
+      "longitude": -80.706649902316,
+      "specialty": "Surveying"
+  },
+  {
       "id": 261,
       "city": "Miami",
       "state": "Florida",
@@ -2869,9 +3129,10 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1629666624",
       "latitude": 27.53482791104574,
-      "longitude": -80.65382057475102
-    },
-    {
+      "longitude": -80.65382057475102,
+      "specialty": "Insurance"
+  },
+  {
       "id": 262,
       "city": "Orlando",
       "state": "Florida",
@@ -2880,9 +3141,10 @@ module.exports = [
       "clientID": 68,
       "timestamp": "1640141411",
       "latitude": 28.404726408537844,
-      "longitude": -81.41662012340154
-    },
-    {
+      "longitude": -81.41662012340154,
+      "specialty": "Insurance"
+  },
+  {
       "id": 263,
       "city": "Naples",
       "state": "Florida",
@@ -2891,9 +3153,10 @@ module.exports = [
       "clientID": 79,
       "timestamp": "1642725183",
       "latitude": 28.796811336679703,
-      "longitude": -81.78944851773024
-    },
-    {
+      "longitude": -81.78944851773024,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 264,
       "city": "Gainesville",
       "state": "Florida",
@@ -2902,9 +3165,10 @@ module.exports = [
       "clientID": 68,
       "timestamp": "1639929251",
       "latitude": 28.435546418868313,
-      "longitude": -80.05297537631004
-    },
-    {
+      "longitude": -80.05297537631004,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 265,
       "city": "Panama City",
       "state": "Florida",
@@ -2913,9 +3177,10 @@ module.exports = [
       "clientID": 139,
       "timestamp": "1622920045",
       "latitude": 27.93034485803245,
-      "longitude": -80.6340284411777
-    },
-    {
+      "longitude": -80.6340284411777,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 266,
       "city": "Tampa",
       "state": "Florida",
@@ -2924,9 +3189,10 @@ module.exports = [
       "clientID": 104,
       "timestamp": "1623146503",
       "latitude": 29.63544826697166,
-      "longitude": -80.20948629580461
-    },
-    {
+      "longitude": -80.20948629580461,
+      "specialty": "Insurance"
+  },
+  {
       "id": 267,
       "city": "Orlando",
       "state": "Florida",
@@ -2935,9 +3201,10 @@ module.exports = [
       "clientID": 116,
       "timestamp": "1646682290",
       "latitude": 28.699273554620483,
-      "longitude": -82.22516927480082
-    },
-    {
+      "longitude": -82.22516927480082,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 268,
       "city": "West Palm Beach",
       "state": "Florida",
@@ -2946,9 +3213,10 @@ module.exports = [
       "clientID": 38,
       "timestamp": "1649139142",
       "latitude": 28.674469480395416,
-      "longitude": -79.79236756912732
-    },
-    {
+      "longitude": -79.79236756912732,
+      "specialty": "Contract"
+  },
+  {
       "id": 269,
       "city": "Pompano Beach",
       "state": "Florida",
@@ -2957,9 +3225,10 @@ module.exports = [
       "clientID": 132,
       "timestamp": "1621906617",
       "latitude": 29.696424256697924,
-      "longitude": -80.63964449919888
-    },
-    {
+      "longitude": -80.63964449919888,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 270,
       "city": "Jacksonville",
       "state": "Florida",
@@ -2968,9 +3237,10 @@ module.exports = [
       "clientID": 101,
       "timestamp": "1642101051",
       "latitude": 28.37687406700578,
-      "longitude": -81.08346473306239
-    },
-    {
+      "longitude": -81.08346473306239,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 271,
       "city": "Naples",
       "state": "Florida",
@@ -2979,9 +3249,10 @@ module.exports = [
       "clientID": 182,
       "timestamp": "1628212900",
       "latitude": 27.345670541918835,
-      "longitude": -80.32209575446132
-    },
-    {
+      "longitude": -80.32209575446132,
+      "specialty": "Special Events"
+  },
+  {
       "id": 272,
       "city": "Clearwater",
       "state": "Florida",
@@ -2990,9 +3261,10 @@ module.exports = [
       "clientID": 91,
       "timestamp": "1629378719",
       "latitude": 28.294281358127893,
-      "longitude": -79.70665517150864
-    },
-    {
+      "longitude": -79.70665517150864,
+      "specialty": "Contract"
+  },
+  {
       "id": 273,
       "city": "Tampa",
       "state": "Florida",
@@ -3001,9 +3273,10 @@ module.exports = [
       "clientID": 61,
       "timestamp": "1626122063",
       "latitude": 27.583302899971883,
-      "longitude": -81.2484575528223
-    },
-    {
+      "longitude": -81.2484575528223,
+      "specialty": "Contract"
+  },
+  {
       "id": 274,
       "city": "Pensacola",
       "state": "Florida",
@@ -3012,9 +3285,10 @@ module.exports = [
       "clientID": 150,
       "timestamp": "1624760037",
       "latitude": 28.920733778113778,
-      "longitude": -80.18427860023853
-    },
-    {
+      "longitude": -80.18427860023853,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 275,
       "city": "Port Charlotte",
       "state": "Florida",
@@ -3023,9 +3297,10 @@ module.exports = [
       "clientID": 80,
       "timestamp": "1645113392",
       "latitude": 29.3881081837655,
-      "longitude": -80.42795611715677
-    },
-    {
+      "longitude": -80.42795611715677,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 276,
       "city": "Jacksonville",
       "state": "Florida",
@@ -3034,9 +3309,10 @@ module.exports = [
       "clientID": 15,
       "timestamp": "1648100540",
       "latitude": 29.399848386282216,
-      "longitude": -80.91174613386028
-    },
-    {
+      "longitude": -80.91174613386028,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 277,
       "city": "Gainesville",
       "state": "Florida",
@@ -3045,9 +3321,10 @@ module.exports = [
       "clientID": 25,
       "timestamp": "1625279297",
       "latitude": 27.31814561015908,
-      "longitude": -80.42927441645732
-    },
-    {
+      "longitude": -80.42927441645732,
+      "specialty": "Wedding"
+  },
+  {
       "id": 278,
       "city": "Bradenton",
       "state": "Florida",
@@ -3056,9 +3333,10 @@ module.exports = [
       "clientID": 11,
       "timestamp": "1645135854",
       "latitude": 27.830103358227007,
-      "longitude": -81.69788257039369
-    },
-    {
+      "longitude": -81.69788257039369,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 279,
       "city": "Jacksonville",
       "state": "Florida",
@@ -3067,9 +3345,10 @@ module.exports = [
       "clientID": 151,
       "timestamp": "1637607441",
       "latitude": 29.08782501648402,
-      "longitude": -79.97586153865183
-    },
-    {
+      "longitude": -79.97586153865183,
+      "specialty": "Insurance"
+  },
+  {
       "id": 280,
       "city": "Pensacola",
       "state": "Florida",
@@ -3078,9 +3357,10 @@ module.exports = [
       "clientID": 7,
       "timestamp": "1631632482",
       "latitude": 27.715046959473636,
-      "longitude": -81.62940447632225
-    },
-    {
+      "longitude": -81.62940447632225,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 281,
       "city": "Miami",
       "state": "Florida",
@@ -3089,9 +3369,10 @@ module.exports = [
       "clientID": 46,
       "timestamp": "1651412990",
       "latitude": 27.830998193597818,
-      "longitude": -81.63576900737374
-    },
-    {
+      "longitude": -81.63576900737374,
+      "specialty": "Special Events"
+  },
+  {
       "id": 282,
       "city": "Naples",
       "state": "Florida",
@@ -3100,9 +3381,10 @@ module.exports = [
       "clientID": 22,
       "timestamp": "1629589794",
       "latitude": 29.386669520379616,
-      "longitude": -80.17351459540559
-    },
-    {
+      "longitude": -80.17351459540559,
+      "specialty": "Special Events"
+  },
+  {
       "id": 283,
       "city": "Miami",
       "state": "Florida",
@@ -3111,9 +3393,10 @@ module.exports = [
       "clientID": 63,
       "timestamp": "1624183420",
       "latitude": 28.932918169493178,
-      "longitude": -79.63051742131711
-    },
-    {
+      "longitude": -79.63051742131711,
+      "specialty": "Insurance"
+  },
+  {
       "id": 284,
       "city": "Tallahassee",
       "state": "Florida",
@@ -3122,9 +3405,10 @@ module.exports = [
       "clientID": 131,
       "timestamp": "1632227729",
       "latitude": 29.20884419232773,
-      "longitude": -80.82321052361922
-    },
-    {
+      "longitude": -80.82321052361922,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 285,
       "city": "Jacksonville",
       "state": "Florida",
@@ -3133,9 +3417,10 @@ module.exports = [
       "clientID": 122,
       "timestamp": "1620885623",
       "latitude": 27.73345458377949,
-      "longitude": -81.06779782996917
-    },
-    {
+      "longitude": -81.06779782996917,
+      "specialty": "Insurance"
+  },
+  {
       "id": 286,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -3144,9 +3429,10 @@ module.exports = [
       "clientID": 39,
       "timestamp": "1649371140",
       "latitude": 29.413758419557922,
-      "longitude": -81.38616519824438
-    },
-    {
+      "longitude": -81.38616519824438,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 287,
       "city": "Miami",
       "state": "Florida",
@@ -3155,9 +3441,10 @@ module.exports = [
       "clientID": 181,
       "timestamp": "1643172131",
       "latitude": 29.901790551941996,
-      "longitude": -81.50647083166731
-    },
-    {
+      "longitude": -81.50647083166731,
+      "specialty": "Wedding"
+  },
+  {
       "id": 288,
       "city": "Daytona Beach",
       "state": "Florida",
@@ -3166,9 +3453,10 @@ module.exports = [
       "clientID": 25,
       "timestamp": "1650369131",
       "latitude": 29.178342586704034,
-      "longitude": -81.8125723243694
-    },
-    {
+      "longitude": -81.8125723243694,
+      "specialty": "Surveying"
+  },
+  {
       "id": 289,
       "city": "Fort Pierce",
       "state": "Florida",
@@ -3177,9 +3465,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1623525710",
       "latitude": 27.856632907073337,
-      "longitude": -81.68092491527733
-    },
-    {
+      "longitude": -81.68092491527733,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 290,
       "city": "Lake Worth",
       "state": "Florida",
@@ -3188,9 +3477,10 @@ module.exports = [
       "clientID": 136,
       "timestamp": "1652348241",
       "latitude": 28.662256124427014,
-      "longitude": -80.79547909553737
-    },
-    {
+      "longitude": -80.79547909553737,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 291,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -3199,9 +3489,10 @@ module.exports = [
       "clientID": 40,
       "timestamp": "1653378309",
       "latitude": 27.154322139389656,
-      "longitude": -81.08486696568418
-    },
-    {
+      "longitude": -81.08486696568418,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 292,
       "city": "Fort Lauderdale",
       "state": "Florida",
@@ -3210,9 +3501,10 @@ module.exports = [
       "clientID": 117,
       "timestamp": "1641697370",
       "latitude": 29.26550818368834,
-      "longitude": -81.6647913477537
-    },
-    {
+      "longitude": -81.6647913477537,
+      "specialty": "Wedding"
+  },
+  {
       "id": 293,
       "city": "Miami",
       "state": "Florida",
@@ -3221,9 +3513,10 @@ module.exports = [
       "clientID": 32,
       "timestamp": "1633817629",
       "latitude": 27.726607440634545,
-      "longitude": -81.33319703324405
-    },
-    {
+      "longitude": -81.33319703324405,
+      "specialty": "Construction Management"
+  },
+  {
       "id": 294,
       "city": "Miami",
       "state": "Florida",
@@ -3232,9 +3525,10 @@ module.exports = [
       "clientID": 102,
       "timestamp": "1643916071",
       "latitude": 28.372072811067603,
-      "longitude": -80.18223957461409
-    },
-    {
+      "longitude": -80.18223957461409,
+      "specialty": "Outdoor Concert"
+  },
+  {
       "id": 295,
       "city": "Orlando",
       "state": "Florida",
@@ -3243,9 +3537,10 @@ module.exports = [
       "clientID": 91,
       "timestamp": "1636662706",
       "latitude": 29.01431035477103,
-      "longitude": -82.15381156128974
-    },
-    {
+      "longitude": -82.15381156128974,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 296,
       "city": "Saint Petersburg",
       "state": "Florida",
@@ -3254,9 +3549,10 @@ module.exports = [
       "clientID": 118,
       "timestamp": "1625806760",
       "latitude": 29.442526020797406,
-      "longitude": -80.33855414910401
-    },
-    {
+      "longitude": -80.33855414910401,
+      "specialty": "Wedding"
+  },
+  {
       "id": 297,
       "city": "Jacksonville",
       "state": "Florida",
@@ -3265,9 +3561,10 @@ module.exports = [
       "clientID": 112,
       "timestamp": "1635337975",
       "latitude": 27.654054283915833,
-      "longitude": -82.45859766526327
-    },
-    {
+      "longitude": -82.45859766526327,
+      "specialty": "Healthcare"
+  },
+  {
       "id": 298,
       "city": "Miami",
       "state": "Florida",
@@ -3276,9 +3573,10 @@ module.exports = [
       "clientID": 102,
       "timestamp": "1646104899",
       "latitude": 27.803349691407767,
-      "longitude": -81.49455841887531
-    },
-    {
+      "longitude": -81.49455841887531,
+      "specialty": "Real Estate"
+  },
+  {
       "id": 299,
       "city": "Lakeland",
       "state": "Florida",
@@ -3287,9 +3585,10 @@ module.exports = [
       "clientID": 91,
       "timestamp": "1653007213",
       "latitude": 28.121194121474762,
-      "longitude": -80.3540284000179
-    },
-    {
+      "longitude": -80.3540284000179,
+      "specialty": "Roof Inspections"
+  },
+  {
       "id": 300,
       "city": "Bradenton",
       "state": "Florida",
@@ -3298,6 +3597,7 @@ module.exports = [
       "clientID": 51,
       "timestamp": "1641545900",
       "latitude": 29.440464383941972,
-      "longitude": -81.42530930520768
-    }
-  ]
+      "longitude": -81.42530930520768,
+      "specialty": "Outdoor Concert"
+  }
+]
