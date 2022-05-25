@@ -2885,7 +2885,7 @@ module.exports = [
         "recipientID": 201,
         "authorID": 112,
         "rating": 3.6,
-        "description": "His quality is top notch, pricing is as fair is extremely responsive whenever you reach out.",
+        "description": "His quality is top notch, pricing is as fair is  responsive when you reach out.",
         "timestamp": "1652351416"
     },
     {
