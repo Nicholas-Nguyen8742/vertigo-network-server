@@ -7,7 +7,9 @@ module.exports = [
         "date": "01/01/2022",
         "status": "closed",
         "clientID": 18,
-        "timestamp": "1643196874"
+        "timestamp": "1643196874",
+        "latitude": 27.37415658583408,
+        "longitude": -82.1643294581234
     },
     {
         "id": 2,
@@ -16,7 +18,9 @@ module.exports = [
         "date": "05/29/2021",
         "status": "open",
         "clientID": 125,
-        "timestamp": "1621160789"
+        "timestamp": "1621160789",
+        "latitude": 28.211938523217878,
+        "longitude": -82.80431632858311
     },
     {
         "id": 3,
@@ -25,7 +29,9 @@ module.exports = [
         "date": "03/04/2022",
         "status": "open",
         "clientID": 135,
-        "timestamp": "1622105308"
+        "timestamp": "1622105308",
+        "latitude": 27.182743643724645,
+        "longitude": -81.75111006105175
     },
     {
         "id": 4,
@@ -34,7 +40,9 @@ module.exports = [
         "date": "11/12/2021",
         "status": "open",
         "clientID": 199,
-        "timestamp": "1644101841"
+        "timestamp": "1644101841",
+        "latitude": 29.89961159444407,
+        "longitude": -81.79349086606159
     },
     {
         "id": 5,
@@ -43,7 +51,9 @@ module.exports = [
         "date": "05/31/2021",
         "status": "open",
         "clientID": 85,
-        "timestamp": "1635548290"
+        "timestamp": "1635548290",
+        "latitude": 27.760476598221963,
+        "longitude": -82.58206586154544
     },
     {
         "id": 6,
@@ -52,7 +62,9 @@ module.exports = [
         "date": "06/25/2021",
         "status": "open",
         "clientID": 104,
-        "timestamp": "1650841198"
+        "timestamp": "1650841198",
+        "latitude": 28.466432748503127,
+        "longitude": -82.84839430711293
     },
     {
         "id": 7,
@@ -61,7 +73,9 @@ module.exports = [
         "date": "07/20/2022",
         "status": "closed",
         "clientID": 118,
-        "timestamp": "1628892026"
+        "timestamp": "1628892026",
+        "latitude": 28.950709849735528,
+        "longitude": -82.7891695585439
     },
     {
         "id": 8,
@@ -70,7 +84,9 @@ module.exports = [
         "date": "02/17/2022",
         "status": "closed",
         "clientID": 135,
-        "timestamp": "1643653737"
+        "timestamp": "1643653737",
+        "latitude": 29.776958177146145,
+        "longitude": -80.33064032092807
     },
     {
         "id": 9,
@@ -79,7 +95,9 @@ module.exports = [
         "date": "08/18/2021",
         "status": "open",
         "clientID": 10,
-        "timestamp": "1634631338"
+        "timestamp": "1634631338",
+        "latitude": 29.913390198113955,
+        "longitude": -81.7502117353623
     },
     {
         "id": 10,
@@ -88,7 +106,9 @@ module.exports = [
         "date": "07/08/2022",
         "status": "open",
         "clientID": 71,
-        "timestamp": "1631371586"
+        "timestamp": "1631371586",
+        "latitude": 29.657009865677665,
+        "longitude": -80.14117230104175
     },
     {
         "id": 11,
@@ -97,7 +117,9 @@ module.exports = [
         "date": "08/21/2021",
         "status": "closed",
         "clientID": 116,
-        "timestamp": "1634399604"
+        "timestamp": "1634399604",
+        "latitude": 27.414404837737422,
+        "longitude": -80.18330707419422
     },
     {
         "id": 12,
@@ -106,7 +128,9 @@ module.exports = [
         "date": "05/31/2021",
         "status": "closed",
         "clientID": 129,
-        "timestamp": "1652941315"
+        "timestamp": "1652941315",
+        "latitude": 27.207624540176,
+        "longitude": -81.82486625396328
     },
     {
         "id": 13,
@@ -115,7 +139,9 @@ module.exports = [
         "date": "03/16/2022",
         "status": "closed",
         "clientID": 2,
-        "timestamp": "1633465467"
+        "timestamp": "1633465467",
+        "latitude": 28.166639331423973,
+        "longitude": -79.61701336292165
     },
     {
         "id": 14,
@@ -124,7 +150,9 @@ module.exports = [
         "date": "07/02/2022",
         "status": "open",
         "clientID": 32,
-        "timestamp": "1639232835"
+        "timestamp": "1639232835",
+        "latitude": 29.96779982098999,
+        "longitude": -81.5190477555778
     },
     {
         "id": 15,
@@ -133,7 +161,9 @@ module.exports = [
         "date": "05/21/2022",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1623050435"
+        "timestamp": "1623050435",
+        "latitude": 28.072160732799144,
+        "longitude": -79.65091012946992
     },
     {
         "id": 16,
@@ -142,7 +172,9 @@ module.exports = [
         "date": "05/16/2022",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1628757771"
+        "timestamp": "1628757771",
+        "latitude": 27.11628618804584,
+        "longitude": -80.95551806702716
     },
     {
         "id": 17,
@@ -151,7 +183,9 @@ module.exports = [
         "date": "07/10/2022",
         "status": "closed",
         "clientID": 90,
-        "timestamp": "1649263964"
+        "timestamp": "1649263964",
+        "latitude": 27.108747820241987,
+        "longitude": -81.38846447041026
     },
     {
         "id": 18,
@@ -160,7 +194,9 @@ module.exports = [
         "date": "08/29/2021",
         "status": "closed",
         "clientID": 70,
-        "timestamp": "1635940329"
+        "timestamp": "1635940329",
+        "latitude": 28.231306139595542,
+        "longitude": -79.59832491974062
     },
     {
         "id": 19,
@@ -169,7 +205,9 @@ module.exports = [
         "date": "06/09/2021",
         "status": "open",
         "clientID": 115,
-        "timestamp": "1646136514"
+        "timestamp": "1646136514",
+        "latitude": 27.17618209512189,
+        "longitude": -81.72969390374136
     },
     {
         "id": 20,
@@ -178,7 +216,9 @@ module.exports = [
         "date": "12/01/2021",
         "status": "closed",
         "clientID": 80,
-        "timestamp": "1651074654"
+        "timestamp": "1651074654",
+        "latitude": 27.399022809107485,
+        "longitude": -80.20565506010077
     },
     {
         "id": 21,
@@ -187,7 +227,9 @@ module.exports = [
         "date": "07/12/2022",
         "status": "closed",
         "clientID": 114,
-        "timestamp": "1634280987"
+        "timestamp": "1634280987",
+        "latitude": 29.987480169483334,
+        "longitude": -81.36300578257958
     },
     {
         "id": 22,
@@ -196,7 +238,9 @@ module.exports = [
         "date": "03/13/2022",
         "status": "closed",
         "clientID": 94,
-        "timestamp": "1634940329"
+        "timestamp": "1634940329",
+        "latitude": 27.17080774398507,
+        "longitude": -80.6964627816309
     },
     {
         "id": 23,
@@ -205,7 +249,9 @@ module.exports = [
         "date": "10/15/2021",
         "status": "open",
         "clientID": 163,
-        "timestamp": "1625577147"
+        "timestamp": "1625577147",
+        "latitude": 29.99157438512959,
+        "longitude": -81.10503976373835
     },
     {
         "id": 24,
@@ -214,7 +260,9 @@ module.exports = [
         "date": "09/08/2021",
         "status": "open",
         "clientID": 184,
-        "timestamp": "1639173286"
+        "timestamp": "1639173286",
+        "latitude": 29.98934102512883,
+        "longitude": -81.06882474785306
     },
     {
         "id": 25,
@@ -223,7 +271,9 @@ module.exports = [
         "date": "06/21/2021",
         "status": "closed",
         "clientID": 139,
-        "timestamp": "1631790098"
+        "timestamp": "1631790098",
+        "latitude": 27.113353999935114,
+        "longitude": -80.97816989104233
     },
     {
         "id": 26,
@@ -232,7 +282,9 @@ module.exports = [
         "date": "01/21/2022",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1624846524"
+        "timestamp": "1624846524",
+        "latitude": 29.979311765679974,
+        "longitude": -81.44087673699062
     },
     {
         "id": 27,
@@ -241,7 +293,9 @@ module.exports = [
         "date": "06/30/2021",
         "status": "closed",
         "clientID": 41,
-        "timestamp": "1630228562"
+        "timestamp": "1630228562",
+        "latitude": 29.33298897216312,
+        "longitude": -82.59254236103314
     },
     {
         "id": 28,
@@ -250,7 +304,9 @@ module.exports = [
         "date": "05/06/2022",
         "status": "open",
         "clientID": 139,
-        "timestamp": "1646098510"
+        "timestamp": "1646098510",
+        "latitude": 29.972782546670743,
+        "longitude": -81.48794435841755
     },
     {
         "id": 29,
@@ -259,7 +315,9 @@ module.exports = [
         "date": "08/13/2021",
         "status": "closed",
         "clientID": 112,
-        "timestamp": "1638334439"
+        "timestamp": "1638334439",
+        "latitude": 28.826084232906403,
+        "longitude": -82.82275974351342
     },
     {
         "id": 30,
@@ -268,7 +326,9 @@ module.exports = [
         "date": "10/21/2021",
         "status": "open",
         "clientID": 57,
-        "timestamp": "1634242273"
+        "timestamp": "1634242273",
+        "latitude": 27.628881895241765,
+        "longitude": -79.93555847514169
     },
     {
         "id": 31,
@@ -277,7 +337,9 @@ module.exports = [
         "date": "06/23/2021",
         "status": "closed",
         "clientID": 43,
-        "timestamp": "1623089082"
+        "timestamp": "1623089082",
+        "latitude": 27.336222106547215,
+        "longitude": -82.1018134231986
     },
     {
         "id": 32,
@@ -286,7 +348,9 @@ module.exports = [
         "date": "12/06/2021",
         "status": "open",
         "clientID": 44,
-        "timestamp": "1653306066"
+        "timestamp": "1653306066",
+        "latitude": 27.100049581061814,
+        "longitude": -81.15961675224366
     },
     {
         "id": 33,
@@ -295,7 +359,9 @@ module.exports = [
         "date": "08/19/2021",
         "status": "open",
         "clientID": 135,
-        "timestamp": "1644828731"
+        "timestamp": "1644828731",
+        "latitude": 28.304687675848125,
+        "longitude": -79.58138156439433
     },
     {
         "id": 34,
@@ -304,7 +370,9 @@ module.exports = [
         "date": "03/21/2022",
         "status": "open",
         "clientID": 41,
-        "timestamp": "1631277549"
+        "timestamp": "1631277549",
+        "latitude": 28.578794448227704,
+        "longitude": -82.85141394160021
     },
     {
         "id": 35,
@@ -313,7 +381,9 @@ module.exports = [
         "date": "09/11/2021",
         "status": "open",
         "clientID": 64,
-        "timestamp": "1621945650"
+        "timestamp": "1621945650",
+        "latitude": 27.20902325702877,
+        "longitude": -80.57914638766434
     },
     {
         "id": 36,
@@ -322,7 +392,9 @@ module.exports = [
         "date": "07/18/2022",
         "status": "open",
         "clientID": 158,
-        "timestamp": "1641613866"
+        "timestamp": "1641613866",
+        "latitude": 27.114374056651794,
+        "longitude": -81.43782825720712
     },
     {
         "id": 37,
@@ -331,7 +403,9 @@ module.exports = [
         "date": "12/19/2021",
         "status": "closed",
         "clientID": 102,
-        "timestamp": "1652076458"
+        "timestamp": "1652076458",
+        "latitude": 27.104392617467436,
+        "longitude": -81.338130118457
     },
     {
         "id": 38,
@@ -340,7 +414,9 @@ module.exports = [
         "date": "02/06/2022",
         "status": "open",
         "clientID": 182,
-        "timestamp": "1626782450"
+        "timestamp": "1626782450",
+        "latitude": 29.018937479094262,
+        "longitude": -82.76496436858743
     },
     {
         "id": 39,
@@ -349,7 +425,9 @@ module.exports = [
         "date": "05/25/2022",
         "status": "open",
         "clientID": 22,
-        "timestamp": "1642029702"
+        "timestamp": "1642029702",
+        "latitude": 29.490845451522095,
+        "longitude": -79.94933229110693
     },
     {
         "id": 40,
@@ -358,7 +436,9 @@ module.exports = [
         "date": "06/06/2022",
         "status": "closed",
         "clientID": 101,
-        "timestamp": "1644722004"
+        "timestamp": "1644722004",
+        "latitude": 27.40311992547032,
+        "longitude": -82.20823878443743
     },
     {
         "id": 41,
@@ -367,7 +447,9 @@ module.exports = [
         "date": "08/02/2021",
         "status": "closed",
         "clientID": 69,
-        "timestamp": "1634937936"
+        "timestamp": "1634937936",
+        "latitude": 27.307983661281327,
+        "longitude": -80.35695419146187
     },
     {
         "id": 42,
@@ -376,7 +458,9 @@ module.exports = [
         "date": "10/03/2021",
         "status": "open",
         "clientID": 42,
-        "timestamp": "1625080351"
+        "timestamp": "1625080351",
+        "latitude": 28.199002545248224,
+        "longitude": -79.60721316364084
     },
     {
         "id": 43,
@@ -385,7 +469,9 @@ module.exports = [
         "date": "07/19/2021",
         "status": "open",
         "clientID": 169,
-        "timestamp": "1647437261"
+        "timestamp": "1647437261",
+        "latitude": 27.20482038153314,
+        "longitude": -81.8170605452931
     },
     {
         "id": 44,
@@ -394,7 +480,9 @@ module.exports = [
         "date": "08/21/2021",
         "status": "open",
         "clientID": 184,
-        "timestamp": "1646685419"
+        "timestamp": "1646685419",
+        "latitude": 27.855788198029416,
+        "longitude": -82.64693042174183
     },
     {
         "id": 45,
@@ -403,7 +491,9 @@ module.exports = [
         "date": "04/27/2022",
         "status": "open",
         "clientID": 68,
-        "timestamp": "1644942570"
+        "timestamp": "1644942570",
+        "latitude": 29.737529886594942,
+        "longitude": -80.26187408573506
     },
     {
         "id": 46,
@@ -412,7 +502,9 @@ module.exports = [
         "date": "12/02/2021",
         "status": "open",
         "clientID": 71,
-        "timestamp": "1624829893"
+        "timestamp": "1624829893",
+        "latitude": 29.92236228245217,
+        "longitude": -81.71981614444623
     },
     {
         "id": 47,
@@ -421,7 +513,9 @@ module.exports = [
         "date": "01/18/2022",
         "status": "closed",
         "clientID": 39,
-        "timestamp": "1635794802"
+        "timestamp": "1635794802",
+        "latitude": 28.961184985128625,
+        "longitude": -82.78572819129036
     },
     {
         "id": 48,
@@ -430,7 +524,9 @@ module.exports = [
         "date": "01/12/2022",
         "status": "open",
         "clientID": 39,
-        "timestamp": "1652201801"
+        "timestamp": "1652201801",
+        "latitude": 27.780667260914168,
+        "longitude": -79.81111386932811
     },
     {
         "id": 49,
@@ -439,7 +535,9 @@ module.exports = [
         "date": "05/29/2021",
         "status": "open",
         "clientID": 74,
-        "timestamp": "1628468078"
+        "timestamp": "1628468078",
+        "latitude": 29.768891648299157,
+        "longitude": -82.09191693422582
     },
     {
         "id": 50,
@@ -448,7 +546,9 @@ module.exports = [
         "date": "06/27/2022",
         "status": "open",
         "clientID": 158,
-        "timestamp": "1653403879"
+        "timestamp": "1653403879",
+        "latitude": 27.83907451322739,
+        "longitude": -82.63635052987294
     },
     {
         "id": 51,
@@ -457,7 +557,9 @@ module.exports = [
         "date": "02/15/2022",
         "status": "open",
         "clientID": 108,
-        "timestamp": "1650941807"
+        "timestamp": "1650941807",
+        "latitude": 28.485646012001773,
+        "longitude": -82.8496148756131
     },
     {
         "id": 52,
@@ -466,7 +568,9 @@ module.exports = [
         "date": "06/25/2022",
         "status": "open",
         "clientID": 152,
-        "timestamp": "1641701099"
+        "timestamp": "1641701099",
+        "latitude": 29.992099289322784,
+        "longitude": -81.29217019399853
     },
     {
         "id": 53,
@@ -475,7 +579,9 @@ module.exports = [
         "date": "01/13/2022",
         "status": "closed",
         "clientID": 22,
-        "timestamp": "1624722199"
+        "timestamp": "1624722199",
+        "latitude": 27.13841993630404,
+        "longitude": -81.58088920084693
     },
     {
         "id": 54,
@@ -484,7 +590,9 @@ module.exports = [
         "date": "08/22/2021",
         "status": "open",
         "clientID": 10,
-        "timestamp": "1646823934"
+        "timestamp": "1646823934",
+        "latitude": 28.211586649485298,
+        "longitude": -82.80421850405143
     },
     {
         "id": 55,
@@ -493,7 +601,9 @@ module.exports = [
         "date": "07/18/2021",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1632222733"
+        "timestamp": "1632222733",
+        "latitude": 29.13953981635803,
+        "longitude": -82.71134153515919
     },
     {
         "id": 56,
@@ -502,7 +612,9 @@ module.exports = [
         "date": "11/23/2021",
         "status": "open",
         "clientID": 177,
-        "timestamp": "1621580791"
+        "timestamp": "1621580791",
+        "latitude": 27.113919692945892,
+        "longitude": -80.97362264786273
     },
     {
         "id": 57,
@@ -511,7 +623,9 @@ module.exports = [
         "date": "07/15/2022",
         "status": "open",
         "clientID": 42,
-        "timestamp": "1638984854"
+        "timestamp": "1638984854",
+        "latitude": 28.560162791219643,
+        "longitude": -82.85160005632946
     },
     {
         "id": 58,
@@ -520,7 +634,9 @@ module.exports = [
         "date": "08/25/2021",
         "status": "open",
         "clientID": 49,
-        "timestamp": "1641157929"
+        "timestamp": "1641157929",
+        "latitude": 27.779774501749603,
+        "longitude": -82.59611178091285
     },
     {
         "id": 59,
@@ -529,7 +645,9 @@ module.exports = [
         "date": "10/15/2021",
         "status": "closed",
         "clientID": 139,
-        "timestamp": "1648912066"
+        "timestamp": "1648912066",
+        "latitude": 28.59310569633551,
+        "longitude": -82.85108542165237
     },
     {
         "id": 60,
@@ -538,7 +656,9 @@ module.exports = [
         "date": "12/28/2021",
         "status": "open",
         "clientID": 184,
-        "timestamp": "1651261473"
+        "timestamp": "1651261473",
+        "latitude": 29.679170909145192,
+        "longitude": -82.23572181092422
     },
     {
         "id": 61,
@@ -547,7 +667,9 @@ module.exports = [
         "date": "05/08/2022",
         "status": "open",
         "clientID": 114,
-        "timestamp": "1620848586"
+        "timestamp": "1620848586",
+        "latitude": 29.72974239400207,
+        "longitude": -80.24913576618556
     },
     {
         "id": 62,
@@ -556,7 +678,9 @@ module.exports = [
         "date": "11/27/2021",
         "status": "closed",
         "clientID": 140,
-        "timestamp": "1642998038"
+        "timestamp": "1642998038",
+        "latitude": 29.365703144647593,
+        "longitude": -79.84001587417042
     },
     {
         "id": 63,
@@ -565,7 +689,9 @@ module.exports = [
         "date": "06/17/2021",
         "status": "closed",
         "clientID": 32,
-        "timestamp": "1641570579"
+        "timestamp": "1641570579",
+        "latitude": 28.279088327916618,
+        "longitude": -79.5867859158269
     },
     {
         "id": 64,
@@ -574,7 +700,9 @@ module.exports = [
         "date": "10/28/2021",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1628480048"
+        "timestamp": "1628480048",
+        "latitude": 29.575648527017297,
+        "longitude": -80.0393093558198
     },
     {
         "id": 65,
@@ -583,7 +711,9 @@ module.exports = [
         "date": "06/05/2022",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1635888845"
+        "timestamp": "1635888845",
+        "latitude": 27.946583433175704,
+        "longitude": -79.70890846700775
     },
     {
         "id": 66,
@@ -592,7 +722,9 @@ module.exports = [
         "date": "06/22/2022",
         "status": "open",
         "clientID": 163,
-        "timestamp": "1646433284"
+        "timestamp": "1646433284",
+        "latitude": 29.97344207849631,
+        "longitude": -80.92430454800333
     },
     {
         "id": 67,
@@ -601,7 +733,9 @@ module.exports = [
         "date": "02/08/2022",
         "status": "closed",
         "clientID": 176,
-        "timestamp": "1647159170"
+        "timestamp": "1647159170",
+        "latitude": 29.05836990877202,
+        "longitude": -82.74899961265334
     },
     {
         "id": 68,
@@ -610,7 +744,9 @@ module.exports = [
         "date": "07/19/2021",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1645534341"
+        "timestamp": "1645534341",
+        "latitude": 29.72614357511743,
+        "longitude": -80.24333470367833
     },
     {
         "id": 69,
@@ -619,7 +755,9 @@ module.exports = [
         "date": "01/27/2022",
         "status": "open",
         "clientID": 136,
-        "timestamp": "1637028318"
+        "timestamp": "1637028318",
+        "latitude": 28.77009907008524,
+        "longitude": -82.83357554604588
     },
     {
         "id": 70,
@@ -628,7 +766,9 @@ module.exports = [
         "date": "01/18/2022",
         "status": "closed",
         "clientID": 117,
-        "timestamp": "1622358506"
+        "timestamp": "1622358506",
+        "latitude": 27.821836010462135,
+        "longitude": -82.62509442761198
     },
     {
         "id": 71,
@@ -637,7 +777,9 @@ module.exports = [
         "date": "12/28/2021",
         "status": "open",
         "clientID": 142,
-        "timestamp": "1632218660"
+        "timestamp": "1632218660",
+        "latitude": 27.7019167979569,
+        "longitude": -79.87149083370716
     },
     {
         "id": 72,
@@ -646,7 +788,9 @@ module.exports = [
         "date": "06/20/2022",
         "status": "closed",
         "clientID": 92,
-        "timestamp": "1637745431"
+        "timestamp": "1637745431",
+        "latitude": 29.597242876921165,
+        "longitude": -80.06469905076347
     },
     {
         "id": 73,
@@ -655,7 +799,9 @@ module.exports = [
         "date": "07/08/2021",
         "status": "open",
         "clientID": 4,
-        "timestamp": "1626728477"
+        "timestamp": "1626728477",
+        "latitude": 28.0881336088838,
+        "longitude": -79.64461306060765
     },
     {
         "id": 74,
@@ -664,7 +810,9 @@ module.exports = [
         "date": "10/08/2021",
         "status": "open",
         "clientID": 125,
-        "timestamp": "1642550980"
+        "timestamp": "1642550980",
+        "latitude": 28.46057758206822,
+        "longitude": -82.84796445914093
     },
     {
         "id": 75,
@@ -673,7 +821,9 @@ module.exports = [
         "date": "07/04/2021",
         "status": "closed",
         "clientID": 4,
-        "timestamp": "1650418212"
+        "timestamp": "1650418212",
+        "latitude": 28.97389354630079,
+        "longitude": -79.62644323427446
     },
     {
         "id": 76,
@@ -682,7 +832,9 @@ module.exports = [
         "date": "07/12/2022",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1625069410"
+        "timestamp": "1625069410",
+        "latitude": 29.17255191052795,
+        "longitude": -79.7137749072496
     },
     {
         "id": 77,
@@ -691,7 +843,9 @@ module.exports = [
         "date": "08/21/2021",
         "status": "closed",
         "clientID": 132,
-        "timestamp": "1625076074"
+        "timestamp": "1625076074",
+        "latitude": 29.890553014428953,
+        "longitude": -80.58779937539664
     },
     {
         "id": 78,
@@ -700,7 +854,9 @@ module.exports = [
         "date": "02/07/2022",
         "status": "closed",
         "clientID": 11,
-        "timestamp": "1646072518"
+        "timestamp": "1646072518",
+        "latitude": 29.510979934710836,
+        "longitude": -82.43846590087045
     },
     {
         "id": 79,
@@ -709,7 +865,9 @@ module.exports = [
         "date": "05/22/2022",
         "status": "open",
         "clientID": 131,
-        "timestamp": "1633222416"
+        "timestamp": "1633222416",
+        "latitude": 28.460269882590385,
+        "longitude": -82.84794112140035
     },
     {
         "id": 80,
@@ -718,7 +876,9 @@ module.exports = [
         "date": "10/06/2021",
         "status": "closed",
         "clientID": 131,
-        "timestamp": "1624824920"
+        "timestamp": "1624824920",
+        "latitude": 29.98782258939144,
+        "longitude": -81.04898735364418
     },
     {
         "id": 81,
@@ -727,7 +887,9 @@ module.exports = [
         "date": "08/26/2021",
         "status": "closed",
         "clientID": 133,
-        "timestamp": "1628148231"
+        "timestamp": "1628148231",
+        "latitude": 28.3291402695147,
+        "longitude": -79.57671984934623
     },
     {
         "id": 82,
@@ -736,7 +898,9 @@ module.exports = [
         "date": "05/03/2022",
         "status": "closed",
         "clientID": 142,
-        "timestamp": "1626494550"
+        "timestamp": "1626494550",
+        "latitude": 29.545668587973378,
+        "longitude": -82.40205149554701
     },
     {
         "id": 83,
@@ -745,7 +909,9 @@ module.exports = [
         "date": "08/04/2021",
         "status": "open",
         "clientID": 46,
-        "timestamp": "1647343146"
+        "timestamp": "1647343146",
+        "latitude": 27.10030614867218,
+        "longitude": -81.2579043612594
     },
     {
         "id": 84,
@@ -754,7 +920,9 @@ module.exports = [
         "date": "01/03/2022",
         "status": "open",
         "clientID": 82,
-        "timestamp": "1622925087"
+        "timestamp": "1622925087",
+        "latitude": 28.770135993030095,
+        "longitude": -79.57429454731954
     },
     {
         "id": 85,
@@ -763,7 +931,9 @@ module.exports = [
         "date": "01/04/2022",
         "status": "closed",
         "clientID": 46,
-        "timestamp": "1635131615"
+        "timestamp": "1635131615",
+        "latitude": 29.80475244675138,
+        "longitude": -82.02376666483197
     },
     {
         "id": 86,
@@ -772,7 +942,9 @@ module.exports = [
         "date": "08/12/2022",
         "status": "open",
         "clientID": 153,
-        "timestamp": "1627787067"
+        "timestamp": "1627787067",
+        "latitude": 29.470047776113233,
+        "longitude": -82.47848192180051
     },
     {
         "id": 87,
@@ -781,7 +953,9 @@ module.exports = [
         "date": "08/09/2021",
         "status": "open",
         "clientID": 116,
-        "timestamp": "1636770591"
+        "timestamp": "1636770591",
+        "latitude": 29.755250077463906,
+        "longitude": -80.29185460892742
     },
     {
         "id": 88,
@@ -790,7 +964,9 @@ module.exports = [
         "date": "09/02/2021",
         "status": "open",
         "clientID": 28,
-        "timestamp": "1647996760"
+        "timestamp": "1647996760",
+        "latitude": 27.65700669214253,
+        "longitude": -79.90989406232035
     },
     {
         "id": 89,
@@ -799,7 +975,9 @@ module.exports = [
         "date": "03/12/2022",
         "status": "closed",
         "clientID": 35,
-        "timestamp": "1630956011"
+        "timestamp": "1630956011",
+        "latitude": 29.42544152819737,
+        "longitude": -82.5187764180229
     },
     {
         "id": 90,
@@ -808,7 +986,9 @@ module.exports = [
         "date": "05/25/2022",
         "status": "open",
         "clientID": 94,
-        "timestamp": "1646013887"
+        "timestamp": "1646013887",
+        "latitude": 28.709978310294073,
+        "longitude": -79.56552777901375
     },
     {
         "id": 91,
@@ -817,7 +997,9 @@ module.exports = [
         "date": "06/15/2022",
         "status": "open",
         "clientID": 182,
-        "timestamp": "1635735232"
+        "timestamp": "1635735232",
+        "latitude": 27.214181031512567,
+        "longitude": -81.8426849390337
     },
     {
         "id": 92,
@@ -826,7 +1008,9 @@ module.exports = [
         "date": "09/04/2021",
         "status": "closed",
         "clientID": 152,
-        "timestamp": "1638796065"
+        "timestamp": "1638796065",
+        "latitude": 29.797174527116972,
+        "longitude": -80.3690596992272
     },
     {
         "id": 93,
@@ -835,7 +1019,9 @@ module.exports = [
         "date": "11/26/2021",
         "status": "open",
         "clientID": 15,
-        "timestamp": "1626151079"
+        "timestamp": "1626151079",
+        "latitude": 27.17921357518239,
+        "longitude": -80.66815663508844
     },
     {
         "id": 94,
@@ -844,7 +1030,9 @@ module.exports = [
         "date": "06/16/2022",
         "status": "closed",
         "clientID": 15,
-        "timestamp": "1650918536"
+        "timestamp": "1650918536",
+        "latitude": 29.994144718125682,
+        "longitude": -81.2007599596792
     },
     {
         "id": 95,
@@ -853,7 +1041,9 @@ module.exports = [
         "date": "09/28/2021",
         "status": "closed",
         "clientID": 4,
-        "timestamp": "1650332497"
+        "timestamp": "1650332497",
+        "latitude": 28.981589982833412,
+        "longitude": -79.62912308788906
     },
     {
         "id": 96,
@@ -862,7 +1052,9 @@ module.exports = [
         "date": "03/01/2022",
         "status": "open",
         "clientID": 133,
-        "timestamp": "1629112386"
+        "timestamp": "1629112386",
+        "latitude": 27.101826241713542,
+        "longitude": -81.29630816952375
     },
     {
         "id": 97,
@@ -871,7 +1063,9 @@ module.exports = [
         "date": "05/29/2021",
         "status": "open",
         "clientID": 10,
-        "timestamp": "1635125852"
+        "timestamp": "1635125852",
+        "latitude": 29.873491003835436,
+        "longitude": -81.8667786251472
     },
     {
         "id": 98,
@@ -880,7 +1074,9 @@ module.exports = [
         "date": "03/17/2022",
         "status": "closed",
         "clientID": 2,
-        "timestamp": "1639826191"
+        "timestamp": "1639826191",
+        "latitude": 28.99976142317849,
+        "longitude": -82.77219876914818
     },
     {
         "id": 99,
@@ -889,7 +1085,9 @@ module.exports = [
         "date": "07/12/2022",
         "status": "closed",
         "clientID": 4,
-        "timestamp": "1640730230"
+        "timestamp": "1640730230",
+        "latitude": 29.0760982236014,
+        "longitude": -82.74133491626165
     },
     {
         "id": 100,
@@ -898,7 +1096,9 @@ module.exports = [
         "date": "10/04/2021",
         "status": "closed",
         "clientID": 82,
-        "timestamp": "1630473206"
+        "timestamp": "1630473206",
+        "latitude": 29.792402633115017,
+        "longitude": -82.04808900448731
     },
     {
         "id": 101,
@@ -907,7 +1107,9 @@ module.exports = [
         "date": "11/09/2021",
         "status": "open",
         "clientID": 115,
-        "timestamp": "1627994758"
+        "timestamp": "1627994758",
+        "latitude": 29.71025643215682,
+        "longitude": -80.21834412367815
     },
     {
         "id": 102,
@@ -916,7 +1118,9 @@ module.exports = [
         "date": "08/26/2022",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1649627842"
+        "timestamp": "1649627842",
+        "latitude": 27.117215616528345,
+        "longitude": -80.94876613560172
     },
     {
         "id": 103,
@@ -925,7 +1129,9 @@ module.exports = [
         "date": "10/14/2021",
         "status": "closed",
         "clientID": 95,
-        "timestamp": "1648575659"
+        "timestamp": "1648575659",
+        "latitude": 29.841061280956737,
+        "longitude": -81.9460667532838
     },
     {
         "id": 104,
@@ -934,7 +1140,9 @@ module.exports = [
         "date": "06/09/2022",
         "status": "closed",
         "clientID": 59,
-        "timestamp": "1635377554"
+        "timestamp": "1635377554",
+        "latitude": 27.099532572243024,
+        "longitude": -81.21104652081425
     },
     {
         "id": 105,
@@ -943,7 +1151,9 @@ module.exports = [
         "date": "12/22/2021",
         "status": "closed",
         "clientID": 133,
-        "timestamp": "1631691967"
+        "timestamp": "1631691967",
+        "latitude": 29.678824614767567,
+        "longitude": -80.1716460141236
     },
     {
         "id": 106,
@@ -952,7 +1162,9 @@ module.exports = [
         "date": "06/13/2021",
         "status": "open",
         "clientID": 20,
-        "timestamp": "1628639366"
+        "timestamp": "1628639366",
+        "latitude": 29.761290511804322,
+        "longitude": -80.30240895133184
     },
     {
         "id": 107,
@@ -961,7 +1173,9 @@ module.exports = [
         "date": "10/22/2021",
         "status": "open",
         "clientID": 104,
-        "timestamp": "1622055121"
+        "timestamp": "1622055121",
+        "latitude": 29.143019547977776,
+        "longitude": -79.69828652565523
     },
     {
         "id": 108,
@@ -970,7 +1184,9 @@ module.exports = [
         "date": "06/27/2022",
         "status": "closed",
         "clientID": 151,
-        "timestamp": "1644129610"
+        "timestamp": "1644129610",
+        "latitude": 29.71132617839609,
+        "longitude": -80.21999611217056
     },
     {
         "id": 109,
@@ -979,7 +1195,9 @@ module.exports = [
         "date": "02/06/2022",
         "status": "open",
         "clientID": 131,
-        "timestamp": "1636848965"
+        "timestamp": "1636848965",
+        "latitude": 27.11438429643828,
+        "longitude": -80.96995535906055
     },
     {
         "id": 110,
@@ -988,7 +1206,9 @@ module.exports = [
         "date": "08/19/2022",
         "status": "closed",
         "clientID": 114,
-        "timestamp": "1623478581"
+        "timestamp": "1623478581",
+        "latitude": 27.925274290059615,
+        "longitude": -82.68754443783084
     },
     {
         "id": 111,
@@ -997,7 +1217,9 @@ module.exports = [
         "date": "08/11/2021",
         "status": "open",
         "clientID": 146,
-        "timestamp": "1645546810"
+        "timestamp": "1645546810",
+        "latitude": 27.846909288057507,
+        "longitude": -79.76651337168258
     },
     {
         "id": 112,
@@ -1006,7 +1228,9 @@ module.exports = [
         "date": "07/27/2021",
         "status": "closed",
         "clientID": 68,
-        "timestamp": "1645697889"
+        "timestamp": "1645697889",
+        "latitude": 27.389489862025382,
+        "longitude": -82.18795255844492
     },
     {
         "id": 113,
@@ -1015,7 +1239,9 @@ module.exports = [
         "date": "10/29/2021",
         "status": "closed",
         "clientID": 10,
-        "timestamp": "1624665863"
+        "timestamp": "1624665863",
+        "latitude": 27.671883062945945,
+        "longitude": -79.89683195758728
     },
     {
         "id": 114,
@@ -1024,7 +1250,9 @@ module.exports = [
         "date": "10/16/2021",
         "status": "open",
         "clientID": 79,
-        "timestamp": "1648029061"
+        "timestamp": "1648029061",
+        "latitude": 27.22534156451453,
+        "longitude": -81.8717389829833
     },
     {
         "id": 115,
@@ -1033,7 +1261,9 @@ module.exports = [
         "date": "07/27/2022",
         "status": "closed",
         "clientID": 135,
-        "timestamp": "1652731324"
+        "timestamp": "1652731324",
+        "latitude": 29.99094446162536,
+        "longitude": -81.31425511445319
     },
     {
         "id": 116,
@@ -1042,7 +1272,9 @@ module.exports = [
         "date": "05/21/2022",
         "status": "closed",
         "clientID": 80,
-        "timestamp": "1653140387"
+        "timestamp": "1653140387",
+        "latitude": 29.970853999125605,
+        "longitude": -81.5003836173293
     },
     {
         "id": 117,
@@ -1051,7 +1283,9 @@ module.exports = [
         "date": "09/12/2021",
         "status": "closed",
         "clientID": 39,
-        "timestamp": "1624006599"
+        "timestamp": "1624006599",
+        "latitude": 29.65052661933201,
+        "longitude": -80.13239724955736
     },
     {
         "id": 118,
@@ -1060,7 +1294,9 @@ module.exports = [
         "date": "07/30/2022",
         "status": "open",
         "clientID": 178,
-        "timestamp": "1646621524"
+        "timestamp": "1646621524",
+        "latitude": 28.354947023975463,
+        "longitude": -82.83553772362339
     },
     {
         "id": 119,
@@ -1069,7 +1305,9 @@ module.exports = [
         "date": "09/02/2021",
         "status": "open",
         "clientID": 70,
-        "timestamp": "1641341100"
+        "timestamp": "1641341100",
+        "latitude": 28.835476147258873,
+        "longitude": -82.82069038217837
     },
     {
         "id": 120,
@@ -1078,7 +1316,9 @@ module.exports = [
         "date": "06/04/2021",
         "status": "open",
         "clientID": 71,
-        "timestamp": "1651440057"
+        "timestamp": "1651440057",
+        "latitude": 28.06702581584523,
+        "longitude": -79.65298459425023
     },
     {
         "id": 121,
@@ -1087,7 +1327,9 @@ module.exports = [
         "date": "06/10/2022",
         "status": "closed",
         "clientID": 38,
-        "timestamp": "1629496186"
+        "timestamp": "1629496186",
+        "latitude": 27.108492010867106,
+        "longitude": -81.3858968948523
     },
     {
         "id": 122,
@@ -1096,7 +1338,9 @@ module.exports = [
         "date": "04/12/2022",
         "status": "open",
         "clientID": 28,
-        "timestamp": "1653321760"
+        "timestamp": "1653321760",
+        "latitude": 27.559775835906784,
+        "longitude": -82.40339102212329
     },
     {
         "id": 123,
@@ -1105,7 +1349,9 @@ module.exports = [
         "date": "05/26/2022",
         "status": "open",
         "clientID": 49,
-        "timestamp": "1632301115"
+        "timestamp": "1632301115",
+        "latitude": 29.966724870920853,
+        "longitude": -80.8825140863532
     },
     {
         "id": 124,
@@ -1114,7 +1360,9 @@ module.exports = [
         "date": "12/20/2021",
         "status": "open",
         "clientID": 158,
-        "timestamp": "1641841597"
+        "timestamp": "1641841597",
+        "latitude": 29.916556571936074,
+        "longitude": -80.66815902065528
     },
     {
         "id": 125,
@@ -1123,7 +1371,9 @@ module.exports = [
         "date": "04/13/2022",
         "status": "closed",
         "clientID": 10,
-        "timestamp": "1622663127"
+        "timestamp": "1622663127",
+        "latitude": 27.19653811645361,
+        "longitude": -81.79330546000914
     },
     {
         "id": 126,
@@ -1132,7 +1382,9 @@ module.exports = [
         "date": "06/21/2021",
         "status": "closed",
         "clientID": 38,
-        "timestamp": "1630759417"
+        "timestamp": "1630759417",
+        "latitude": 27.13316922882099,
+        "longitude": -81.55484108942463
     },
     {
         "id": 127,
@@ -1141,7 +1393,9 @@ module.exports = [
         "date": "11/16/2021",
         "status": "closed",
         "clientID": 104,
-        "timestamp": "1634974689"
+        "timestamp": "1634974689",
+        "latitude": 29.186812376907987,
+        "longitude": -79.7215896057614
     },
     {
         "id": 128,
@@ -1150,7 +1404,9 @@ module.exports = [
         "date": "08/19/2021",
         "status": "open",
         "clientID": 61,
-        "timestamp": "1646267681"
+        "timestamp": "1646267681",
+        "latitude": 27.710509250714736,
+        "longitude": -79.86448581536712
     },
     {
         "id": 129,
@@ -1159,7 +1415,9 @@ module.exports = [
         "date": "12/30/2021",
         "status": "closed",
         "clientID": 125,
-        "timestamp": "1647966547"
+        "timestamp": "1647966547",
+        "latitude": 29.346270886345824,
+        "longitude": -79.82516990347933
     },
     {
         "id": 130,
@@ -1168,7 +1426,9 @@ module.exports = [
         "date": "01/08/2022",
         "status": "closed",
         "clientID": 152,
-        "timestamp": "1652441287"
+        "timestamp": "1652441287",
+        "latitude": 27.851976386073275,
+        "longitude": -82.64454603957466
     },
     {
         "id": 131,
@@ -1177,7 +1437,9 @@ module.exports = [
         "date": "09/09/2021",
         "status": "closed",
         "clientID": 117,
-        "timestamp": "1650928680"
+        "timestamp": "1650928680",
+        "latitude": 29.491941728015544,
+        "longitude": -79.9504054618888
     },
     {
         "id": 132,
@@ -1186,7 +1448,9 @@ module.exports = [
         "date": "11/14/2021",
         "status": "open",
         "clientID": 133,
-        "timestamp": "1640176908"
+        "timestamp": "1640176908",
+        "latitude": 27.32645032029099,
+        "longitude": -82.08465971395825
     },
     {
         "id": 133,
@@ -1195,7 +1459,9 @@ module.exports = [
         "date": "07/03/2022",
         "status": "closed",
         "clientID": 200,
-        "timestamp": "1625567325"
+        "timestamp": "1625567325",
+        "latitude": 28.45346228573548,
+        "longitude": -82.8474056658692
     },
     {
         "id": 134,
@@ -1204,7 +1470,9 @@ module.exports = [
         "date": "06/28/2022",
         "status": "closed",
         "clientID": 33,
-        "timestamp": "1636262379"
+        "timestamp": "1636262379",
+        "latitude": 29.845272434869017,
+        "longitude": -80.47149863391081
     },
     {
         "id": 135,
@@ -1213,7 +1481,9 @@ module.exports = [
         "date": "07/12/2022",
         "status": "open",
         "clientID": 4,
-        "timestamp": "1633883301"
+        "timestamp": "1633883301",
+        "latitude": 29.701163644449093,
+        "longitude": -80.20447449512925
     },
     {
         "id": 136,
@@ -1222,7 +1492,9 @@ module.exports = [
         "date": "05/29/2022",
         "status": "open",
         "clientID": 193,
-        "timestamp": "1621757675"
+        "timestamp": "1621757675",
+        "latitude": 28.566779497174846,
+        "longitude": -79.55629857393512
     },
     {
         "id": 137,
@@ -1231,7 +1503,9 @@ module.exports = [
         "date": "02/15/2022",
         "status": "closed",
         "clientID": 49,
-        "timestamp": "1623048163"
+        "timestamp": "1623048163",
+        "latitude": 27.148745543076476,
+        "longitude": -81.6272292332593
     },
     {
         "id": 138,
@@ -1240,7 +1514,9 @@ module.exports = [
         "date": "05/10/2022",
         "status": "open",
         "clientID": 178,
-        "timestamp": "1645161876"
+        "timestamp": "1645161876",
+        "latitude": 29.37457935968767,
+        "longitude": -79.84697402435975
     },
     {
         "id": 139,
@@ -1249,7 +1525,9 @@ module.exports = [
         "date": "02/28/2022",
         "status": "open",
         "clientID": 152,
-        "timestamp": "1629562905"
+        "timestamp": "1629562905",
+        "latitude": 29.577440491075055,
+        "longitude": -82.36648901904012
     },
     {
         "id": 140,
@@ -1258,7 +1536,9 @@ module.exports = [
         "date": "09/18/2021",
         "status": "closed",
         "clientID": 2,
-        "timestamp": "1647032315"
+        "timestamp": "1647032315",
+        "latitude": 28.100086191826552,
+        "longitude": -79.64005397904467
     },
     {
         "id": 141,
@@ -1267,7 +1547,9 @@ module.exports = [
         "date": "01/25/2022",
         "status": "closed",
         "clientID": 193,
-        "timestamp": "1649006715"
+        "timestamp": "1649006715",
+        "latitude": 28.00661853887333,
+        "longitude": -82.72860579568984
     },
     {
         "id": 142,
@@ -1276,7 +1558,9 @@ module.exports = [
         "date": "10/03/2021",
         "status": "open",
         "clientID": 68,
-        "timestamp": "1646101267"
+        "timestamp": "1646101267",
+        "latitude": 28.239596068111688,
+        "longitude": -82.8116775809661
     },
     {
         "id": 143,
@@ -1285,7 +1569,9 @@ module.exports = [
         "date": "06/18/2022",
         "status": "open",
         "clientID": 136,
-        "timestamp": "1629277305"
+        "timestamp": "1629277305",
+        "latitude": 29.97545285362323,
+        "longitude": -80.9381335486997
     },
     {
         "id": 144,
@@ -1294,7 +1580,9 @@ module.exports = [
         "date": "08/05/2021",
         "status": "closed",
         "clientID": 149,
-        "timestamp": "1641250566"
+        "timestamp": "1641250566",
+        "latitude": 27.101079498725582,
+        "longitude": -81.27991287128094
     },
     {
         "id": 145,
@@ -1303,7 +1591,9 @@ module.exports = [
         "date": "12/10/2021",
         "status": "closed",
         "clientID": 42,
-        "timestamp": "1630063255"
+        "timestamp": "1630063255",
+        "latitude": 29.502981570768682,
+        "longitude": -79.96133607855197
     },
     {
         "id": 146,
@@ -1312,7 +1602,9 @@ module.exports = [
         "date": "01/01/2022",
         "status": "closed",
         "clientID": 171,
-        "timestamp": "1649669318"
+        "timestamp": "1649669318",
+        "latitude": 29.104689510900158,
+        "longitude": -82.72832119414191
     },
     {
         "id": 147,
@@ -1321,7 +1613,9 @@ module.exports = [
         "date": "02/11/2022",
         "status": "open",
         "clientID": 170,
-        "timestamp": "1631546901"
+        "timestamp": "1631546901",
+        "latitude": 27.285382280981857,
+        "longitude": -80.40091055810315
     },
     {
         "id": 148,
@@ -1330,7 +1624,9 @@ module.exports = [
         "date": "10/22/2021",
         "status": "closed",
         "clientID": 103,
-        "timestamp": "1624937246"
+        "timestamp": "1624937246",
+        "latitude": 27.76329280910777,
+        "longitude": -79.82371795649338
     },
     {
         "id": 149,
@@ -1339,7 +1635,9 @@ module.exports = [
         "date": "06/23/2022",
         "status": "closed",
         "clientID": 41,
-        "timestamp": "1637613168"
+        "timestamp": "1637613168",
+        "latitude": 27.122667073929588,
+        "longitude": -81.4954955306731
     },
     {
         "id": 150,
@@ -1348,7 +1646,9 @@ module.exports = [
         "date": "10/18/2021",
         "status": "closed",
         "clientID": 176,
-        "timestamp": "1624241762"
+        "timestamp": "1624241762",
+        "latitude": 28.733608606931185,
+        "longitude": -79.56862201175612
     },
     {
         "id": 151,
@@ -1357,7 +1657,9 @@ module.exports = [
         "date": "10/03/2021",
         "status": "closed",
         "clientID": 81,
-        "timestamp": "1623929038"
+        "timestamp": "1623929038",
+        "latitude": 29.29447285656933,
+        "longitude": -82.61978150322768
     },
     {
         "id": 152,
@@ -1366,7 +1668,9 @@ module.exports = [
         "date": "07/20/2022",
         "status": "closed",
         "clientID": 64,
-        "timestamp": "1640130675"
+        "timestamp": "1640130675",
+        "latitude": 28.61201255991469,
+        "longitude": -79.55745990228132
     },
     {
         "id": 153,
@@ -1375,7 +1679,9 @@ module.exports = [
         "date": "03/25/2022",
         "status": "open",
         "clientID": 178,
-        "timestamp": "1632875483"
+        "timestamp": "1632875483",
+        "latitude": 29.395264246087216,
+        "longitude": -79.86363194682767
     },
     {
         "id": 154,
@@ -1384,7 +1690,9 @@ module.exports = [
         "date": "03/10/2022",
         "status": "closed",
         "clientID": 193,
-        "timestamp": "1641257289"
+        "timestamp": "1641257289",
+        "latitude": 28.197518914423537,
+        "longitude": -79.60764271670118
     },
     {
         "id": 155,
@@ -1393,7 +1701,9 @@ module.exports = [
         "date": "08/09/2022",
         "status": "open",
         "clientID": 140,
-        "timestamp": "1651304747"
+        "timestamp": "1651304747",
+        "latitude": 27.167920291229212,
+        "longitude": -81.70126522133128
     },
     {
         "id": 156,
@@ -1402,7 +1712,9 @@ module.exports = [
         "date": "02/22/2022",
         "status": "open",
         "clientID": 39,
-        "timestamp": "1626586975"
+        "timestamp": "1626586975",
+        "latitude": 27.522231196822045,
+        "longitude": -80.04580539371189
     },
     {
         "id": 157,
@@ -1411,7 +1723,9 @@ module.exports = [
         "date": "09/21/2021",
         "status": "closed",
         "clientID": 108,
-        "timestamp": "1646400001"
+        "timestamp": "1646400001",
+        "latitude": 29.094046503926712,
+        "longitude": -79.67460317320567
     },
     {
         "id": 158,
@@ -1420,7 +1734,9 @@ module.exports = [
         "date": "07/29/2021",
         "status": "closed",
         "clientID": 79,
-        "timestamp": "1651273056"
+        "timestamp": "1651273056",
+        "latitude": 27.960334583867805,
+        "longitude": -82.70606858980457
     },
     {
         "id": 159,
@@ -1429,7 +1745,9 @@ module.exports = [
         "date": "10/04/2021",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1648669405"
+        "timestamp": "1648669405",
+        "latitude": 29.58494537688798,
+        "longitude": -80.05010553078453
     },
     {
         "id": 160,
@@ -1438,7 +1756,9 @@ module.exports = [
         "date": "12/16/2021",
         "status": "open",
         "clientID": 135,
-        "timestamp": "1629431644"
+        "timestamp": "1629431644",
+        "latitude": 28.597672659314114,
+        "longitude": -79.55691718734549
     },
     {
         "id": 161,
@@ -1447,7 +1767,9 @@ module.exports = [
         "date": "02/09/2022",
         "status": "closed",
         "clientID": 146,
-        "timestamp": "1652860748"
+        "timestamp": "1652860748",
+        "latitude": 27.14871657826135,
+        "longitude": -81.62710677947871
     },
     {
         "id": 162,
@@ -1456,7 +1778,9 @@ module.exports = [
         "date": "04/05/2022",
         "status": "closed",
         "clientID": 111,
-        "timestamp": "1650315941"
+        "timestamp": "1650315941",
+        "latitude": 27.952279045890975,
+        "longitude": -79.70593861009476
     },
     {
         "id": 163,
@@ -1465,7 +1789,9 @@ module.exports = [
         "date": "03/22/2022",
         "status": "open",
         "clientID": 150,
-        "timestamp": "1653307580"
+        "timestamp": "1653307580",
+        "latitude": 27.58073629441842,
+        "longitude": -79.98263810723762
     },
     {
         "id": 164,
@@ -1474,7 +1800,9 @@ module.exports = [
         "date": "06/18/2021",
         "status": "closed",
         "clientID": 182,
-        "timestamp": "1649861372"
+        "timestamp": "1649861372",
+        "latitude": 27.36468397567916,
+        "longitude": -80.25857901117418
     },
     {
         "id": 165,
@@ -1483,7 +1811,9 @@ module.exports = [
         "date": "10/01/2021",
         "status": "closed",
         "clientID": 114,
-        "timestamp": "1641879683"
+        "timestamp": "1641879683",
+        "latitude": 27.301824973743116,
+        "longitude": -80.36862673677112
     },
     {
         "id": 166,
@@ -1492,7 +1822,9 @@ module.exports = [
         "date": "02/28/2022",
         "status": "closed",
         "clientID": 122,
-        "timestamp": "1622265054"
+        "timestamp": "1622265054",
+        "latitude": 29.84971223768929,
+        "longitude": -80.4819039075126
     },
     {
         "id": 167,
@@ -1501,7 +1833,9 @@ module.exports = [
         "date": "02/04/2022",
         "status": "open",
         "clientID": 72,
-        "timestamp": "1643727119"
+        "timestamp": "1643727119",
+        "latitude": 27.85097008460835,
+        "longitude": -82.64391377553187
     },
     {
         "id": 168,
@@ -1510,7 +1844,9 @@ module.exports = [
         "date": "07/25/2021",
         "status": "open",
         "clientID": 10,
-        "timestamp": "1645660915"
+        "timestamp": "1645660915",
+        "latitude": 28.52450004918231,
+        "longitude": -79.5566689480865
     },
     {
         "id": 169,
@@ -1519,7 +1855,9 @@ module.exports = [
         "date": "10/10/2021",
         "status": "open",
         "clientID": 64,
-        "timestamp": "1630068320"
+        "timestamp": "1630068320",
+        "latitude": 29.93947600914413,
+        "longitude": -81.6555427016016
     },
     {
         "id": 170,
@@ -1528,7 +1866,9 @@ module.exports = [
         "date": "08/15/2021",
         "status": "closed",
         "clientID": 11,
-        "timestamp": "1642581536"
+        "timestamp": "1642581536",
+        "latitude": 29.400230076284384,
+        "longitude": -82.5401386009805
     },
     {
         "id": 171,
@@ -1537,7 +1877,9 @@ module.exports = [
         "date": "02/11/2022",
         "status": "open",
         "clientID": 64,
-        "timestamp": "1637363588"
+        "timestamp": "1637363588",
+        "latitude": 29.921573609474446,
+        "longitude": -81.72256781897435
     },
     {
         "id": 172,
@@ -1546,7 +1888,9 @@ module.exports = [
         "date": "12/20/2021",
         "status": "open",
         "clientID": 181,
-        "timestamp": "1650648394"
+        "timestamp": "1650648394",
+        "latitude": 28.646651839122256,
+        "longitude": -79.55944111544756
     },
     {
         "id": 173,
@@ -1555,7 +1899,9 @@ module.exports = [
         "date": "02/04/2022",
         "status": "open",
         "clientID": 164,
-        "timestamp": "1620617953"
+        "timestamp": "1620617953",
+        "latitude": 29.930241244710814,
+        "longitude": -81.69138018277332
     },
     {
         "id": 174,
@@ -1564,7 +1910,9 @@ module.exports = [
         "date": "08/28/2021",
         "status": "open",
         "clientID": 7,
-        "timestamp": "1646810145"
+        "timestamp": "1646810145",
+        "latitude": 29.888189121479307,
+        "longitude": -80.58108054600177
     },
     {
         "id": 175,
@@ -1573,7 +1921,9 @@ module.exports = [
         "date": "03/08/2022",
         "status": "open",
         "clientID": 142,
-        "timestamp": "1649330940"
+        "timestamp": "1649330940",
+        "latitude": 27.323588777317568,
+        "longitude": -80.3283168071577
     },
     {
         "id": 176,
@@ -1582,7 +1932,9 @@ module.exports = [
         "date": "12/29/2021",
         "status": "closed",
         "clientID": 7,
-        "timestamp": "1652908076"
+        "timestamp": "1652908076",
+        "latitude": 29.29051059838673,
+        "longitude": -82.62247543541599
     },
     {
         "id": 177,
@@ -1591,7 +1943,9 @@ module.exports = [
         "date": "06/06/2021",
         "status": "closed",
         "clientID": 104,
-        "timestamp": "1647197733"
+        "timestamp": "1647197733",
+        "latitude": 28.748247828839805,
+        "longitude": -82.8370985947465
     },
     {
         "id": 178,
@@ -1600,7 +1954,9 @@ module.exports = [
         "date": "09/19/2021",
         "status": "closed",
         "clientID": 115,
-        "timestamp": "1646627094"
+        "timestamp": "1646627094",
+        "latitude": 27.760350487034337,
+        "longitude": -79.8258913361867
     },
     {
         "id": 179,
@@ -1609,7 +1965,9 @@ module.exports = [
         "date": "11/08/2021",
         "status": "open",
         "clientID": 184,
-        "timestamp": "1653448363"
+        "timestamp": "1653448363",
+        "latitude": 27.51024282700832,
+        "longitude": -82.34821943663334
     },
     {
         "id": 180,
@@ -1618,7 +1976,9 @@ module.exports = [
         "date": "11/21/2021",
         "status": "closed",
         "clientID": 102,
-        "timestamp": "1641549395"
+        "timestamp": "1641549395",
+        "latitude": 29.04851680389246,
+        "longitude": -82.75312781058422
     },
     {
         "id": 181,
@@ -1627,7 +1987,9 @@ module.exports = [
         "date": "09/17/2021",
         "status": "open",
         "clientID": 95,
-        "timestamp": "1632855370"
+        "timestamp": "1632855370",
+        "latitude": 27.174706317031298,
+        "longitude": -81.72474163174283
     },
     {
         "id": 182,
@@ -1636,7 +1998,9 @@ module.exports = [
         "date": "03/17/2022",
         "status": "open",
         "clientID": 39,
-        "timestamp": "1629748149"
+        "timestamp": "1629748149",
+        "latitude": 29.969564089275906,
+        "longitude": -80.89945288680106
     },
     {
         "id": 183,
@@ -1645,7 +2009,9 @@ module.exports = [
         "date": "08/05/2021",
         "status": "open",
         "clientID": 35,
-        "timestamp": "1624095647"
+        "timestamp": "1624095647",
+        "latitude": 29.946329531112582,
+        "longitude": -80.78105160091239
     },
     {
         "id": 184,
@@ -1654,7 +2020,9 @@ module.exports = [
         "date": "05/24/2022",
         "status": "open",
         "clientID": 40,
-        "timestamp": "1627411491"
+        "timestamp": "1627411491",
+        "latitude": 29.582276945448616,
+        "longitude": -82.36087757047044
     },
     {
         "id": 185,
@@ -1663,7 +2031,9 @@ module.exports = [
         "date": "09/29/2021",
         "status": "closed",
         "clientID": 99,
-        "timestamp": "1629307596"
+        "timestamp": "1629307596",
+        "latitude": 27.13995180822908,
+        "longitude": -80.81972463980759
     },
     {
         "id": 186,
@@ -1672,7 +2042,9 @@ module.exports = [
         "date": "08/21/2022",
         "status": "closed",
         "clientID": 122,
-        "timestamp": "1644223647"
+        "timestamp": "1644223647",
+        "latitude": 28.245544972605472,
+        "longitude": -79.59468704280764
     },
     {
         "id": 187,
@@ -1681,7 +2053,9 @@ module.exports = [
         "date": "05/03/2022",
         "status": "open",
         "clientID": 40,
-        "timestamp": "1649068856"
+        "timestamp": "1649068856",
+        "latitude": 29.277574886696737,
+        "longitude": -82.6311336495385
     },
     {
         "id": 188,
@@ -1690,7 +2064,9 @@ module.exports = [
         "date": "11/16/2021",
         "status": "open",
         "clientID": 81,
-        "timestamp": "1645602424"
+        "timestamp": "1645602424",
+        "latitude": 29.515268296701215,
+        "longitude": -82.4340932209403
     },
     {
         "id": 189,
@@ -1699,7 +2075,9 @@ module.exports = [
         "date": "07/27/2021",
         "status": "closed",
         "clientID": 129,
-        "timestamp": "1650746529"
+        "timestamp": "1650746529",
+        "latitude": 27.39969729896969,
+        "longitude": -82.20320539971898
     },
     {
         "id": 190,
@@ -1708,7 +2086,9 @@ module.exports = [
         "date": "08/14/2022",
         "status": "open",
         "clientID": 101,
-        "timestamp": "1646145068"
+        "timestamp": "1646145068",
+        "latitude": 29.510732676200515,
+        "longitude": -82.43871694374734
     },
     {
         "id": 191,
@@ -1717,7 +2097,9 @@ module.exports = [
         "date": "01/13/2022",
         "status": "closed",
         "clientID": 164,
-        "timestamp": "1622468833"
+        "timestamp": "1622468833",
+        "latitude": 29.982058084628346,
+        "longitude": -81.41792896105419
     },
     {
         "id": 192,
@@ -1726,7 +2108,9 @@ module.exports = [
         "date": "06/01/2021",
         "status": "open",
         "clientID": 142,
-        "timestamp": "1636121880"
+        "timestamp": "1636121880",
+        "latitude": 27.19949859658721,
+        "longitude": -81.80192149858975
     },
     {
         "id": 193,
@@ -1735,7 +2119,9 @@ module.exports = [
         "date": "05/19/2022",
         "status": "open",
         "clientID": 117,
-        "timestamp": "1652777350"
+        "timestamp": "1652777350",
+        "latitude": 27.204518558997737,
+        "longitude": -80.59165031180711
     },
     {
         "id": 194,
@@ -1744,7 +2130,9 @@ module.exports = [
         "date": "12/15/2021",
         "status": "open",
         "clientID": 129,
-        "timestamp": "1625905305"
+        "timestamp": "1625905305",
+        "latitude": 28.672286258453124,
+        "longitude": -79.56151975249915
     },
     {
         "id": 195,
@@ -1753,7 +2141,9 @@ module.exports = [
         "date": "06/21/2022",
         "status": "closed",
         "clientID": 112,
-        "timestamp": "1630299831"
+        "timestamp": "1630299831",
+        "latitude": 27.68141647658519,
+        "longitude": -82.51922258364021
     },
     {
         "id": 196,
@@ -1762,7 +2152,9 @@ module.exports = [
         "date": "06/21/2022",
         "status": "closed",
         "clientID": 125,
-        "timestamp": "1640494676"
+        "timestamp": "1640494676",
+        "latitude": 29.088772680697176,
+        "longitude": -82.73566626475487
     },
     {
         "id": 197,
@@ -1771,7 +2163,9 @@ module.exports = [
         "date": "02/11/2022",
         "status": "open",
         "clientID": 127,
-        "timestamp": "1647655408"
+        "timestamp": "1647655408",
+        "latitude": 28.461680674411895,
+        "longitude": -79.55981630083653
     },
     {
         "id": 198,
@@ -1780,7 +2174,9 @@ module.exports = [
         "date": "11/30/2021",
         "status": "closed",
         "clientID": 25,
-        "timestamp": "1632741695"
+        "timestamp": "1632741695",
+        "latitude": 27.378545271719915,
+        "longitude": -80.23668287231772
     },
     {
         "id": 199,
@@ -1789,7 +2185,9 @@ module.exports = [
         "date": "06/30/2021",
         "status": "closed",
         "clientID": 43,
-        "timestamp": "1637558155"
+        "timestamp": "1637558155",
+        "latitude": 29.891278591631426,
+        "longitude": -81.81798494135998
     },
     {
         "id": 200,
@@ -1798,7 +2196,9 @@ module.exports = [
         "date": "02/14/2022",
         "status": "open",
         "clientID": 124,
-        "timestamp": "1637815244"
+        "timestamp": "1637815244",
+        "latitude": 28.20824017527309,
+        "longitude": -79.60458092510196
     },
     {
         "id": 201,
@@ -1807,7 +2207,9 @@ module.exports = [
         "date": "10/28/2021",
         "status": "open",
         "clientID": 142,
-        "timestamp": "1640506236"
+        "timestamp": "1640506236",
+        "latitude": 27.436471071292704,
+        "longitude": -82.255293853384
     },
     {
         "id": 202,
@@ -1816,7 +2218,9 @@ module.exports = [
         "date": "02/17/2022",
         "status": "open",
         "clientID": 116,
-        "timestamp": "1635727510"
+        "timestamp": "1635727510",
+        "latitude": 27.178663988509616,
+        "longitude": -80.66995644424894
     },
     {
         "id": 203,
@@ -1825,7 +2229,9 @@ module.exports = [
         "date": "12/14/2021",
         "status": "closed",
         "clientID": 122,
-        "timestamp": "1629110800"
+        "timestamp": "1629110800",
+        "latitude": 29.9776612617185,
+        "longitude": -81.45363600105604
     },
     {
         "id": 204,
@@ -1834,7 +2240,9 @@ module.exports = [
         "date": "03/13/2022",
         "status": "open",
         "clientID": 22,
-        "timestamp": "1651365640"
+        "timestamp": "1651365640",
+        "latitude": 29.056104200651475,
+        "longitude": -79.65790663991737
     },
     {
         "id": 205,
@@ -1843,7 +2251,9 @@ module.exports = [
         "date": "05/23/2022",
         "status": "closed",
         "clientID": 59,
-        "timestamp": "1626276900"
+        "timestamp": "1626276900",
+        "latitude": 29.975180140450814,
+        "longitude": -81.47164890375963
     },
     {
         "id": 206,
@@ -1852,7 +2262,9 @@ module.exports = [
         "date": "01/16/2022",
         "status": "closed",
         "clientID": 41,
-        "timestamp": "1641877105"
+        "timestamp": "1641877105",
+        "latitude": 27.262484297696716,
+        "longitude": -81.95895510101793
     },
     {
         "id": 207,
@@ -1861,7 +2273,9 @@ module.exports = [
         "date": "12/08/2021",
         "status": "closed",
         "clientID": 20,
-        "timestamp": "1632306646"
+        "timestamp": "1632306646",
+        "latitude": 27.357223174167355,
+        "longitude": -82.13717978082667
     },
     {
         "id": 208,
@@ -1870,7 +2284,9 @@ module.exports = [
         "date": "03/21/2022",
         "status": "closed",
         "clientID": 181,
-        "timestamp": "1649217249"
+        "timestamp": "1649217249",
+        "latitude": 29.60263878058285,
+        "longitude": -80.0712180388768
     },
     {
         "id": 209,
@@ -1879,7 +2295,9 @@ module.exports = [
         "date": "09/26/2021",
         "status": "closed",
         "clientID": 59,
-        "timestamp": "1652370731"
+        "timestamp": "1652370731",
+        "latitude": 29.221467450237235,
+        "longitude": -82.6663445532668
     },
     {
         "id": 210,
@@ -1888,7 +2306,9 @@ module.exports = [
         "date": "11/06/2021",
         "status": "open",
         "clientID": 14,
-        "timestamp": "1650595953"
+        "timestamp": "1650595953",
+        "latitude": 29.939280656485604,
+        "longitude": -81.65633283653429
     },
     {
         "id": 211,
@@ -1897,7 +2317,9 @@ module.exports = [
         "date": "08/02/2021",
         "status": "open",
         "clientID": 117,
-        "timestamp": "1624202954"
+        "timestamp": "1624202954",
+        "latitude": 27.997072936038826,
+        "longitude": -82.72413217737267
     },
     {
         "id": 212,
@@ -1906,7 +2328,9 @@ module.exports = [
         "date": "09/12/2021",
         "status": "open",
         "clientID": 136,
-        "timestamp": "1651764311"
+        "timestamp": "1651764311",
+        "latitude": 27.83866924998541,
+        "longitude": -79.7717738627744
     },
     {
         "id": 213,
@@ -1915,7 +2339,9 @@ module.exports = [
         "date": "02/01/2022",
         "status": "closed",
         "clientID": 170,
-        "timestamp": "1646903070"
+        "timestamp": "1646903070",
+        "latitude": 27.119063628335773,
+        "longitude": -80.93585771430732
     },
     {
         "id": 214,
@@ -1924,7 +2350,9 @@ module.exports = [
         "date": "09/15/2021",
         "status": "closed",
         "clientID": 74,
-        "timestamp": "1650054538"
+        "timestamp": "1650054538",
+        "latitude": 28.870628581107784,
+        "longitude": -82.8122855806766
     },
     {
         "id": 215,
@@ -1933,7 +2361,9 @@ module.exports = [
         "date": "07/08/2022",
         "status": "closed",
         "clientID": 140,
-        "timestamp": "1638792024"
+        "timestamp": "1638792024",
+        "latitude": 29.52754381659089,
+        "longitude": -79.98648556641687
     },
     {
         "id": 216,
@@ -1942,7 +2372,9 @@ module.exports = [
         "date": "04/19/2022",
         "status": "open",
         "clientID": 164,
-        "timestamp": "1630659844"
+        "timestamp": "1630659844",
+        "latitude": 28.219360946273135,
+        "longitude": -79.60150847047039
     },
     {
         "id": 217,
@@ -1951,7 +2383,9 @@ module.exports = [
         "date": "09/24/2021",
         "status": "open",
         "clientID": 49,
-        "timestamp": "1626077105"
+        "timestamp": "1626077105",
+        "latitude": 28.288895474029967,
+        "longitude": -82.82321194779674
     },
     {
         "id": 218,
@@ -1960,7 +2394,9 @@ module.exports = [
         "date": "06/12/2021",
         "status": "open",
         "clientID": 63,
-        "timestamp": "1631707687"
+        "timestamp": "1631707687",
+        "latitude": 28.985880665889518,
+        "longitude": -79.63064050117315
     },
     {
         "id": 219,
@@ -1969,7 +2405,9 @@ module.exports = [
         "date": "01/08/2022",
         "status": "closed",
         "clientID": 129,
-        "timestamp": "1624436951"
+        "timestamp": "1624436951",
+        "latitude": 29.961692807198194,
+        "longitude": -80.85458083765114
     },
     {
         "id": 220,
@@ -1978,7 +2416,9 @@ module.exports = [
         "date": "02/05/2022",
         "status": "closed",
         "clientID": 149,
-        "timestamp": "1640353080"
+        "timestamp": "1640353080",
+        "latitude": 29.860081185377517,
+        "longitude": -81.90090596336455
     },
     {
         "id": 221,
@@ -1987,7 +2427,9 @@ module.exports = [
         "date": "06/30/2021",
         "status": "closed",
         "clientID": 133,
-        "timestamp": "1626580474"
+        "timestamp": "1626580474",
+        "latitude": 29.365695158800992,
+        "longitude": -79.84000966447927
     },
     {
         "id": 222,
@@ -1996,7 +2438,9 @@ module.exports = [
         "date": "02/17/2022",
         "status": "closed",
         "clientID": 153,
-        "timestamp": "1646013820"
+        "timestamp": "1646013820",
+        "latitude": 27.64079365238536,
+        "longitude": -82.48333324130189
     },
     {
         "id": 223,
@@ -2005,7 +2449,9 @@ module.exports = [
         "date": "02/04/2022",
         "status": "closed",
         "clientID": 40,
-        "timestamp": "1651734399"
+        "timestamp": "1651734399",
+        "latitude": 29.973171631574782,
+        "longitude": -80.922497883259
     },
     {
         "id": 224,
@@ -2014,7 +2460,9 @@ module.exports = [
         "date": "08/03/2021",
         "status": "closed",
         "clientID": 74,
-        "timestamp": "1653251896"
+        "timestamp": "1653251896",
+        "latitude": 29.827819802100056,
+        "longitude": -81.97557661837754
     },
     {
         "id": 225,
@@ -2023,7 +2471,9 @@ module.exports = [
         "date": "08/25/2021",
         "status": "closed",
         "clientID": 51,
-        "timestamp": "1646762039"
+        "timestamp": "1646762039",
+        "latitude": 27.22713818111612,
+        "longitude": -81.87627715486543
     },
     {
         "id": 226,
@@ -2032,7 +2482,9 @@ module.exports = [
         "date": "10/01/2021",
         "status": "open",
         "clientID": 57,
-        "timestamp": "1641196855"
+        "timestamp": "1641196855",
+        "latitude": 28.928288731604322,
+        "longitude": -82.79620702862248
     },
     {
         "id": 227,
@@ -2041,7 +2493,9 @@ module.exports = [
         "date": "02/09/2022",
         "status": "open",
         "clientID": 92,
-        "timestamp": "1649936512"
+        "timestamp": "1649936512",
+        "latitude": 27.139505451830043,
+        "longitude": -80.82182214224305
     },
     {
         "id": 228,
@@ -2050,7 +2504,9 @@ module.exports = [
         "date": "07/11/2021",
         "status": "open",
         "clientID": 7,
-        "timestamp": "1631830316"
+        "timestamp": "1631830316",
+        "latitude": 27.655946866376983,
+        "longitude": -82.49702588588349
     },
     {
         "id": 229,
@@ -2059,7 +2515,9 @@ module.exports = [
         "date": "08/07/2021",
         "status": "open",
         "clientID": 199,
-        "timestamp": "1638825221"
+        "timestamp": "1638825221",
+        "latitude": 29.902494739208024,
+        "longitude": -81.7847381444894
     },
     {
         "id": 230,
@@ -2068,7 +2526,9 @@ module.exports = [
         "date": "02/10/2022",
         "status": "closed",
         "clientID": 46,
-        "timestamp": "1640027575"
+        "timestamp": "1640027575",
+        "latitude": 29.814285413799595,
+        "longitude": -80.40355219753299
     },
     {
         "id": 231,
@@ -2077,7 +2537,9 @@ module.exports = [
         "date": "03/29/2022",
         "status": "closed",
         "clientID": 11,
-        "timestamp": "1641593982"
+        "timestamp": "1641593982",
+        "latitude": 27.339476256073063,
+        "longitude": -82.10742419346461
     },
     {
         "id": 232,
@@ -2086,7 +2548,9 @@ module.exports = [
         "date": "03/06/2022",
         "status": "open",
         "clientID": 25,
-        "timestamp": "1651451045"
+        "timestamp": "1651451045",
+        "latitude": 28.21837730392531,
+        "longitude": -82.80608781003203
     },
     {
         "id": 233,
@@ -2095,7 +2559,9 @@ module.exports = [
         "date": "07/31/2021",
         "status": "closed",
         "clientID": 159,
-        "timestamp": "1627755623"
+        "timestamp": "1627755623",
+        "latitude": 29.249296807276107,
+        "longitude": -79.7585167061581
     },
     {
         "id": 234,
@@ -2104,7 +2570,9 @@ module.exports = [
         "date": "06/13/2022",
         "status": "closed",
         "clientID": 135,
-        "timestamp": "1624696650"
+        "timestamp": "1624696650",
+        "latitude": 29.497818895080034,
+        "longitude": -79.95619636770371
     },
     {
         "id": 235,
@@ -2113,7 +2581,9 @@ module.exports = [
         "date": "04/17/2022",
         "status": "closed",
         "clientID": 124,
-        "timestamp": "1631595610"
+        "timestamp": "1631595610",
+        "latitude": 29.913087217027435,
+        "longitude": -81.75120524479865
     },
     {
         "id": 236,
@@ -2122,7 +2592,9 @@ module.exports = [
         "date": "05/11/2022",
         "status": "open",
         "clientID": 49,
-        "timestamp": "1624518853"
+        "timestamp": "1624518853",
+        "latitude": 29.6151236427617,
+        "longitude": -80.08658070726494
     },
     {
         "id": 237,
@@ -2131,7 +2603,9 @@ module.exports = [
         "date": "04/13/2022",
         "status": "open",
         "clientID": 150,
-        "timestamp": "1652243340"
+        "timestamp": "1652243340",
+        "latitude": 27.23639486816907,
+        "longitude": -81.89909786689459
     },
     {
         "id": 238,
@@ -2140,7 +2614,9 @@ module.exports = [
         "date": "10/16/2021",
         "status": "closed",
         "clientID": 135,
-        "timestamp": "1636309781"
+        "timestamp": "1636309781",
+        "latitude": 27.168678900020872,
+        "longitude": -80.7039137357572
     },
     {
         "id": 239,
@@ -2149,7 +2625,9 @@ module.exports = [
         "date": "07/13/2021",
         "status": "closed",
         "clientID": 182,
-        "timestamp": "1649941536"
+        "timestamp": "1649941536",
+        "latitude": 27.48429126024535,
+        "longitude": -80.09074733715629
     },
     {
         "id": 240,
@@ -2158,7 +2636,9 @@ module.exports = [
         "date": "01/10/2022",
         "status": "open",
         "clientID": 35,
-        "timestamp": "1652911943"
+        "timestamp": "1652911943",
+        "latitude": 28.15181849829632,
+        "longitude": -82.78605888624556
     },
     {
         "id": 241,
@@ -2167,7 +2647,9 @@ module.exports = [
         "date": "03/06/2022",
         "status": "closed",
         "clientID": 177,
-        "timestamp": "1625887688"
+        "timestamp": "1625887688",
+        "latitude": 29.992030166007062,
+        "longitude": -81.29364577421512
     },
     {
         "id": 242,
@@ -2176,7 +2658,9 @@ module.exports = [
         "date": "01/30/2022",
         "status": "closed",
         "clientID": 99,
-        "timestamp": "1621441154"
+        "timestamp": "1621441154",
+        "latitude": 27.863562342030395,
+        "longitude": -79.75612216688182
     },
     {
         "id": 243,
@@ -2185,7 +2669,9 @@ module.exports = [
         "date": "04/08/2022",
         "status": "open",
         "clientID": 136,
-        "timestamp": "1620650923"
+        "timestamp": "1620650923",
+        "latitude": 27.481282329802816,
+        "longitude": -82.31340445822205
     },
     {
         "id": 244,
@@ -2194,7 +2680,9 @@ module.exports = [
         "date": "08/01/2021",
         "status": "open",
         "clientID": 136,
-        "timestamp": "1634630777"
+        "timestamp": "1634630777",
+        "latitude": 27.20001015223906,
+        "longitude": -80.6044679022304
     },
     {
         "id": 245,
@@ -2203,7 +2691,9 @@ module.exports = [
         "date": "07/05/2022",
         "status": "open",
         "clientID": 46,
-        "timestamp": "1643287636"
+        "timestamp": "1643287636",
+        "latitude": 28.111538176272525,
+        "longitude": -82.77205621253283
     },
     {
         "id": 246,
@@ -2212,7 +2702,9 @@ module.exports = [
         "date": "09/07/2021",
         "status": "open",
         "clientID": 142,
-        "timestamp": "1622012872"
+        "timestamp": "1622012872",
+        "latitude": 27.169830482833127,
+        "longitude": -81.70799568246555
     },
     {
         "id": 247,
@@ -2221,7 +2713,9 @@ module.exports = [
         "date": "07/18/2021",
         "status": "open",
         "clientID": 71,
-        "timestamp": "1624271953"
+        "timestamp": "1624271953",
+        "latitude": 29.894289571643412,
+        "longitude": -80.59859714450364
     },
     {
         "id": 248,
@@ -2230,7 +2724,9 @@ module.exports = [
         "date": "06/03/2021",
         "status": "open",
         "clientID": 40,
-        "timestamp": "1646814264"
+        "timestamp": "1646814264",
+        "latitude": 29.740444531680406,
+        "longitude": -82.14115527467789
     },
     {
         "id": 249,
@@ -2239,7 +2735,9 @@ module.exports = [
         "date": "10/11/2021",
         "status": "closed",
         "clientID": 159,
-        "timestamp": "1637590791"
+        "timestamp": "1637590791",
+        "latitude": 28.41523486894965,
+        "longitude": -79.5641460904169
     },
     {
         "id": 250,
@@ -2248,7 +2746,9 @@ module.exports = [
         "date": "08/04/2022",
         "status": "closed",
         "clientID": 14,
-        "timestamp": "1632680425"
+        "timestamp": "1632680425",
+        "latitude": 29.658004374642122,
+        "longitude": -82.26533433953225
     },
     {
         "id": 251,
@@ -2257,7 +2757,9 @@ module.exports = [
         "date": "05/04/2022",
         "status": "open",
         "clientID": 72,
-        "timestamp": "1647518500"
+        "timestamp": "1647518500",
+        "latitude": 27.099570818038618,
+        "longitude": -81.2177944766986
     },
     {
         "id": 252,
@@ -2266,7 +2768,9 @@ module.exports = [
         "date": "06/24/2022",
         "status": "open",
         "clientID": 80,
-        "timestamp": "1632580384"
+        "timestamp": "1632580384",
+        "latitude": 27.30690431821646,
+        "longitude": -80.3589841527605
     },
     {
         "id": 253,
@@ -2275,7 +2779,9 @@ module.exports = [
         "date": "03/07/2022",
         "status": "closed",
         "clientID": 145,
-        "timestamp": "1626756566"
+        "timestamp": "1626756566",
+        "latitude": 29.249634623477043,
+        "longitude": -82.64913519580936
     },
     {
         "id": 254,
@@ -2284,7 +2790,9 @@ module.exports = [
         "date": "06/11/2021",
         "status": "open",
         "clientID": 95,
-        "timestamp": "1639854117"
+        "timestamp": "1639854117",
+        "latitude": 29.56519379875433,
+        "longitude": -80.02740404322468
     },
     {
         "id": 255,
@@ -2293,7 +2801,9 @@ module.exports = [
         "date": "11/19/2021",
         "status": "closed",
         "clientID": 163,
-        "timestamp": "1632584648"
+        "timestamp": "1632584648",
+        "latitude": 28.23738926955971,
+        "longitude": -79.59674991305296
     },
     {
         "id": 256,
@@ -2302,7 +2812,9 @@ module.exports = [
         "date": "08/05/2021",
         "status": "open",
         "clientID": 28,
-        "timestamp": "1627294236"
+        "timestamp": "1627294236",
+        "latitude": 27.714231194738023,
+        "longitude": -79.86148444071118
     },
     {
         "id": 257,
@@ -2311,7 +2823,9 @@ module.exports = [
         "date": "12/16/2021",
         "status": "open",
         "clientID": 20,
-        "timestamp": "1638461338"
+        "timestamp": "1638461338",
+        "latitude": 27.611584236303248,
+        "longitude": -82.45586347427542
     },
     {
         "id": 258,
@@ -2320,7 +2834,9 @@ module.exports = [
         "date": "01/16/2022",
         "status": "open",
         "clientID": 25,
-        "timestamp": "1652747215"
+        "timestamp": "1652747215",
+        "latitude": 29.624519936367125,
+        "longitude": -82.30945588332403
     },
     {
         "id": 259,
@@ -2329,7 +2845,9 @@ module.exports = [
         "date": "12/09/2021",
         "status": "closed",
         "clientID": 61,
-        "timestamp": "1634127667"
+        "timestamp": "1634127667",
+        "latitude": 29.986345299604228,
+        "longitude": -81.03188602161991
     },
     {
         "id": 260,
@@ -2338,7 +2856,9 @@ module.exports = [
         "date": "03/22/2022",
         "status": "open",
         "clientID": 193,
-        "timestamp": "1649518547"
+        "timestamp": "1649518547",
+        "latitude": 27.185907932268233,
+        "longitude": -80.64675443310102
     },
     {
         "id": 261,
@@ -2347,7 +2867,9 @@ module.exports = [
         "date": "09/15/2021",
         "status": "open",
         "clientID": 104,
-        "timestamp": "1629666624"
+        "timestamp": "1629666624",
+        "latitude": 29.157384349822504,
+        "longitude": -82.70215947850413
     },
     {
         "id": 262,
@@ -2356,7 +2878,9 @@ module.exports = [
         "date": "05/17/2022",
         "status": "open",
         "clientID": 68,
-        "timestamp": "1640141411"
+        "timestamp": "1640141411",
+        "latitude": 29.967895336594797,
+        "longitude": -81.51848144090202
     },
     {
         "id": 263,
@@ -2365,7 +2889,9 @@ module.exports = [
         "date": "08/03/2021",
         "status": "open",
         "clientID": 79,
-        "timestamp": "1642725183"
+        "timestamp": "1642725183",
+        "latitude": 28.93600437495777,
+        "longitude": -79.61402827925284
     },
     {
         "id": 264,
@@ -2374,7 +2900,9 @@ module.exports = [
         "date": "01/21/2022",
         "status": "closed",
         "clientID": 68,
-        "timestamp": "1639929251"
+        "timestamp": "1639929251",
+        "latitude": 27.168542190136684,
+        "longitude": -80.70439640466512
     },
     {
         "id": 265,
@@ -2383,7 +2911,9 @@ module.exports = [
         "date": "08/29/2021",
         "status": "open",
         "clientID": 139,
-        "timestamp": "1622920045"
+        "timestamp": "1622920045",
+        "latitude": 28.069517456150226,
+        "longitude": -82.75588887732285
     },
     {
         "id": 266,
@@ -2392,7 +2922,9 @@ module.exports = [
         "date": "10/19/2021",
         "status": "open",
         "clientID": 104,
-        "timestamp": "1623146503"
+        "timestamp": "1623146503",
+        "latitude": 29.808030437732068,
+        "longitude": -82.01714633842776
     },
     {
         "id": 267,
@@ -2401,7 +2933,9 @@ module.exports = [
         "date": "05/02/2022",
         "status": "open",
         "clientID": 116,
-        "timestamp": "1646682290"
+        "timestamp": "1646682290",
+        "latitude": 28.172516798625068,
+        "longitude": -79.61516624864763
     },
     {
         "id": 268,
@@ -2410,7 +2944,9 @@ module.exports = [
         "date": "03/28/2022",
         "status": "open",
         "clientID": 38,
-        "timestamp": "1649139142"
+        "timestamp": "1649139142",
+        "latitude": 28.61625742045159,
+        "longitude": -82.85021212698872
     },
     {
         "id": 269,
@@ -2419,7 +2955,9 @@ module.exports = [
         "date": "08/05/2022",
         "status": "closed",
         "clientID": 132,
-        "timestamp": "1621906617"
+        "timestamp": "1621906617",
+        "latitude": 29.497447865541684,
+        "longitude": -79.95582889935542
     },
     {
         "id": 270,
@@ -2428,7 +2966,9 @@ module.exports = [
         "date": "02/20/2022",
         "status": "closed",
         "clientID": 101,
-        "timestamp": "1642101051"
+        "timestamp": "1642101051",
+        "latitude": 27.132026286988705,
+        "longitude": -81.54889734016562
     },
     {
         "id": 271,
@@ -2437,7 +2977,9 @@ module.exports = [
         "date": "03/10/2022",
         "status": "open",
         "clientID": 182,
-        "timestamp": "1628212900"
+        "timestamp": "1628212900",
+        "latitude": 29.977357126526172,
+        "longitude": -81.45591504879894
     },
     {
         "id": 272,
@@ -2446,7 +2988,9 @@ module.exports = [
         "date": "10/15/2021",
         "status": "closed",
         "clientID": 91,
-        "timestamp": "1629378719"
+        "timestamp": "1629378719",
+        "latitude": 28.602434725221986,
+        "longitude": -82.8507843843777
     },
     {
         "id": 273,
@@ -2455,7 +2999,9 @@ module.exports = [
         "date": "09/29/2021",
         "status": "open",
         "clientID": 61,
-        "timestamp": "1626122063"
+        "timestamp": "1626122063",
+        "latitude": 27.113901190437623,
+        "longitude": -81.43409388155078
     },
     {
         "id": 274,
@@ -2464,7 +3010,9 @@ module.exports = [
         "date": "05/07/2022",
         "status": "closed",
         "clientID": 150,
-        "timestamp": "1624760037"
+        "timestamp": "1624760037",
+        "latitude": 27.214118162705702,
+        "longitude": -80.5653469711475
     },
     {
         "id": 275,
@@ -2473,7 +3021,9 @@ module.exports = [
         "date": "05/09/2022",
         "status": "open",
         "clientID": 80,
-        "timestamp": "1645113392"
+        "timestamp": "1645113392",
+        "latitude": 27.682711010312165,
+        "longitude": -79.88753967726501
     },
     {
         "id": 276,
@@ -2482,7 +3032,9 @@ module.exports = [
         "date": "10/05/2021",
         "status": "closed",
         "clientID": 15,
-        "timestamp": "1648100540"
+        "timestamp": "1648100540",
+        "latitude": 27.1368592949554,
+        "longitude": -80.83451516434742
     },
     {
         "id": 277,
@@ -2491,7 +3043,9 @@ module.exports = [
         "date": "08/06/2021",
         "status": "closed",
         "clientID": 25,
-        "timestamp": "1625279297"
+        "timestamp": "1625279297",
+        "latitude": 29.451433043257317,
+        "longitude": -79.91216455953841
     },
     {
         "id": 278,
@@ -2500,7 +3054,9 @@ module.exports = [
         "date": "10/28/2021",
         "status": "open",
         "clientID": 11,
-        "timestamp": "1645135854"
+        "timestamp": "1645135854",
+        "latitude": 29.593945779563946,
+        "longitude": -80.06075075038757
     },
     {
         "id": 279,
@@ -2509,7 +3065,9 @@ module.exports = [
         "date": "07/27/2022",
         "status": "closed",
         "clientID": 151,
-        "timestamp": "1637607441"
+        "timestamp": "1637607441",
+        "latitude": 27.803398884006622,
+        "longitude": -79.79520398563467
     },
     {
         "id": 280,
@@ -2518,7 +3076,9 @@ module.exports = [
         "date": "03/08/2022",
         "status": "open",
         "clientID": 7,
-        "timestamp": "1631632482"
+        "timestamp": "1631632482",
+        "latitude": 28.080664323704074,
+        "longitude": -82.76033535575803
     },
     {
         "id": 281,
@@ -2527,7 +3087,9 @@ module.exports = [
         "date": "06/21/2021",
         "status": "closed",
         "clientID": 46,
-        "timestamp": "1651412990"
+        "timestamp": "1651412990",
+        "latitude": 29.936349118041576,
+        "longitude": -81.66801504936167
     },
     {
         "id": 282,
@@ -2536,7 +3098,9 @@ module.exports = [
         "date": "05/02/2022",
         "status": "open",
         "clientID": 22,
-        "timestamp": "1629589794"
+        "timestamp": "1629589794",
+        "latitude": 29.766316240630722,
+        "longitude": -80.31132723968571
     },
     {
         "id": 283,
@@ -2545,7 +3109,9 @@ module.exports = [
         "date": "09/21/2021",
         "status": "closed",
         "clientID": 63,
-        "timestamp": "1624183420"
+        "timestamp": "1624183420",
+        "latitude": 28.45467252762673,
+        "longitude": -79.56036027691032
     },
     {
         "id": 284,
@@ -2554,7 +3120,9 @@ module.exports = [
         "date": "08/20/2021",
         "status": "open",
         "clientID": 131,
-        "timestamp": "1632227729"
+        "timestamp": "1632227729",
+        "latitude": 27.947442218353014,
+        "longitude": -79.70845852483146
     },
     {
         "id": 285,
@@ -2563,7 +3131,9 @@ module.exports = [
         "date": "01/27/2022",
         "status": "closed",
         "clientID": 122,
-        "timestamp": "1620885623"
+        "timestamp": "1620885623",
+        "latitude": 29.946867641390973,
+        "longitude": -80.78339688209367
     },
     {
         "id": 286,
@@ -2572,7 +3142,9 @@ module.exports = [
         "date": "12/02/2021",
         "status": "closed",
         "clientID": 39,
-        "timestamp": "1649371140"
+        "timestamp": "1649371140",
+        "latitude": 29.569495066443395,
+        "longitude": -82.37559142582921
     },
     {
         "id": 287,
@@ -2581,7 +3153,9 @@ module.exports = [
         "date": "04/24/2022",
         "status": "open",
         "clientID": 181,
-        "timestamp": "1643172131"
+        "timestamp": "1643172131",
+        "latitude": 29.96905675184492,
+        "longitude": -80.89635504900112
     },
     {
         "id": 288,
@@ -2590,7 +3164,9 @@ module.exports = [
         "date": "04/18/2022",
         "status": "open",
         "clientID": 25,
-        "timestamp": "1650369131"
+        "timestamp": "1650369131",
+        "latitude": 29.292975236751655,
+        "longitude": -79.78706175197975
     },
     {
         "id": 289,
@@ -2599,7 +3175,9 @@ module.exports = [
         "date": "09/16/2021",
         "status": "closed",
         "clientID": 117,
-        "timestamp": "1623525710"
+        "timestamp": "1623525710",
+        "latitude": 29.778227503612257,
+        "longitude": -82.07487966191252
     },
     {
         "id": 290,
@@ -2608,7 +3186,9 @@ module.exports = [
         "date": "06/13/2022",
         "status": "closed",
         "clientID": 136,
-        "timestamp": "1652348241"
+        "timestamp": "1652348241",
+        "latitude": 28.00338864393103,
+        "longitude": -79.68076171555239
     },
     {
         "id": 291,
@@ -2617,7 +3197,9 @@ module.exports = [
         "date": "05/10/2022",
         "status": "open",
         "clientID": 40,
-        "timestamp": "1653378309"
+        "timestamp": "1653378309",
+        "latitude": 29.67328790853935,
+        "longitude": -82.24409474777474
     },
     {
         "id": 292,
@@ -2626,7 +3208,9 @@ module.exports = [
         "date": "06/06/2022",
         "status": "open",
         "clientID": 117,
-        "timestamp": "1641697370"
+        "timestamp": "1641697370",
+        "latitude": 27.137914453840317,
+        "longitude": -80.82939944003436
     },
     {
         "id": 293,
@@ -2635,7 +3219,9 @@ module.exports = [
         "date": "04/07/2022",
         "status": "closed",
         "clientID": 32,
-        "timestamp": "1633817629"
+        "timestamp": "1633817629",
+        "latitude": 27.2724685121133,
+        "longitude": -80.42751123611939
     },
     {
         "id": 294,
@@ -2644,7 +3230,9 @@ module.exports = [
         "date": "09/16/2021",
         "status": "open",
         "clientID": 102,
-        "timestamp": "1643916071"
+        "timestamp": "1643916071",
+        "latitude": 28.77520274695104,
+        "longitude": -79.57516727232336
     },
     {
         "id": 295,
@@ -2653,7 +3241,9 @@ module.exports = [
         "date": "01/21/2022",
         "status": "open",
         "clientID": 91,
-        "timestamp": "1636662706"
+        "timestamp": "1636662706",
+        "latitude": 27.21083901552788,
+        "longitude": -81.83367594053027
     },
     {
         "id": 296,
@@ -2662,7 +3252,9 @@ module.exports = [
         "date": "07/20/2022",
         "status": "open",
         "clientID": 118,
-        "timestamp": "1625806760"
+        "timestamp": "1625806760",
+        "latitude": 27.10915908412253,
+        "longitude": -81.01534562574328
     },
     {
         "id": 297,
@@ -2671,7 +3263,9 @@ module.exports = [
         "date": "08/10/2022",
         "status": "open",
         "clientID": 112,
-        "timestamp": "1635337975"
+        "timestamp": "1635337975",
+        "latitude": 29.914074171518426,
+        "longitude": -81.74796140102195
     },
     {
         "id": 298,
@@ -2680,7 +3274,9 @@ module.exports = [
         "date": "04/11/2022",
         "status": "open",
         "clientID": 102,
-        "timestamp": "1646104899"
+        "timestamp": "1646104899",
+        "latitude": 29.583877512052705,
+        "longitude": -80.04885524017945
     },
     {
         "id": 299,
@@ -2689,7 +3285,9 @@ module.exports = [
         "date": "05/09/2022",
         "status": "open",
         "clientID": 91,
-        "timestamp": "1653007213"
+        "timestamp": "1653007213",
+        "latitude": 27.099519341588042,
+        "longitude": -81.20264801713746
     },
     {
         "id": 300,
@@ -2698,6 +3296,8 @@ module.exports = [
         "date": "09/18/2021",
         "status": "open",
         "clientID": 51,
-        "timestamp": "1641545900"
-    },
+        "timestamp": "1641545900",
+        "latitude": 27.2433345773712,
+        "longitude": -81.91562811760456
+    }
 ]

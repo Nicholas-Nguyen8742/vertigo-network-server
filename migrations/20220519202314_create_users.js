@@ -43,6 +43,8 @@ exports.up = function(knex) {
       table.string('state').notNullable();
       table.string('date').notNullable();
       table.string('status').notNullable();
+      table.string('latitude').notNullable();
+      table.string('longitude').notNullable();
       table
         .integer('clientID')
         .unsigned()
