@@ -842,7 +842,7 @@ module.exports = [
   },
   {
       "id": 71,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "12/28/2021",
       "status": "open",
@@ -938,7 +938,7 @@ module.exports = [
   },
   {
       "id": 79,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "05/22/2022",
       "status": "open",
@@ -1046,7 +1046,7 @@ module.exports = [
   },
   {
       "id": 88,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "09/02/2021",
       "status": "open",
@@ -1310,7 +1310,7 @@ module.exports = [
   },
   {
       "id": 110,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "08/19/2022",
       "status": "closed",
@@ -1346,7 +1346,7 @@ module.exports = [
   },
   {
       "id": 113,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "10/29/2021",
       "status": "closed",
@@ -1682,7 +1682,7 @@ module.exports = [
   },
   {
       "id": 141,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "01/25/2022",
       "status": "closed",
@@ -1826,7 +1826,7 @@ module.exports = [
   },
   {
       "id": 153,
-      "city": "Port Saint Lucie",
+      "city": "Port St Lucie",
       "state": "Florida",
       "date": "03/25/2022",
       "status": "open",
@@ -1970,7 +1970,7 @@ module.exports = [
   },
   {
       "id": 165,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "10/01/2021",
       "status": "closed",
@@ -2174,7 +2174,7 @@ module.exports = [
   },
   {
       "id": 182,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "03/17/2022",
       "status": "open",
@@ -2342,7 +2342,7 @@ module.exports = [
   },
   {
       "id": 196,
-      "city": "Saint Augustine",
+      "city": "St Augustine",
       "state": "Florida",
       "date": "06/21/2022",
       "status": "closed",
@@ -2462,7 +2462,7 @@ module.exports = [
   },
   {
       "id": 206,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "01/16/2022",
       "status": "closed",
@@ -3542,7 +3542,7 @@ module.exports = [
   },
   {
       "id": 296,
-      "city": "Saint Petersburg",
+      "city": "St Petersburg",
       "state": "Florida",
       "date": "07/20/2022",
       "status": "open",

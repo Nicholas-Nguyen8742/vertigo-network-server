@@ -230,6 +230,23 @@ exports.indexApplications = (req, res) => {
         );
 };
 
+// [POST] - Adds a portfolio piece
+exports.addApplication = (req, res) => {
+  // Validate the request body for required data
+  const application = {
+    missionID: req.body.missionID,
+    pilotID: req.body.pilotID,
+  }
+  
+  knex('applications')
+    .insert(application)
+    .then((data) => {
+      res.status(201).send(`Success adding Application ${data}`);
+    })
+    .catch((err) => res.status(400).send(`Error creating Application: ${err}`));
+};
+
+
 
 // [ROUTE] - '/pilots/:id/applications/:appID'
 // [GET] - Retrieve pilot's single application

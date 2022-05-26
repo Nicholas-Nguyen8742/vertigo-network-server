@@ -35,7 +35,8 @@ router
 
 router
     .route('/:id/applications')
-    .get(pilotsController.indexApplications);
+    .get(pilotsController.indexApplications)
+    .post(pilotsController.addApplication);
 
 router
     .route('/:id/applications/:appID')
