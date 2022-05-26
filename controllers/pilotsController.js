@@ -219,6 +219,9 @@ exports.deleteReview = (req, res) => {
 exports.indexApplications = (req, res) => {
     knex('applications')
         .where({ pilotID: req.params.id })
+        .join('missions', 'applications.missionID', '=', 'missions.id' )
+        .select('users.firstName', 'users.lastName', 'users.profile', 'users.email', 'missions.latitude', 'missions.longitude', 'missions.specialty', 'missions.city', 'missions.state', 'missions.date', 'missions.timestamp', 'applications.status')
+        .join('users', 'missions.clientID', '=', 'users.ID')
         .then((data) => {
             res.status(200).json(data);
         })
